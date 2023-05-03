@@ -3,11 +3,11 @@
   "type": "areaOverlap",
   "classes": [
       {
-          "classId": "eez",
-          "display": "EEZ",
-          "datasourceId": "global-clipping-eez-land-union",
-          "objectiveId": "eez",
-          "layerId": ""
-      }
+        "classId": "nearshore",
+        "display": "Nearshore Boundary",
+        "datasourceId": "6nm_boundary",
+        "objectiveId": "nearshore_fully_protected",
+        "layerId": ""
+    }
   ]
 }]

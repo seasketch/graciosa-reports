@@ -1,8 +1,18 @@
 [{
-  "objectiveId": "eez",
-  "shortDesc": "EEZ Objective",
-  "target": 0.2,
+  "objectiveId": "nearshore_fully_protected",
+  "shortDesc": "15% of Nearshore Fully Protected",
+  "target": 0.15,
   "countsToward": {
-      "Fully Protected Area": "yes"
+    "Fully Protected Area": "yes",
+    "Highly Protected Area": "no"
+  }
+},
+{
+  "objectiveId": "nearshore_protected",
+  "shortDesc": "30% of Nearshore Fully or Highly Protected",
+  "target": 0.3,
+  "countsToward": {
+    "Fully Protected Area": "yes",
+    "Highly Protected Area": "yes"
   }
 }]

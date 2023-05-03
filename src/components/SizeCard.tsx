@@ -29,17 +29,10 @@ import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
 const boundaryMetricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
-// Hard code total area of eez
-const boundaryTotalMetrics: Metric[] = [
-  {
-    classId: "eez",
-    metricId: "boundaryAreaOverlap",
-    sketchId: null,
-    groupId: null,
-    geographyId: null,
-    value: 3032525677797.563,
-  },
-];
+const boundaryTotalMetrics = project.getPrecalcMetrics(
+  boundaryMetricGroup,
+  "area"
+);
 
 const METRIC_ID = boundaryMetricGroup.metricId;
 const PERC_METRIC_ID = `${boundaryMetricGroup.metricId}Perc`;
@@ -111,13 +104,11 @@ export const SizeCard = () => {
               }
             >
               <p>
-                {planningUnitName}{" "}
                 <Trans i18nKey="SizeCard - introduction">
-                  national waters extend from the shoreline out to 200 nautical
-                  miles, known as the Exclusive Economic Zone (EEZ). This report
-                  summarizes offshore plan overlap with the EEZ and other
-                  boundaries within it, measuring progress towards achieving %
-                  targets for each boundary.
+                  Nearshore waters extend from the shoreline out to 6 nautical
+                  miles. This report summarizes nearshore plan overlap with the
+                  6nm boundary, measuring progress towards achieving planning
+                  targets.
                 </Trans>
               </p>
               {genSingleSizeTable(data, t)}
@@ -148,7 +139,7 @@ export const SizeCard = () => {
                     within these boundaries.
                   </p>
                   <p>
-                    If MPA boundaries overlap with each other, the overlap is
+                    If plan boundaries overlap with each other, the overlap is
                     only counted once.
                   </p>
                 </Trans>
@@ -179,7 +170,7 @@ const genSingleSizeTable = (data: ReportResult, t: TFunction) => {
       ...toPercentMetric(singleMetrics, boundaryTotalMetrics, PERC_METRIC_ID),
     ],
     "classId",
-    ["eez", "offshore", "contiguous"]
+    ["6nm_boundary"]
   );
 
   const aggMetrics = nestMetrics(finalMetrics, ["classId", "metricId"]);

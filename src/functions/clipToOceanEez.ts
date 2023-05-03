@@ -7,21 +7,9 @@ import { genClipLoader } from "@seasketch/geoprocessing/dataproviders";
 
 const clipLoader = genClipLoader(project, [
   {
-    datasourceId: "global-clipping-osm-land",
-    operation: "difference",
-    options: {
-      unionProperty: "gid",
-    },
-  },
-  {
-    datasourceId: "global-clipping-eez-land-union",
+    datasourceId: "6nm_boundary",
     operation: "intersection",
-    options: {
-      propertyFilter: {
-        property: "UNION",
-        values: [project.basic.planningAreaName],
-      },
-    },
+    options: {},
   },
 ]);
 

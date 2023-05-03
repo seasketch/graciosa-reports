@@ -68,9 +68,5 @@
   "repositoryUrl": "",
   "author": "Abby Vath Meyer",
   "license": "BSD-3-Clause",
-  "planningAreaType": "eez",
-  "planningAreaId": "Azores",
-  "planningAreaNameQuestion": "yes",
-  "planningAreaName": "Azores Nearshore",
   "templates": "template-ocean-eez"
 }
