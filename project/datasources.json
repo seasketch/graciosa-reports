@@ -18,16 +18,8 @@
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
   },
   {
-    "src": "data/src/Data_Products/shapefiles/6nm_boundary.shp",
-    "layerName": "6nm_boundary",
-    "geo_type": "vector",
     "datasourceId": "6nm_boundary",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-05-02T21:42:39.580Z",
-    "lastUpdated": "2023-05-02T21:42:39.580Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -37,6 +29,14 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "6nm_boundary",
+    "classKeys": [],
+    "created": "2023-05-02T21:42:39.580Z",
+    "lastUpdated": "2023-05-02T21:42:39.580Z",
+    "src": "data/src/Data_Products/shapefiles/6nm_boundary.shp",
     "propertiesToKeep": []
   }
 ]
