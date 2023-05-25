@@ -28,6 +28,16 @@ import { Metric, squareMeterToKilometer } from "@seasketch/geoprocessing";
 import Translator from "../components/TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
+import { TerritorialWatersImageWithLabels } from "./TerritorialWatersImageWithLabels";
+const boundaryMetricGroup = project.getMetricGroup("boundaryAreaOverlap");
+
+const boundaryTotalMetrics = project.getPrecalcMetrics(
+  boundaryMetricGroup,
+  "area"
+);
+
+const METRIC_ID = boundaryMetricGroup.metricId;
+const PERC_METRIC_ID = `${boundaryMetricGroup.metricId}Perc`;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -71,6 +81,9 @@ export const SizeCard = () => {
 
   const notFoundString = t("Results not found");
 
+  const nearshoreLabel = t("Nearshore\n(0-6 nautical miles)");
+  const offshoreLabel = t("Offshore\n(6-200 nautical miles)");
+
   /* i18next-extract-disable-next-line */
   const planningUnitName = t(project.basic.planningAreaName);
   return (
@@ -112,11 +125,19 @@ export const SizeCard = () => {
                 </Collapse>
               )}
               <Collapse title={t("Learn more")}>
+                <TerritorialWatersImageWithLabels
+                  labels={[
+                    {
+                      key: "nearshore",
+                      labelText: nearshoreLabel,
+                    },
+                    {
+                      key: "offshore",
+                      labelText: offshoreLabel,
+                    },
+                  ]}
+                />
                 <p>
-                  <img
-                    src={require("../assets/img/territorial_waters.png")}
-                    style={{ maxWidth: "100%" }}
-                  />
                   <a
                     target="_blank"
                     href="https://en.wikipedia.org/wiki/Territorial_waters"
