@@ -1,5 +1,6 @@
 {
   "% Area": "% Area",
+  "% Within Plan": "% Within Plan",
   "Area": "Area",
   "Area Within Plan": "Area Within Plan",
   "Boundary": "Boundary",
@@ -7,6 +8,7 @@
   "Learn more": "Learn more",
   "Map": "Map",
   "Representation": "Representation",
+  "Results not found": "Results not found",
   "Show by MPA": "Show by MPA",
   "Size": "Size",
   "SizeCard - introduction": "Nearshore waters extend from the shoreline out to 6 nautical miles. This report summarizes nearshore plan overlap with the 6nm boundary, measuring progress towards achieving planning targets.",
