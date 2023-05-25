@@ -69,8 +69,6 @@ export const SizeCard = () => {
   const { t, i18n } = useTranslation();
   const metricGroup = project.getMetricGroup("boundaryAreaOverlap", t);
 
-  console.log("i18n", i18n);
-
   const notFoundString = t("Results not found");
 
   /* i18next-extract-disable-next-line */
@@ -178,11 +176,6 @@ const genSingleSizeTable = (
     "classId",
     ["6nm_boundary"]
   );
-
-  mg.classes.forEach((c) => {
-    console.log(c.display);
-    console.log(t(c.display)); /* i18next-extract-disable-line */
-  });
 
   return (
     <>

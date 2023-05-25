@@ -78,8 +78,10 @@ export function createI18nAsyncInstance(
           //console.log("langResources", langResources);
 
           // Return merged translations
+          console.log("extra terms", extraTerms);
           if (defaultLang) {
-            // merge in plurals if english, because extractor leaves them blank, so they are managed specially
+            console.log("inserting extra terms");
+            // merge in extraTerms if english
             callback(null, {
               ...baseLangResources,
               ...langResources,
@@ -96,7 +98,7 @@ export function createI18nAsyncInstance(
     })
     .use(initReactI18next) // passes i18n down to react-i18next
     .init({
-      debug: false,
+      debug: true,
       lng: defaultLang,
       fallbackLng: defaultLang,
       cleanCode: true,
