@@ -4,7 +4,7 @@
   "classes": [
       {
         "classId": "nearshore",
-        "display": "Nearshore Boundary",
+        "display": "Nearshore",
         "datasourceId": "6nm_boundary",
         "objectiveId": "nearshore_fully_protected",
         "layerId": ""

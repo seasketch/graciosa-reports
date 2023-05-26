@@ -74,5 +74,11 @@
   "Author(s)": "المؤلفون",
   "Description": "وصف",
   "Azores": "جزر الأزور",
-  "Azores Nearshore": "جزر الأزور نيرشور"
+  "Azores Nearshore": "جزر الأزور نيرشور",
+  "Exclusive Economic Zone\n(0-200 nautical miles)": "المنطقة الاقتصادية الخالصة\n(0-200 ميل بحري)",
+  "Internal Waters": "المياه الداخلية",
+  "Land": "أرض",
+  "Nearshore\n(0-6 nautical miles)": "قريب\n(0-6 أميال بحرية)",
+  "Offshore\n(6-200 nautical miles)": "البحرية\n(6-200 ميل بحري)",
+  "Shoreline": "شورلاين"
 }

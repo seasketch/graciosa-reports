@@ -66,7 +66,13 @@
                 "exportId": "designation",
                 "fieldType": "ComboBox",
                 "valueLabel": "Fully Protected",
-                "alternateLanguages": {}
+                "formElementId": 2987,
+                "alternateLanguages": {
+                    "pt": {
+                        "label": "Designação",
+                        "valueLabel": "Totalmente Protegido"
+                    }
+                }
             },
             {
                 "label": "Island",
@@ -78,9 +84,10 @@
                 "valueLabel": [
                     "Santa Maria"
                 ],
+                "formElementId": 2990,
                 "alternateLanguages": {
                     "pt": {
-                        "label": null,
+                        "label": "Ilha",
                         "valueLabel": [
                             "Santa Maria"
                         ]

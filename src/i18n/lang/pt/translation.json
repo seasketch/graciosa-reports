@@ -75,10 +75,19 @@
   "Description": "Descrição",
   "Azores": "Açores",
   "Azores Nearshore": "Açores Nearshore",
-  "Shoreline": "Litoral",
+  "% Within Plan": "% Dentro do Plano",
+  "15% of Nearshore Fully Protected": "15% de Nearshore Totalmente Protegido",
+  "30% of Nearshore Fully or Highly Protected": "30% de Nearshore Totalmente ou Altamente Protegido",
   "Exclusive Economic Zone\n(0-200 nautical miles)": "Zona econômica exclusiva\n(0-200 milhas náuticas)",
+  "Fully Protected Area": "Área Totalmente Protegida",
+  "Highly Protected Area": "Área Altamente Protegida",
   "Internal Waters": "Águas Internas",
   "Land": "Terra",
   "Nearshore\n(0-6 nautical miles)": "Perto da costa\n(0-6 milhas náuticas)",
-  "Offshore\n(6-200 nautical miles)": "No mar\n(6-200 milhas náuticas)"
+  "Nearshore": "Perto da costa",
+  "Offshore\n(6-200 nautical miles)": "No mar\n(6-200 milhas náuticas)",
+  "Results not found": "Resultados não encontrados",
+  "Shoreline": "Litoral",
+  "Nearshore\n(0-12 nautical miles)": "Perto da costa\n(0-12 milhas náuticas)",
+  "Offshore\n(12-200 nautical miles)": "No mar\n(12-200 milhas náuticas)"
 }
