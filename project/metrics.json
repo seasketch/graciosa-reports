@@ -10,4 +10,64 @@
         "layerId": ""
     }
   ]
-}]
+},
+  {
+    "metricId": "sdmValueOverlap",
+    "type": "valueOverlap",
+    "classes": [
+        {
+            "datasourceId": "PA_Bulweria_bulwerii_baseline",
+            "classId": "PA_Bulweria_bulwerii_baseline",
+            "display": "Bulweria bulwerii",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Calonectris_borealis_baseline",
+            "classId": "PA_Calonectris_borealis_baseline",
+            "display": "Calonectris borealis",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Larus_michahellis_baseline",
+            "classId": "PA_Larus_michahellis_baseline",
+            "display": "Larus michahellis",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Oceanodroma_castro_baseline",
+            "classId": "PA_Oceanodroma_castro_baseline",
+            "display": "Oceanodroma castro",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Onychoprion_fuscatus_baseline",
+            "classId": "PA_Onychoprion_fuscatus_baseline",
+            "display": "Onychoprion fuscatus",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Puffinus_baroli_baseline",
+            "classId": "PA_Puffinus_baroli_baseline",
+            "display": "Puffinus baroli",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Puffinus_puffinus_baseline",
+            "classId": "PA_Puffinus_puffinus_baseline",
+            "display": "Puffinus puffinus",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Sterna_dougallii_baseline",
+            "classId": "PA_Sterna_dougallii_baseline",
+            "display": "Sterna dougallii",
+            "layerId": ""
+        },
+        {
+            "datasourceId": "PA_Sterna_hirundo_baseline",
+            "classId": "PA_Sterna_hirundo_baseline",
+            "display": "Sterna hirundo",
+            "layerId": ""
+        }
+    ]
+  }]

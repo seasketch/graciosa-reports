@@ -38,5 +38,203 @@
     "lastUpdated": "2023-05-02T21:42:39.580Z",
     "src": "data/src/Data_Products/shapefiles/6nm_boundary.shp",
     "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "PA_Bulweria_bulwerii_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 417,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:41:12.784Z",
+    "lastUpdated": "2023-06-02T21:41:12.784Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Bulweria bulwerii_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Calonectris_borealis_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 414,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:42:24.012Z",
+    "lastUpdated": "2023-06-02T21:42:24.012Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Calonectris borealis_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Larus_michahellis_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 418,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:43:45.531Z",
+    "lastUpdated": "2023-06-02T21:43:45.531Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Larus michahellis_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Oceanodroma_castro_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 401,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:44:17.404Z",
+    "lastUpdated": "2023-06-02T21:44:17.404Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Oceanodroma castro_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Onychoprion_fuscatus_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 360,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:44:50.767Z",
+    "lastUpdated": "2023-06-02T21:44:50.767Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Onychoprion fuscatus_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Puffinus_baroli_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 418,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:45:25.830Z",
+    "lastUpdated": "2023-06-02T21:45:25.830Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Puffinus baroli_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Puffinus_puffinus_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 307,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:45:50.391Z",
+    "lastUpdated": "2023-06-02T21:45:50.391Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Puffinus puffinus_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Sterna_dougallii_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 412,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:46:21.036Z",
+    "lastUpdated": "2023-06-02T21:46:21.036Z",
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Sterna dougallii_clipped.tif"
+  },
+  {
+    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Sterna hirundo_clipped.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "PA_Sterna_hirundo_baseline",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-06-02T21:46:50.685Z",
+    "lastUpdated": "2023-06-02T21:46:50.685Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 418,
+          "count": null,
+          "area": null
+        }
+      }
+    },
+    "noDataValue": -9999,
+    "measurementType": "quantitative"
   }
 ]

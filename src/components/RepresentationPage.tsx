@@ -1,7 +1,12 @@
 import React from "react";
+import { SDMCard } from "./SDMCard";
 
 const ReportPage = () => {
-  return <></>;
+  return (
+    <>
+      <SDMCard />
+    </>
+  );
 };
 
 export default ReportPage;
