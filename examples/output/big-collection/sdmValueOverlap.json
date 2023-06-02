@@ -1,0 +1,973 @@
+{
+  "metrics": [
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Bulweria_bulwerii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Calonectris_borealis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Larus_michahellis_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 27,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Oceanodroma_castro_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Puffinus_baroli_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 21,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Puffinus_puffinus_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Sterna_dougallii_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14867",
+      "classId": "PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 29,
+      "extra": {
+        "sketchName": "big-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14868",
+      "classId": "PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14869",
+      "classId": "PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14870",
+      "classId": "PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14871",
+      "classId": "PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14872",
+      "classId": "PA_Sterna_hirundo_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "5"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 14867,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 14869,
+        "bbox": [
+          -25.533127,
+          37.643345,
+          -25.267729,
+          37.72664
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "2",
+          "2990": [
+            "CORVO"
+          ],
+          "id": "14869",
+          "name": "2",
+          "island": [
+            "CORVO"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-31T21:57:06.436763+00:00",
+          "updatedAt": "2023-05-31T21:58:19.023081+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14867",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "CORVO"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Corvo(en)"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Corvo"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 14868,
+        "bbox": [
+          -25.878761,
+          37.90935,
+          -25.75222,
+          38.009827
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "1",
+          "2990": [
+            "CORVO"
+          ],
+          "id": "14868",
+          "name": "1",
+          "island": [
+            "CORVO"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-31T21:56:42.044288+00:00",
+          "updatedAt": "2023-05-31T21:58:17.599146+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14867",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "CORVO"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Corvo(en)"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Corvo"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 14872,
+        "bbox": [
+          -27.076397,
+          38.659958,
+          -27.006311,
+          38.7556
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "5",
+          "2990": [
+            "CORVO"
+          ],
+          "id": "14872",
+          "name": "5",
+          "island": [
+            "CORVO"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-31T21:58:07.279851+00:00",
+          "updatedAt": "2023-05-31T21:58:22.965537+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14867",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "CORVO"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Corvo(en)"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Corvo"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 14871,
+        "bbox": [
+          -27.358023,
+          38.781082,
+          -27.10248,
+          38.82691
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "4",
+          "2990": [
+            "CORVO"
+          ],
+          "id": "14871",
+          "name": "4",
+          "island": [
+            "CORVO"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-31T21:57:52.815344+00:00",
+          "updatedAt": "2023-05-31T21:58:21.720387+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14867",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "CORVO"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Corvo(en)"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Corvo"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 14870,
+        "bbox": [
+          -25.245142,
+          37.70413,
+          -25.030565,
+          37.896877
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "3",
+          "2990": [
+            "CORVO"
+          ],
+          "id": "14870",
+          "name": "3",
+          "island": [
+            "CORVO"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-31T21:57:25.90059+00:00",
+          "updatedAt": "2023-05-31T21:58:20.396183+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14867",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "CORVO"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Corvo(en)"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Corvo"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "2991": "big-collection",
+      "id": "14867",
+      "name": "big-collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-31T21:56:26.20063+00:00",
+      "updatedAt": "2023-05-31T21:58:22.965537+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    }
+  }
+}
