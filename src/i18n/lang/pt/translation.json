@@ -89,5 +89,20 @@
   "Results not found": "Resultados não encontrados",
   "Shoreline": "Litoral",
   "Nearshore\n(0-12 nautical miles)": "Perto da costa\n(0-12 milhas náuticas)",
-  "Offshore\n(12-200 nautical miles)": "No mar\n(12-200 milhas náuticas)"
+  "Offshore\n(12-200 nautical miles)": "No mar\n(12-200 milhas náuticas)",
+  "% Area Within Plan": "% Área Dentro do Plano",
+  "Breeding Birds": "Aves Reprodutoras",
+  "Bulweria bulwerii": "Bulweria bulwerii",
+  "Calonectris borealis": "Calonectris borealis",
+  "Key Species": "Espécies Chave",
+  "Larus michahellis": "Larus michahellis",
+  "Oceanodroma castro": "Oceanodroma castro",
+  "Onychoprion fuscatus": "Onychoprion fuscatus",
+  "Puffinus baroli": "Puffinus baroli",
+  "Puffinus puffinus": "Puffinus puffinus",
+  "SDM Card": "<p>Este relatório resume o habitat das principais espécies protegidas por este plano, com base em modelos de distribuição de espécies. Quanto maior a porcentagem, maior a proteção das áreas usadas por espécies-chave.</p>",
+  "SDM Card - learn more": "<p>ℹ️ A manutenção de populações de espécies-chave requer a proteção de habitats que sustentam essas espécies. Este relatório pode ser usado para informar quais habitats de espécies chave seriam protegidos por este plano. Quanto maior a porcentagem, maior a proteção dessas espécies.</p><p>🎯 Objetivo de planejamento: não há objetivo/alvo específico para o habitat das espécies-chave.</p><p>🗺️ Dados da fonte: A distribuição das espécies modelos (SDMs) utilizados neste relatório são do Araújo Lab. SDMs modelam a probabilidade de presença de espécies individuais em uma determinada área. Embora esses SDMs sejam baseados em parte em dados observacionais coletados, eles são modelos e, portanto, têm incerteza embutida.</p><p>📈 Relatório: as porcentagens são calculadas tomando a área total da distribuição das espécies dentro das MPAs neste plano, e dividindo-o pela área total de distribuição da espécie no nearshore. Se o plano incluir várias áreas que se sobrepõem, a sobreposição é contada apenas uma vez.</p>",
+  "Sterna dougallii": "Sterna dougallii",
+  "Sterna hirundo": "Sterna hirundo",
+  "Valuable Species Habitat": "Habitat de espécies valiosas"
 }

@@ -17,6 +17,8 @@ import {
   valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
+import { Trans, useTranslation } from "react-i18next";
+import { TFunction } from "i18next";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
@@ -27,10 +29,14 @@ const precalcMetrics = project.getPrecalcMetrics(
 
 export const SDMCard = () => {
   const [{ isCollection }] = useSketchProperties();
+  const { t, i18n } = useTranslation();
+  const mapLabel = t("Map");
+  const breedingBirdsLabel = t("Breeding Birds");
+  const percAreaWithin = t("% Area Within Plan");
   return (
     <>
       <ResultsCard
-        title="Valuable Species Habitat"
+        title={t("Valuable Species Habitat")}
         functionName="sdmValueOverlap"
         useChildCard
       >
@@ -46,17 +52,23 @@ export const SDMCard = () => {
 
           return (
             <ToolbarCard
-              title="Key Species"
+              title={t("Key Species")}
               items={
-                <LayerToggle label="Map" layerId={metricGroup.layerId} simple />
+                <LayerToggle
+                  label={mapLabel}
+                  layerId={metricGroup.layerId}
+                  simple
+                />
               }
             >
-              <p>
-                This report summarizes the key species habitat protected by this
-                plan, based on species distribution models. The higher the
-                percentage, the greater the protection of areas used by key
-                species.
-              </p>
+              <Trans i18nKey="SDM Card">
+                <p>
+                  This report summarizes the key species habitat protected by
+                  this plan, based on species distribution models. The higher
+                  the percentage, the greater the protection of areas used by
+                  key species.
+                </p>
+              </Trans>
 
               <ClassTable
                 rows={topLevelMetrics}
@@ -64,12 +76,12 @@ export const SDMCard = () => {
                 objective={undefined}
                 columnConfig={[
                   {
-                    columnLabel: "Breeding Birds",
+                    columnLabel: breedingBirdsLabel,
                     type: "class",
                     width: 25,
                   },
                   {
-                    columnLabel: "% Area Within Plan",
+                    columnLabel: percAreaWithin,
                     type: "metricChart",
                     metricId: metricGroup.metricId,
                     valueFormatter: "percent",
@@ -101,41 +113,46 @@ export const SDMCard = () => {
                   {
                     type: "layerToggle",
                     width: 15,
-                    columnLabel: "Map",
+                    columnLabel: mapLabel,
                   },
                 ]}
               />
 
               {isCollection && (
-                <Collapse title="Show by MPA">{genSketchTable(data)}</Collapse>
+                <Collapse title={t("Show by MPA")}>
+                  {genSketchTable(data)}
+                </Collapse>
               )}
 
-              <Collapse title="Learn more">
-                <p>
-                  ℹ️ Maintaining populations of key species requires protecting
-                  habitats which support those species. This report can be used
-                  to inform which key species' habitats would be protected by
-                  this plan. The higher the percentage, the greater the
-                  protection of these species.
-                </p>
-                <p>
-                  🎯 Planning Objective: there is no specific objective/target
-                  for key species habitat.
-                </p>
-                <p>
-                  🗺️ Source Data: The species distribution models (SDMs) used in
-                  this report are from the Araújo Lab. SDMs model probability of
-                  presence of individual species in a given area. While these
-                  SDMs are based partly on collected observational data, they
-                  are models and thus have baked-in uncertainty.
-                </p>
-                <p>
-                  📈 Report: Percentages are calculated by taking the total area
-                  of the species' distribution within the MPAs in this plan, and
-                  dividing it by the total area of the species' distribution in
-                  the nearshore. If the plan includes multiple areas that
-                  overlap, the overlap is only counted once.
-                </p>
+              <Collapse title={t("Learn more")}>
+                <Trans i18nKey="SDM Card - learn more">
+                  <p>
+                    ℹ️ Maintaining populations of key species requires
+                    protecting habitats which support those species. This report
+                    can be used to inform which key species' habitats would be
+                    protected by this plan. The higher the percentage, the
+                    greater the protection of these species.
+                  </p>
+                  <p>
+                    🎯 Planning Objective: there is no specific objective/target
+                    for key species habitat.
+                  </p>
+                  <p>
+                    🗺️ Source Data: The species distribution models (SDMs) used
+                    in this report are from the Araújo Lab. SDMs model
+                    probability of presence of individual species in a given
+                    area. While these SDMs are based partly on collected
+                    observational data, they are models and thus have baked-in
+                    uncertainty.
+                  </p>
+                  <p>
+                    📈 Report: Percentages are calculated by taking the total
+                    area of the species' distribution within the MPAs in this
+                    plan, and dividing it by the total area of the species'
+                    distribution in the nearshore. If the plan includes multiple
+                    areas that overlap, the overlap is only counted once.
+                  </p>
+                </Trans>
               </Collapse>
             </ToolbarCard>
           );
