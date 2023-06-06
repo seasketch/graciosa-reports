@@ -21,6 +21,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   DataDownload,
+  WatersDiagram,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
@@ -28,7 +29,6 @@ import { Metric, squareMeterToKilometer } from "@seasketch/geoprocessing";
 import Translator from "../components/TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
-import { TerritorialWatersImageWithLabels } from "./TerritorialWatersImageWithLabels";
 const boundaryMetricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
 const boundaryTotalMetrics = project.getPrecalcMetrics(
@@ -125,7 +125,7 @@ export const SizeCard = () => {
                 </Collapse>
               )}
               <Collapse title={t("Learn more")}>
-                <TerritorialWatersImageWithLabels
+                <WatersDiagram
                   labels={[
                     {
                       key: "nearshore",
