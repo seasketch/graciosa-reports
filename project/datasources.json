@@ -59,7 +59,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:41:12.784Z",
     "lastUpdated": "2023-06-02T21:41:12.784Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Bulweria bulwerii_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Bulweria bulwerii_clipped.tif"
   },
   {
     "datasourceId": "PA_Calonectris_borealis_baseline",
@@ -81,7 +81,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:42:24.012Z",
     "lastUpdated": "2023-06-02T21:42:24.012Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Calonectris borealis_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Calonectris borealis_clipped.tif"
   },
   {
     "datasourceId": "PA_Larus_michahellis_baseline",
@@ -103,7 +103,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:43:45.531Z",
     "lastUpdated": "2023-06-02T21:43:45.531Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Larus michahellis_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Larus michahellis_clipped.tif"
   },
   {
     "datasourceId": "PA_Oceanodroma_castro_baseline",
@@ -125,7 +125,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:44:17.404Z",
     "lastUpdated": "2023-06-02T21:44:17.404Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Oceanodroma castro_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Oceanodroma castro_clipped.tif"
   },
   {
     "datasourceId": "PA_Onychoprion_fuscatus_baseline",
@@ -147,7 +147,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:44:50.767Z",
     "lastUpdated": "2023-06-02T21:44:50.767Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Onychoprion fuscatus_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Onychoprion fuscatus_clipped.tif"
   },
   {
     "datasourceId": "PA_Puffinus_baroli_baseline",
@@ -169,7 +169,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:45:25.830Z",
     "lastUpdated": "2023-06-02T21:45:25.830Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Puffinus baroli_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Puffinus baroli_clipped.tif"
   },
   {
     "datasourceId": "PA_Puffinus_puffinus_baseline",
@@ -191,7 +191,7 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:45:50.391Z",
     "lastUpdated": "2023-06-02T21:45:50.391Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Puffinus puffinus_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Puffinus puffinus_clipped.tif"
   },
   {
     "datasourceId": "PA_Sterna_dougallii_baseline",
@@ -213,28 +213,226 @@
     "noDataValue": -9999,
     "created": "2023-06-02T21:46:21.036Z",
     "lastUpdated": "2023-06-02T21:46:21.036Z",
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Sterna dougallii_clipped.tif"
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Sterna dougallii_clipped.tif"
   },
   {
-    "src": "data/src/Analytics/sdm_nearshore/PA_clipped/breeding-birds/PA_Sterna hirundo_clipped.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "PA_Sterna_hirundo_baseline",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-06-02T21:46:50.685Z",
-    "lastUpdated": "2023-06-02T21:46:50.685Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
+          "count": null,
           "sum": 418,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-02T21:46:50.685Z",
+    "lastUpdated": "2023-06-02T21:46:50.685Z",
+    "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Sterna hirundo_clipped.tif"
+  },
+  {
+    "datasourceId": "aquaculture_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.11416347124577442,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:28:36.644Z",
+    "lastUpdated": "2023-06-13T18:28:36.644Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/aquaculture_clipped.tif"
+  },
+  {
+    "datasourceId": "commercial_fishing_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 4.983692580217949,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:29:30.806Z",
+    "lastUpdated": "2023-06-13T18:29:30.806Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/commercial_fishing_clipped.tif"
+  },
+  {
+    "datasourceId": "energy_development_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.17634502475134894,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:30:28.558Z",
+    "lastUpdated": "2023-06-13T18:30:28.558Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/energy_development_clipped.tif"
+  },
+  {
+    "datasourceId": "recreation_sports_and_tourism_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 982.1512827312283,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:31:35.278Z",
+    "lastUpdated": "2023-06-13T18:31:35.278Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/recreation_sports_and_tourism_clipped.tif"
+  },
+  {
+    "datasourceId": "recreational_fishing_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 142.17270048505046,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:32:25.834Z",
+    "lastUpdated": "2023-06-13T18:32:25.834Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/recreational_fishing_clipped.tif"
+  },
+  {
+    "datasourceId": "science_tech_monitoring_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 3.553339345130868,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:33:14.720Z",
+    "lastUpdated": "2023-06-13T18:33:14.720Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/science_tech_monitoring_clipped.tif"
+  },
+  {
+    "datasourceId": "security_defense_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.1217116916969303,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:34:06.035Z",
+    "lastUpdated": "2023-06-13T18:34:06.035Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/security_and_defense_clipped.tif"
+  },
+  {
+    "datasourceId": "touristic_fishing_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.4733207524153062,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-13T18:34:55.933Z",
+    "lastUpdated": "2023-06-13T18:34:55.933Z",
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/touristic_fishing_clipped.tif"
+  },
+  {
+    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/underwater_cultural_heritage_clipped.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "underwater_cultural_heritage_ous",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-06-13T18:35:47.353Z",
+    "lastUpdated": "2023-06-13T18:35:47.353Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 0.3545794716083037,
           "count": null,
           "area": null
         }
       }
     },
-    "noDataValue": -9999,
+    "noDataValue": 0,
     "measurementType": "quantitative"
   }
 ]

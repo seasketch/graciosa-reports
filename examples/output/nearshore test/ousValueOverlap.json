@@ -1,0 +1,172 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "commercial_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.01235006977321973,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "energy_development_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "recreation_sports_and_tourism_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04990094522634081,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "recreational_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.040041280119481826,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "science_tech_monitoring_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.002099954162280121,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "security_defense_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "touristic_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04407662414759894,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "underwater_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "nearshore test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 14455,
+    "bbox": [
+      -25.241573,
+      37.00977,
+      -25.165365,
+      37.07506
+    ],
+    "type": "Feature",
+    "properties": {
+      "2987": "FULLY_PROTECTED",
+      "2988": "nearshore test",
+      "2990": [
+        "SANTA_MARIA"
+      ],
+      "id": "14455",
+      "name": "nearshore test",
+      "island": [
+        "SANTA_MARIA"
+      ],
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T21:57:25.62649+00:00",
+      "updatedAt": "2023-05-02T21:57:25.62649+00:00",
+      "designation": "FULLY_PROTECTED",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "212",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "FULLY_PROTECTED",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Fully Protected",
+          "formElementId": 2987,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Designação",
+              "valueLabel": "Totalmente Protegido"
+            }
+          }
+        },
+        {
+          "label": "Island",
+          "value": [
+            "SANTA_MARIA"
+          ],
+          "exportId": "island",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Santa Maria"
+          ],
+          "formElementId": 2990,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Ilha",
+              "valueLabel": [
+                "Santa Maria"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

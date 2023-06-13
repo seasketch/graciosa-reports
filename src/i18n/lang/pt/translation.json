@@ -104,5 +104,19 @@
   "SDM Card - learn more": "<p>ℹ️ A manutenção de populações de espécies-chave requer a proteção de habitats que sustentam essas espécies. Este relatório pode ser usado para informar quais habitats de espécies chave seriam protegidos por este plano. Quanto maior a porcentagem, maior a proteção dessas espécies.</p><p>🎯 Objetivo de planejamento: não há objetivo/alvo específico para o habitat das espécies-chave.</p><p>🗺️ Dados da fonte: A distribuição das espécies modelos (SDMs) utilizados neste relatório são do Araújo Lab. SDMs modelam a probabilidade de presença de espécies individuais em uma determinada área. Embora esses SDMs sejam baseados em parte em dados observacionais coletados, eles são modelos e, portanto, têm incerteza embutida.</p><p>📈 Relatório: as porcentagens são calculadas tomando a área total da distribuição das espécies dentro das MPAs neste plano, e dividindo-o pela área total de distribuição da espécie no nearshore. Se o plano incluir várias áreas que se sobrepõem, a sobreposição é contada apenas uma vez.</p>",
   "Sterna dougallii": "Sterna dougallii",
   "Sterna hirundo": "Sterna hirundo",
-  "Valuable Species Habitat": "Habitat de espécies valiosas"
+  "Valuable Species Habitat": "Habitat de espécies valiosas",
+  "% Nearshore Value Found Within Plan": "% Valor Nearshore Encontrado Dentro do Plano",
+  "Aquaculture": "Aquicultura",
+  "Commercial Fishing": "Pesca comercial",
+  "Energy Development": "Desenvolvimento Energético",
+  "Ocean Use": "Uso do oceano",
+  "OUS Card": "<p>Este relatório resume a percentagem de atividades que se sobrepõem a este plano nearshore, conforme relatado no Ocean Use Survey. Os planos devem considerar o impacto potencial nos setores se o acesso ou as atividades forem restritos.</p>",
+  "OUS Card - learn more": "<p>ℹ️ Visão geral: para capturar o valor que cada setor atribui a diferentes áreas da costa, foi realizada uma Pesquisa de Uso do Oceano. Os indivíduos identificaram os setores em que atuam e foram solicitados a desenhar as áreas que utilizam em relação a esse setor e atribuir um valor de importância. As respostas individuais foram então combinadas para produzir mapas de calor agregados por setor. Isso permite que o valor das áreas seja quantificado, somado e comparado entre si como mais ou menos valioso.</p><p>O valor é então usado como um proxy para medir a perda econômica potencial para os setores causada pela criação de Áreas protegidas. Este relatório pode ser usado para minimizar o impacto potencial de um plano em um setor, bem como identificar e reduzir o conflito entre os objetivos de conservação e as atividades do setor. Quanto maior a proporção de valor dentro do plano, maior o impacto potencial para a pesca se o acesso ou as atividades forem restritos.</p><p>Observação, os mapas de calor resultantes são apenas representativos dos indivíduos que foram pesquisados.</p> ><p>🎯 Objetivo de Planejamento: não há objetivo/meta específica para limitar o impacto potencial às atividades de pesca.</p><p>🗺️ Métodos:</p><5><0><0>Prioridade de Acesso Espacial Visão geral do mapeamento</0></0></5><p>📈 Relatório: as porcentagens são calculadas somando as áreas de valor dentro das MPAs neste plano e dividindo-as por todo o valor do setor na área de planejamento nearshore. Se o plano incluir várias áreas que se sobrepõem, a sobreposição é contada apenas uma vez.</p>",
+  "Recreation, Sports, and Tourism": "Recreação, Esportes e Turismo",
+  "Recreational Fishing": "Pesca Recreativa",
+  "Science, Technology, and Monitoring": "Ciência, Tecnologia e Monitoramento",
+  "Sector": "Setor",
+  "Security and Defense": "Segurança e Defesa",
+  "Touristic Fishing": "Pesca Turística",
+  "Underwater Cultural Heritage": "Patrimônio Cultural Subaquático"
 }

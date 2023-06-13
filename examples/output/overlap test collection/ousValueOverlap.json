@@ -1,0 +1,631 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "commercial_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.034089859216521745,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "commercial_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.01235006977321973,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "commercial_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.008001495090162791,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "commercial_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.016541273204346396,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "energy_development_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "energy_development_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "energy_development_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "energy_development_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "recreation_sports_and_tourism_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.15935341604199493,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "recreation_sports_and_tourism_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04990094522634081,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "recreation_sports_and_tourism_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.07897732254787115,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "recreation_sports_and_tourism_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.03999621369325723,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "recreational_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.17671708387233487,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "recreational_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.040041280119481826,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "recreational_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.09526876824361352,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "recreational_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04595269915050615,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "science_tech_monitoring_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.002659846223328474,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "science_tech_monitoring_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.002099954162280121,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "science_tech_monitoring_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0002756332624527791,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "science_tech_monitoring_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00028429090063199214,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "security_defense_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "security_defense_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "security_defense_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "security_defense_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "touristic_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.11895847042417218,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "touristic_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04407662414759894,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "touristic_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0397357641702456,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "touristic_fishing_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04239548223612433,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14453",
+      "classId": "underwater_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "overlap test collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14455",
+      "classId": "underwater_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch1"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14456",
+      "classId": "underwater_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch3"
+      }
+    },
+    {
+      "metricId": "ousValueOverlap",
+      "sketchId": "14457",
+      "classId": "underwater_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "sketch2"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 14453,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 14456,
+        "bbox": [
+          -25.001762,
+          36.88405,
+          -24.932547,
+          37.05609
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "sketch3",
+          "2990": [
+            "SAO_JORGE"
+          ],
+          "id": "14456",
+          "name": "sketch3",
+          "island": [
+            "SAO_JORGE"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-03T18:28:40.831805+00:00",
+          "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14453",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SAO_JORGE"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "São Jorge"
+              ],
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "São Jorge"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 14455,
+        "bbox": [
+          -25.241573,
+          37.00977,
+          -25.165365,
+          37.07506
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "sketch1",
+          "2990": [
+            "SANTA_MARIA"
+          ],
+          "id": "14455",
+          "name": "sketch1",
+          "island": [
+            "SANTA_MARIA"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-02T21:57:25.62649+00:00",
+          "updatedAt": "2023-05-03T18:45:37.112788+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14453",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "SANTA_MARIA"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Santa Maria"
+              ],
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Santa Maria"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 14457,
+        "bbox": [
+          -25.188437,
+          37.0254,
+          -25.114326,
+          37.098484
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "sketch2",
+          "2990": [
+            "CORVO"
+          ],
+          "id": "14457",
+          "name": "sketch2",
+          "island": [
+            "CORVO"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-05-03T18:29:40.515354+00:00",
+          "updatedAt": "2023-05-03T18:45:44.023138+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "14453",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "CORVO"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Corvo"
+              ],
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Corvo"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "2991": "overlap test collection",
+      "id": "14453",
+      "name": "overlap test collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T15:49:36.640108+00:00",
+      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    }
+  }
+}

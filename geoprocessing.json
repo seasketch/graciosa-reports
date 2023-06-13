@@ -19,6 +19,7 @@
   ],
   "geoprocessingFunctions": [
     "src/functions/boundaryAreaOverlap.ts",
-    "src/functions/sdmValueOverlap.ts"
+    "src/functions/sdmValueOverlap.ts",
+    "src/functions/ousValueOverlap.ts"
   ]
 }

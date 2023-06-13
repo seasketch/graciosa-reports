@@ -70,4 +70,73 @@
             "layerId": ""
         }
     ]
-  }]
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "type": "valueOverlap",
+    "classes": [
+        {
+            "classId": "aquaculture_ous",
+            "display": "Aquaculture",
+            "datasourceId": "aquaculture_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "commercial_fishing_ous",
+            "display": "Commercial Fishing",
+            "datasourceId": "commercial_fishing_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "energy_development_ous",
+            "display": "Energy Development",
+            "datasourceId": "energy_development_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "recreation_sports_and_tourism_ous",
+            "display": "Recreation, Sports, and Tourism",
+            "datasourceId": "recreation_sports_and_tourism_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "recreational_fishing_ous",
+            "display": "Recreational Fishing",
+            "datasourceId": "recreational_fishing_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "science_tech_monitoring_ous",
+            "display": "Science, Technology, and Monitoring",
+            "datasourceId": "science_tech_monitoring_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "security_defense_ous",
+            "display": "Security and Defense",
+            "datasourceId": "security_defense_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "touristic_fishing_ous",
+            "display": "Touristic Fishing",
+            "datasourceId": "touristic_fishing_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        },
+        {
+            "classId": "underwater_cultural_heritage_ous",
+            "display": "Underwater Cultural Heritage",
+            "datasourceId": "underwater_cultural_heritage_ous",
+            "noDataValue": 0,
+            "layerId": ""
+        }
+    ]
+}]
