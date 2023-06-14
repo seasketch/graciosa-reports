@@ -12,6 +12,8 @@ import {
   flattenBySketchAllClass,
   metricsWithSketchId,
   toPercentMetric,
+  sortMetrics,
+  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
@@ -23,12 +25,24 @@ const precalcMetrics = project.getPrecalcMetrics(
   metricGroup.classKey
 );
 
+const islands: { [id: string]: string } = {};
+islands["corvo"] = "Corvo";
+islands["pico"] = "Pico";
+islands["saojorge"] = "São Jorge";
+islands["saomiguel"] = "São Miguel";
+islands["terceira"] = "Terceira";
+islands["flores"] = "Flores";
+islands["faial"] = "Faial";
+islands["santamaria"] = "Santa Maria";
+islands["graciosa"] = "Graciosa";
+
 export const OUSCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
-  const percValueLabel = t("% Nearshore Value Found Within Plan");
+  const percValueLabel = t("% Value Found Within Plan");
+  console.log("inside OUS Card");
 
   return (
     <>
@@ -41,6 +55,24 @@ export const OUSCard = () => {
               precalcMetrics
             ),
             [data.sketch.properties.id]
+          );
+          const sortedMetrics = sortMetrics(parentMetrics);
+
+          const groupedMetrics = sortedMetrics.reduce<Record<string, any>>(
+            (groups, metric) => {
+              const island: string | undefined = metric.classId?.substring(
+                0,
+                metric.classId?.indexOf("_")
+              );
+              if (!island) {
+                console.log("Expected island id");
+                return groups;
+              }
+
+              groups[island] = [...(groups[island] || []), metric];
+              return groups;
+            },
+            {}
           );
 
           return (
@@ -55,7 +87,7 @@ export const OUSCard = () => {
               </Trans>
 
               <ClassTable
-                rows={parentMetrics}
+                rows={groupedMetrics["all"]}
                 metricGroup={metricGroup}
                 columnConfig={[
                   {
@@ -81,11 +113,45 @@ export const OUSCard = () => {
                 ]}
               />
 
-              {isCollection && (
+              {/* {isCollection && (
                 <Collapse title={t("Show by MPA")}>
                   {genSketchTable(data)}
                 </Collapse>
-              )}
+              )} */}
+
+              {Object.keys(groupedMetrics).map((island: string) => {
+                if (island === "all") return;
+                return (
+                  <Collapse title={t("Show by island: ") + islands[island]}>
+                    <ClassTable
+                      rows={groupedMetrics[island]}
+                      metricGroup={metricGroup}
+                      columnConfig={[
+                        {
+                          columnLabel: sectorLabel,
+                          type: "class",
+                          width: 45,
+                        },
+                        {
+                          columnLabel: percValueLabel,
+                          type: "metricChart",
+                          metricId: metricGroup.metricId,
+                          valueFormatter: "percent",
+                          chartOptions: {
+                            showTitle: true,
+                          },
+                          width: 45,
+                        },
+                        {
+                          columnLabel: mapLabel,
+                          type: "layerToggle",
+                          width: 10,
+                        },
+                      ]}
+                    />
+                  </Collapse>
+                );
+              })}
 
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="OUS Card - learn more">
@@ -132,9 +198,20 @@ export const OUSCard = () => {
                   <p>
                     📈 Report: Percentages are calculated by summing the areas
                     of value within the MPAs in this plan, and dividing it by
-                    all sector value in the nearshore planning area. If the plan
-                    includes multiple areas that overlap, the overlap is only
-                    counted once.
+                    all sector value. If the plan includes multiple areas that
+                    overlap, the overlap is only counted once.
+                  </p>
+                  <p>
+                    Overall statistics show the percentage of EEZ-wide value
+                    that is contained by the nearshore plan.
+                  </p>
+                  <p>
+                    "Show by island" statistics show the percentage of EEZ-wide
+                    value of fishers from the specific island which is contained
+                    by the nearshore plan. For example, "Show by island: Corvo"
+                    will display % value of Corvo fishers contained within the
+                    plan. Toggle the corresponding maps to see the data layers
+                    used in analysis.
                   </p>
                 </Trans>
               </Collapse>
@@ -153,13 +230,23 @@ const genSketchTable = (data: ReportResult) => {
     metricsWithSketchId(data.metrics, childSketchIds),
     precalcMetrics
   );
+
+  const childSketchMetricsFiltered = childSketchMetrics.filter(
+    (metric) =>
+      metric.classId?.substring(0, metric.classId?.indexOf("_")) === "all"
+  );
+
+  const childClasses = metricGroup.classes.filter(
+    (c) => c.classId.substring(0, c.classId.indexOf("_")) === "all"
+  );
+
+  const mGroup = metricGroup;
+  mGroup.classes = childClasses;
   const sketchRows = flattenBySketchAllClass(
-    childSketchMetrics,
-    metricGroup.classes,
+    childSketchMetricsFiltered,
+    childClasses,
     childSketches
   );
 
-  return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
-  );
+  return <SketchClassTable rows={sketchRows} metricGroup={mGroup} formatPerc />;
 };

@@ -238,13 +238,13 @@
     "src": "data/src/Analytics/nearshore_planning/SDM/PA_clipped/breeding-birds/PA_Sterna hirundo_clipped.tif"
   },
   {
-    "datasourceId": "aquaculture_ous",
+    "datasourceId": "corvo_comm_fish_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 0.11416347124577442,
+          "sum": 0.06460664409917172,
           "area": null
         }
       }
@@ -255,18 +255,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:28:36.644Z",
-    "lastUpdated": "2023-06-13T18:28:36.644Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/aquaculture_clipped.tif"
+    "created": "2023-06-13T19:50:12.624Z",
+    "lastUpdated": "2023-06-13T19:50:12.624Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_comm_fish.tif"
   },
   {
-    "datasourceId": "commercial_fishing_ous",
+    "datasourceId": "corvo_rec_fish_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 4.983692580217949,
+          "sum": 1.4845680317005048,
           "area": null
         }
       }
@@ -277,18 +277,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:29:30.806Z",
-    "lastUpdated": "2023-06-13T18:29:30.806Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/commercial_fishing_clipped.tif"
+    "created": "2023-06-13T19:50:39.296Z",
+    "lastUpdated": "2023-06-13T19:50:39.296Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_fish.tif"
   },
   {
-    "datasourceId": "energy_development_ous",
+    "datasourceId": "corvo_rec_sports_without_tour_ops_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 0.17634502475134894,
+          "sum": 20.75263631345331,
           "area": null
         }
       }
@@ -299,18 +299,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:30:28.558Z",
-    "lastUpdated": "2023-06-13T18:30:28.558Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/energy_development_clipped.tif"
+    "created": "2023-06-13T19:51:12.043Z",
+    "lastUpdated": "2023-06-13T19:51:12.043Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_sports_without_tour_ops.tif"
   },
   {
-    "datasourceId": "recreation_sports_and_tourism_ous",
+    "datasourceId": "corvo_rec_sports_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 982.1512827312283,
+          "sum": 34.01174387659128,
           "area": null
         }
       }
@@ -321,18 +321,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:31:35.278Z",
-    "lastUpdated": "2023-06-13T18:31:35.278Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/recreation_sports_and_tourism_clipped.tif"
+    "created": "2023-06-13T19:51:29.292Z",
+    "lastUpdated": "2023-06-13T19:51:29.292Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_rec_sports.tif"
   },
   {
-    "datasourceId": "recreational_fishing_ous",
+    "datasourceId": "corvo_tour_fish_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 142.17270048505046,
+          "sum": 0.07364695519208908,
           "area": null
         }
       }
@@ -343,18 +343,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:32:25.834Z",
-    "lastUpdated": "2023-06-13T18:32:25.834Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/recreational_fishing_clipped.tif"
+    "created": "2023-06-13T19:51:48.999Z",
+    "lastUpdated": "2023-06-13T19:51:48.999Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_tour_fish.tif"
   },
   {
-    "datasourceId": "science_tech_monitoring_ous",
+    "datasourceId": "corvo_tour_operators_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 3.553339345130868,
+          "sum": 2.137438432094683,
           "area": null
         }
       }
@@ -365,18 +365,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:33:14.720Z",
-    "lastUpdated": "2023-06-13T18:33:14.720Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/science_tech_monitoring_clipped.tif"
+    "created": "2023-06-13T19:52:13.580Z",
+    "lastUpdated": "2023-06-13T19:52:13.580Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/corvo_tour_operators.tif"
   },
   {
-    "datasourceId": "security_defense_ous",
+    "datasourceId": "all_aquaculture_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 0.1217116916969303,
+          "sum": 0.11140940525183396,
           "area": null
         }
       }
@@ -387,18 +387,18 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:34:06.035Z",
-    "lastUpdated": "2023-06-13T18:34:06.035Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/security_and_defense_clipped.tif"
+    "created": "2023-06-14T18:24:54.906Z",
+    "lastUpdated": "2023-06-14T18:24:54.906Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/aquaculture.tif"
   },
   {
-    "datasourceId": "touristic_fishing_ous",
+    "datasourceId": "all_commercial_fishing_ous",
     "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
           "count": null,
-          "sum": 1.4733207524153062,
+          "sum": 6.947432509405058,
           "area": null
         }
       }
@@ -409,24 +409,1630 @@
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
-    "created": "2023-06-13T18:34:55.933Z",
-    "lastUpdated": "2023-06-13T18:34:55.933Z",
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/touristic_fishing_clipped.tif"
+    "created": "2023-06-14T18:46:31.683Z",
+    "lastUpdated": "2023-06-14T18:46:31.683Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/commercial_fishing.tif"
   },
   {
-    "src": "data/src/Analytics/nearshore_reports/OUS/heatmaps_nearshore/underwater_cultural_heritage_clipped.tif",
-    "band": 1,
+    "datasourceId": "all_energy_development_ous",
     "geo_type": "raster",
-    "datasourceId": "underwater_cultural_heritage_ous",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-06-13T18:35:47.353Z",
-    "lastUpdated": "2023-06-13T18:35:47.353Z",
     "keyStats": {
       "total": {
         "total": {
-          "sum": 0.3545794716083037,
+          "count": null,
+          "sum": 0.19764782035434791,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T18:50:47.115Z",
+    "lastUpdated": "2023-06-14T18:50:47.115Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/energy_development.tif"
+  },
+  {
+    "datasourceId": "all_recreation_sports_and_tourism_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1131.9751247630065,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T18:51:59.269Z",
+    "lastUpdated": "2023-06-14T18:51:59.269Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/recreation_sports_and_tourism.tif"
+  },
+  {
+    "datasourceId": "all_recreational_fishing_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 118.19862676757977,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T19:02:44.100Z",
+    "lastUpdated": "2023-06-14T19:02:44.100Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/recreational_fishing.tif"
+  },
+  {
+    "datasourceId": "all_science_tech_monitoring_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 4.278154173549665,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T20:31:16.350Z",
+    "lastUpdated": "2023-06-14T20:31:16.350Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/science_tech_monitoring.tif"
+  },
+  {
+    "datasourceId": "all_security_and_defense_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.1219793262958433,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T20:32:03.939Z",
+    "lastUpdated": "2023-06-14T20:32:03.939Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/security_and_defense.tif"
+  },
+  {
+    "datasourceId": "all_touristic_fishing_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.5795649960384137,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T20:34:15.500Z",
+    "lastUpdated": "2023-06-14T20:34:15.500Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/touristic_fishing.tif"
+  },
+  {
+    "datasourceId": "all_underwater_cultural_heritage_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.32810930010600714,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T20:35:43.473Z",
+    "lastUpdated": "2023-06-14T20:35:43.473Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_eez_wide/underwater_cultural_heritage.tif"
+  },
+  {
+    "datasourceId": "faial_aquaculture_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.06843573543301318,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:56:18.174Z",
+    "lastUpdated": "2023-06-14T21:56:18.174Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_aquaculture.tif"
+  },
+  {
+    "datasourceId": "faial_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.1420218144711667,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:57:11.533Z",
+    "lastUpdated": "2023-06-14T21:57:11.533Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_comm_fish.tif"
+  },
+  {
+    "datasourceId": "faial_energy_dev_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.007882729405537248,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:57:32.436Z",
+    "lastUpdated": "2023-06-14T21:57:32.436Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_energy_dev.tif"
+  },
+  {
+    "datasourceId": "faial_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 2.7733393533983133,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:57:50.300Z",
+    "lastUpdated": "2023-06-14T21:57:50.300Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_fish.tif"
+  },
+  {
+    "datasourceId": "faial_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 11.9883121553043,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:58:21.849Z",
+    "lastUpdated": "2023-06-14T21:58:21.849Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "faial_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 15.195407783741944,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:58:45.715Z",
+    "lastUpdated": "2023-06-14T21:58:45.715Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_rec_sports.tif"
+  },
+  {
+    "datasourceId": "faial_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.2584966285941803,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T21:59:49.864Z",
+    "lastUpdated": "2023-06-14T21:59:49.864Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_sci_tech.tif"
+  },
+  {
+    "datasourceId": "faial_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.12868492921053587,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:00:16.885Z",
+    "lastUpdated": "2023-06-14T22:00:16.885Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_tour_fish.tif"
+  },
+  {
+    "datasourceId": "faial_tour_operators_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.2992246727275152,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:00:42.454Z",
+    "lastUpdated": "2023-06-14T22:00:42.454Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/faial_tour_operators.tif"
+  },
+  {
+    "datasourceId": "flores_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.134745271122334,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:10:17.095Z",
+    "lastUpdated": "2023-06-14T22:10:17.095Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_comm_fish.tif"
+  },
+  {
+    "datasourceId": "flores_cultural_heritage_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.08211523905265494,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:10:35.375Z",
+    "lastUpdated": "2023-06-14T22:10:35.375Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_cultural_heritage.tif"
+  },
+  {
+    "datasourceId": "flores_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 9.397117124479948,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:11:28.580Z",
+    "lastUpdated": "2023-06-14T22:11:28.580Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_fish.tif"
+  },
+  {
+    "datasourceId": "flores_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 99.81173707933893,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:11:53.064Z",
+    "lastUpdated": "2023-06-14T22:11:53.064Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "flores_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 102.30455158106507,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:12:10.818Z",
+    "lastUpdated": "2023-06-14T22:12:10.818Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_rec_sports.tif"
+  },
+  {
+    "datasourceId": "flores_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 2.0679842624304,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:12:29.077Z",
+    "lastUpdated": "2023-06-14T22:12:29.077Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_sci_tech.tif"
+  },
+  {
+    "datasourceId": "flores_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.14254285422043722,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:12:46.585Z",
+    "lastUpdated": "2023-06-14T22:12:46.585Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_tour_fish.tif"
+  },
+  {
+    "datasourceId": "flores_tour_operators_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 3.998509902206031,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:13:07.836Z",
+    "lastUpdated": "2023-06-14T22:13:07.836Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/flores_tour_operators.tif"
+  },
+  {
+    "datasourceId": "graciosa_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.4161248219200786,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:13:32.130Z",
+    "lastUpdated": "2023-06-14T22:13:32.130Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_comm_fish.tif"
+  },
+  {
+    "datasourceId": "graciosa_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 9.519217746474624,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:13:53.286Z",
+    "lastUpdated": "2023-06-14T22:13:53.286Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_fish.tif"
+  },
+  {
+    "datasourceId": "graciosa_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 44.3332438798501,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:15:04.991Z",
+    "lastUpdated": "2023-06-14T22:15:04.991Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "graciosa_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 39.33534294767367,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:15:24.193Z",
+    "lastUpdated": "2023-06-14T22:15:24.193Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_rec_sports.tif"
+  },
+  {
+    "datasourceId": "graciosa_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.011093529785284773,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:15:46.810Z",
+    "lastUpdated": "2023-06-14T22:15:46.810Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_sci_tech.tif"
+  },
+  {
+    "datasourceId": "graciosa_sec_def_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.010150076642219119,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:16:08.626Z",
+    "lastUpdated": "2023-06-14T22:16:08.626Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_sec_def.tif"
+  },
+  {
+    "datasourceId": "graciosa_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.05903704320144243,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:16:25.849Z",
+    "lastUpdated": "2023-06-14T22:16:25.849Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_tour_fish.tif"
+  },
+  {
+    "datasourceId": "graciosa_tour_operators_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.08566035004190553,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:16:42.541Z",
+    "lastUpdated": "2023-06-14T22:16:42.541Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/graciosa_tour_operators.tif"
+  },
+  {
+    "datasourceId": "pico_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.9016387649728248,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:18:10.334Z",
+    "lastUpdated": "2023-06-14T22:18:10.334Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_comm_fish.tif"
+  },
+  {
+    "datasourceId": "pico_rec_fish_large_removed_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 32.99918136342595,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:18:39.426Z",
+    "lastUpdated": "2023-06-14T22:18:39.426Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_fish_large_removed.tif"
+  },
+  {
+    "datasourceId": "pico_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 34.91683204110208,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:24:47.766Z",
+    "lastUpdated": "2023-06-14T22:24:47.766Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_fish.tif"
+  },
+  {
+    "datasourceId": "pico_rec_sports_without_tour_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 625.8822016485478,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:25:15.307Z",
+    "lastUpdated": "2023-06-14T22:25:15.307Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "pico_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 762.3909706396624,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:25:33.126Z",
+    "lastUpdated": "2023-06-14T22:25:33.126Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_sports.tif"
+  },
+  {
+    "datasourceId": "pico_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.08116253595200557,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:32:16.899Z",
+    "lastUpdated": "2023-06-14T22:32:16.899Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_sci_tech.tif"
+  },
+  {
+    "datasourceId": "pico_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.09194600084659399,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:33:09.996Z",
+    "lastUpdated": "2023-06-14T22:33:09.996Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_tour_fish.tif"
+  },
+  {
+    "datasourceId": "pico_tour_operators_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 2.74456796638305,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:33:30.293Z",
+    "lastUpdated": "2023-06-14T22:33:30.293Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_tour_operators.tif"
+  },
+  {
+    "datasourceId": "santamaria_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.4599784547388879,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:33:52.013Z",
+    "lastUpdated": "2023-06-14T22:33:52.013Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_comm_fish.tif"
+  },
+  {
+    "datasourceId": "santamaria_cultural_heritage_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.14144256855070125,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:34:16.958Z",
+    "lastUpdated": "2023-06-14T22:34:16.958Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_cultural_heritage.tif"
+  },
+  {
+    "datasourceId": "santamaria_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 45.98289808901411,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:34:37.306Z",
+    "lastUpdated": "2023-06-14T22:34:37.306Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_fish.tif"
+  },
+  {
+    "datasourceId": "santamaria_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 39.30295630295445,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:34:55.647Z",
+    "lastUpdated": "2023-06-14T22:34:55.647Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "santamaria_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 52.02722112372869,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:35:16.062Z",
+    "lastUpdated": "2023-06-14T22:35:16.062Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_rec_sports.tif"
+  },
+  {
+    "datasourceId": "santamaria_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.037429045043325004,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:35:36.825Z",
+    "lastUpdated": "2023-06-14T22:35:36.825Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_sci_tech.tif"
+  },
+  {
+    "datasourceId": "santamaria_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.232182814718044,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:35:58.038Z",
+    "lastUpdated": "2023-06-14T22:35:58.038Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_tour_fish.tif"
+  },
+  {
+    "datasourceId": "santamaria_tour_operators_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 2.6560318130676777,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:36:23.411Z",
+    "lastUpdated": "2023-06-14T22:36:23.411Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/santamaria_tour_operators.tif"
+  },
+  {
+    "datasourceId": "saojorge_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.6525359300978337,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:36:46.308Z",
+    "lastUpdated": "2023-06-14T22:36:46.308Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_comm_fish.tif"
+  },
+  {
+    "datasourceId": "saojorge_cultural_heritage_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.08212168976024259,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:37:03.698Z",
+    "lastUpdated": "2023-06-14T22:37:03.698Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_cultural_heritage.tif"
+  },
+  {
+    "datasourceId": "saojorge_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 22.981313643202228,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:37:28.726Z",
+    "lastUpdated": "2023-06-14T22:37:28.726Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_fish.tif"
+  },
+  {
+    "datasourceId": "saojorge_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 153.15332309465572,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:37:46.480Z",
+    "lastUpdated": "2023-06-14T22:37:46.480Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "saojorge_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 174.5740955682022,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:38:05.662Z",
+    "lastUpdated": "2023-06-14T22:38:05.662Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_rec_sports.tif"
+  },
+  {
+    "datasourceId": "saojorge_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.0470552559709176,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:38:22.173Z",
+    "lastUpdated": "2023-06-14T22:38:22.173Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_sci_tech.tif"
+  },
+  {
+    "datasourceId": "saojorge_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.08599097152197999,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:38:43.441Z",
+    "lastUpdated": "2023-06-14T22:38:43.441Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_tour_fish.tif"
+  },
+  {
+    "datasourceId": "saojorge_tour_operators_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.6643838879176514,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:39:03.203Z",
+    "lastUpdated": "2023-06-14T22:39:03.203Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saojorge_tour_operators.tif"
+  },
+  {
+    "datasourceId": "saomiguel_aquaculture_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.0949262472886403,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:39:24.466Z",
+    "lastUpdated": "2023-06-14T22:39:24.466Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_aquaculture.tif"
+  },
+  {
+    "datasourceId": "saomiguel_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.3096777316838992,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:49:51.678Z",
+    "lastUpdated": "2023-06-14T22:49:51.678Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_comm_fish.tif"
+  },
+  {
+    "datasourceId": "saomiguel_energy_dev_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.18844300485492482,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:51:22.706Z",
+    "lastUpdated": "2023-06-14T22:51:22.706Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_energy_dev.tif"
+  },
+  {
+    "datasourceId": "saomiguel_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 39.8159393803627,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:53:50.640Z",
+    "lastUpdated": "2023-06-14T22:53:50.640Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_fish.tif"
+  },
+  {
+    "datasourceId": "saomiguel_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 156.5839624711867,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:55:22.792Z",
+    "lastUpdated": "2023-06-14T22:55:22.792Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "saomiguel_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 135.741955452833,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T22:57:06.733Z",
+    "lastUpdated": "2023-06-14T22:57:06.733Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_rec_sports.tif"
+  },
+  {
+    "datasourceId": "saomiguel_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.4009279744149894,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:07:48.178Z",
+    "lastUpdated": "2023-06-14T23:07:48.178Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_sci_tech.tif"
+  },
+  {
+    "datasourceId": "saomiguel_sec_def_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.15207130622002296,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:08:34.386Z",
+    "lastUpdated": "2023-06-14T23:08:34.386Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_sec_def.tif"
+  },
+  {
+    "datasourceId": "saomiguel_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.4057634234472278,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:09:54.692Z",
+    "lastUpdated": "2023-06-14T23:09:54.692Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_tour_fish.tif"
+  },
+  {
+    "datasourceId": "saomiguel_tour_operators",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.5625954738159973,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:11:35.650Z",
+    "lastUpdated": "2023-06-14T23:11:35.650Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/saomiguel_tour_operators.tif"
+  },
+  {
+    "datasourceId": "terceira_comm_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 1.0037595007025306,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:15:14.875Z",
+    "lastUpdated": "2023-06-14T23:15:14.875Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_comm_fish.tif"
+  },
+  {
+    "datasourceId": "terceira_cultural_heritage_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.11761352395478752,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:16:48.359Z",
+    "lastUpdated": "2023-06-14T23:16:48.359Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_cultural_heritage.tif"
+  },
+  {
+    "datasourceId": "terceira_rec_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 6.151582095351728,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:17:13.902Z",
+    "lastUpdated": "2023-06-14T23:17:13.902Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_fish.tif"
+  },
+  {
+    "datasourceId": "terceira_rec_sports_without_tour_ops_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 58.540533194163984,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:17:37.239Z",
+    "lastUpdated": "2023-06-14T23:17:37.239Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_sports_without_tour_ops.tif"
+  },
+  {
+    "datasourceId": "terceira_rec_sports_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 46.70486798030498,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:18:17.500Z",
+    "lastUpdated": "2023-06-14T23:18:17.500Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_rec_sports.tif"
+  },
+  {
+    "datasourceId": "terceira_sci_tech_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.009004083000897722,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:18:35.714Z",
+    "lastUpdated": "2023-06-14T23:18:35.714Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_sci_tech.tif"
+  },
+  {
+    "datasourceId": "terceira_tour_fish_ous",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 0.12792511781026406,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-06-14T23:18:55.901Z",
+    "lastUpdated": "2023-06-14T23:18:55.901Z",
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_tour_fish.tif"
+  },
+  {
+    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_tour_operators.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "terceira_tour_operators_ous",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-06-14T23:19:38.561Z",
+    "lastUpdated": "2023-06-14T23:19:38.561Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 0.5102583276222199,
           "count": null,
           "area": null
         }
