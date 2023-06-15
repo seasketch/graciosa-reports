@@ -443,17 +443,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,

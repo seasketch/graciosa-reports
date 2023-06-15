@@ -25,6 +25,7 @@ const precalcMetrics = project.getPrecalcMetrics(
   metricGroup.classKey
 );
 
+// Mapping island ids to display names for report
 const islands: { [id: string]: string } = {};
 islands["corvo"] = "Corvo";
 islands["pico"] = "Pico";
@@ -43,6 +44,7 @@ export const OUSCard = () => {
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
   console.log("inside OUS Card");
+  console.log("tests");
 
   return (
     <>
@@ -56,19 +58,24 @@ export const OUSCard = () => {
             ),
             [data.sketch.properties.id]
           );
+
           const sortedMetrics = sortMetrics(parentMetrics);
 
+          // grouping metrics by island prefix
           const groupedMetrics = sortedMetrics.reduce<Record<string, any>>(
             (groups, metric) => {
+              // get island id from classId prefix (i.e. "corvo", "saomiguel", "all")
               const island: string | undefined = metric.classId?.substring(
                 0,
                 metric.classId?.indexOf("_")
               );
+              // if there's no island prefix, make a note and skip it
               if (!island) {
                 console.log("Expected island id");
                 return groups;
               }
 
+              // adds metric to the island's metric array
               groups[island] = [...(groups[island] || []), metric];
               return groups;
             },

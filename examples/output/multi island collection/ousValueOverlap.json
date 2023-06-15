@@ -1803,51 +1803,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14458",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.00007589566773447132,
-      "extra": {
-        "sketchName": "multi island collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14459",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "sketch1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14460",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.00007589566773447132,
-      "extra": {
-        "sketchName": "sketch2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14461",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "sketch3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14458",
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,

@@ -356,13 +356,6 @@
             "layerId": ""
         },
         {
-            "classId": "pico_rec_fish_large_removed_ous",
-            "display": "Recreational Fishing (Large Areas Removed)",
-            "datasourceId": "pico_rec_fish_large_removed_ous",
-            "noDataValue": 0,
-            "layerId": ""
-        },
-        {
             "classId": "pico_rec_fish_ous",
             "display": "Recreational Fishing",
             "datasourceId": "pico_rec_fish_ous",

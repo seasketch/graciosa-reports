@@ -1140,28 +1140,6 @@
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_comm_fish.tif"
   },
   {
-    "datasourceId": "pico_rec_fish_large_removed_ous",
-    "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 32.99918136342595,
-          "area": null
-        }
-      }
-    },
-    "formats": [
-      "tif"
-    ],
-    "measurementType": "quantitative",
-    "band": 1,
-    "noDataValue": 0,
-    "created": "2023-06-14T22:18:39.426Z",
-    "lastUpdated": "2023-06-14T22:18:39.426Z",
-    "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/pico_rec_fish_large_removed.tif"
-  },
-  {
     "datasourceId": "pico_rec_fish_ous",
     "geo_type": "raster",
     "keyStats": {

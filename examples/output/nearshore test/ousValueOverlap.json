@@ -443,17 +443,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14455",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "nearshore test"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14455",
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,

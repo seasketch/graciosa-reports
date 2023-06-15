@@ -3123,84 +3123,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "pico_rec_fish_large_removed_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
@@ -5934,7 +5856,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 28.257028655284266,
+      "value": 2.437391349821482,
       "extra": {
         "sketchName": "big-collection",
         "isCollection": true
@@ -5979,7 +5901,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 22.672986661744623,
+      "value": 0.000042372761706932494,
       "extra": {
         "sketchName": "4"
       }
@@ -5990,7 +5912,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 5.584041993539643,
+      "value": 2.437348977059775,
       "extra": {
         "sketchName": "5"
       }

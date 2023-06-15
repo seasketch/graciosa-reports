@@ -62,7 +62,7 @@ export async function ousValueOverlap(
 export default new GeoprocessingHandler(ousValueOverlap, {
   title: "ousValueOverlap",
   description: "ocean use metrics",
-  timeout: 120, // seconds
+  timeout: 520, // seconds
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
