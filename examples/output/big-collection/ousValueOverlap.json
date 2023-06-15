@@ -939,240 +939,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 7.291359024710516,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 7.291359024710516,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.14454450623981074,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.14454450623981074,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "faial_aquaculture_ous",
       "groupId": null,
       "geographyId": null,
@@ -1563,84 +1329,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -1719,162 +1407,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0005349000242027557,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0003734705378732883,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0001614294863294674,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "flores_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
@@ -2187,84 +1719,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0019767785707927032,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0019767785707927032,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "flores_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -2414,84 +1868,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0009642740882487288,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0009642740882487288,
       "extra": {
         "sketchName": "6"
       }
@@ -2655,7 +2031,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2667,7 +2043,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14868",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2678,7 +2054,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14869",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2689,7 +2065,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14870",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2700,7 +2076,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14871",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2711,7 +2087,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14872",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2722,7 +2098,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "15042",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -2957,84 +2333,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "15042",
       "classId": "graciosa_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "graciosa_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -3279,84 +2577,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -3513,84 +2733,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "pico_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "santamaria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
@@ -3903,84 +3045,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "santamaria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -4127,84 +3191,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "15042",
       "classId": "santamaria_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "santamaria_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "santamaria_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "santamaria_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "santamaria_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "santamaria_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "santamaria_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "santamaria_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -4527,84 +3513,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "saojorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -4751,84 +3659,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "15042",
       "classId": "saojorge_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "saojorge_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "saojorge_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "saojorge_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "saojorge_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "saojorge_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "saojorge_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "saojorge_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -4995,84 +3825,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14867",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0021800617309608583,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.00039392693616946417,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.00028485921768606204,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.000730058674456302,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0007712169026490301,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
@@ -5222,84 +3974,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 0.00006513664794577378,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 7.33972132312601,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.004342535624630273,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.30852963920712995,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 7.026798222296819,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.000008484569034683531,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.000003680363226454819,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.00003876106517075595,
       "extra": {
         "sketchName": "6"
       }
@@ -5534,84 +4208,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.10395047950384195,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.002157091301661529,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.09957124423351615,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0021866956225327083,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.000006338003751382715,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.000002746624110150364,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.000026363718270028258,
       "extra": {
         "sketchName": "6"
       }
@@ -5856,7 +4452,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.437391349821482,
+      "value": 28.257028655284266,
       "extra": {
         "sketchName": "big-collection",
         "isCollection": true
@@ -5901,7 +4497,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000042372761706932494,
+      "value": 22.672986661744623,
       "extra": {
         "sketchName": "4"
       }
@@ -5912,7 +4508,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.437348977059775,
+      "value": 5.584041993539643,
       "extra": {
         "sketchName": "5"
       }
@@ -5921,84 +4517,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "15042",
       "classId": "terceira_rec_sports_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 51.95385368701341,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 45.88936333719175,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 6.064490349821654,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -6155,84 +4673,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "15042",
       "classId": "terceira_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "6"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14867",
-      "classId": "terceira_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.1911594776880121,
-      "extra": {
-        "sketchName": "big-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14868",
-      "classId": "terceira_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "1"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14869",
-      "classId": "terceira_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "2"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14870",
-      "classId": "terceira_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "3"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14871",
-      "classId": "terceira_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.08271357803657642,
-      "extra": {
-        "sketchName": "4"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14872",
-      "classId": "terceira_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.1084458996514357,
-      "extra": {
-        "sketchName": "5"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "15042",
-      "classId": "terceira_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,

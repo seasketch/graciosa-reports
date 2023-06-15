@@ -135,39 +135,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "corvo_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 20.75263631345331,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "corvo_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.07364695519208908,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "corvo_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 2.137438432094683,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "faial_aquaculture_ous",
       "groupId": null,
       "geographyId": null,
@@ -223,43 +190,10 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "faial_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0.0008510239143797449,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "faial_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "faial_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
       "extra": {
         "sketchName": "SDMtest-0p-Onychoprion"
       }
@@ -311,17 +245,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "flores_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 99.81009539695798,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "flores_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -337,17 +260,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 0.14254285422043722,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "flores_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 3.997398489517944,
       "extra": {
         "sketchName": "SDMtest-0p-Onychoprion"
       }
@@ -377,7 +289,7 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "graciosa_rec_sports_without_tour_ops_ous",
+      "classId": "graciosa_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -421,17 +333,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "graciosa_tour_operators_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
@@ -465,17 +366,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "pico_rec_sports_without_tour_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -488,17 +378,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
       "classId": "pico_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "pico_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -553,17 +432,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "santamaria_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "santamaria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -576,17 +444,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
       "classId": "santamaria_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "santamaria_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -641,17 +498,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "saojorge_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "saojorge_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -664,17 +510,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
       "classId": "saojorge_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "saojorge_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -707,17 +542,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "saomiguel_energy_dev_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.021552874241024256,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
@@ -733,17 +557,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 0.0002851372449426126,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "saomiguel_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.0001870578457860428,
       "extra": {
         "sketchName": "SDMtest-0p-Onychoprion"
       }
@@ -777,17 +590,6 @@
       "groupId": null,
       "geographyId": null,
       "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "saomiguel_tour_operators",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0.00009827144600671467,
       "extra": {
         "sketchName": "SDMtest-0p-Onychoprion"
       }
@@ -839,17 +641,6 @@
     {
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
-      "classId": "terceira_rec_sports_without_tour_ops_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
       "classId": "terceira_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
@@ -862,17 +653,6 @@
       "metricId": "ousValueOverlap",
       "sketchId": "14753",
       "classId": "terceira_tour_fish_ous",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "SDMtest-0p-Onychoprion"
-      }
-    },
-    {
-      "metricId": "ousValueOverlap",
-      "sketchId": "14753",
-      "classId": "terceira_tour_operators_ous",
       "groupId": null,
       "geographyId": null,
       "value": 0,
