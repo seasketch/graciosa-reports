@@ -19,14 +19,26 @@ import {
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("ousValueOverlap");
+const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "sum",
   metricGroup.classKey
 );
 
-export const OUSCard = () => {
+// Mapping island ids to display names for report
+const islands: { [id: string]: string } = {};
+islands["corvo"] = "Corvo";
+islands["pico"] = "Pico";
+islands["saojorge"] = "São Jorge";
+islands["saomiguel"] = "São Miguel";
+islands["terceira"] = "Terceira";
+islands["flores"] = "Flores";
+islands["faial"] = "Faial";
+islands["santamaria"] = "Santa Maria";
+islands["graciosa"] = "Graciosa";
+
+export const OUSByIslandCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
@@ -42,8 +54,8 @@ export const OUSCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Ocean Use - Nearshore")}
-        functionName="ousValueOverlap"
+        title={t("Ocean Use - By Island")}
+        functionName="ousByIslandValueOverlap"
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
@@ -55,18 +67,50 @@ export const OUSCard = () => {
             [data.sketch.properties.id]
           );
 
+          const sortedMetrics = sortMetrics(parentMetrics);
+
+          // grouping metrics by island prefix
+          const groupedMetrics = sortedMetrics.reduce<Record<string, any>>(
+            (groups, metric) => {
+              // get island id from classId prefix (i.e. "corvo", "saomiguel", "all")
+              const island: string | undefined = metric.classId?.substring(
+                0,
+                metric.classId?.indexOf("_")
+              );
+              // if there's no island prefix, make a note and skip it
+              if (!island) {
+                console.log("Expected island id");
+                return groups;
+              }
+
+              // adds metric to the island's metric array
+              groups[island] = [...(groups[island] || []), metric];
+              return groups;
+            },
+            {}
+          );
+
           return (
             <>
-              <Trans i18nKey="OUS Card">
+              <Trans i18nKey="OUS By Island Card">
                 <p>
-                  This report summarizes the percentage of ocean use activities
-                  that overlap with this nearshore plan, as reported in the
-                  Ocean Use Survey. Plans should consider the potential impact
-                  to sectors if access or activities are restricted.
+                  This report summarizes the percentage of activities that
+                  overlap with ocean use by island inhabitants, as reported in
+                  the Ocean Use Survey. Plans should consider the potential
+                  impact to sectors if access or activities are restricted.
                 </p>
               </Trans>
+
+              {"Ocean use by "}
+              <select onChange={islandSwitcher}>
+                {Object.keys(islands).map((island: string) => {
+                  return <option value={island}>{islands[island]}</option>;
+                })}
+              </select>
+              {" inhabitants represented in Ocean Use Survey."}
+
               <ClassTable
-                rows={parentMetrics}
+                rows={groupedMetrics[island]}
                 metricGroup={metricGroup}
                 columnConfig={[
                   {
@@ -91,14 +135,8 @@ export const OUSCard = () => {
                   },
                 ]}
               />
-              {isCollection && (
-                <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data)}
-                </Collapse>
-              )}
-
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="OUS Card - learn more">
+                <Trans i18nKey="OUS By Island Card - learn more">
                   <p>
                     ℹ️ Overview: to capture the value each sector places on
                     different areas of the nearshore, an Ocean Use Survey was
@@ -146,8 +184,11 @@ export const OUSCard = () => {
                     overlap, the overlap is only counted once.
                   </p>
                   <p>
-                    This report shows the percentage of EEZ-wide value that is
-                    contained by the nearshore plan.
+                    This report shows the percentage of EEZ-wide value of this
+                    island's fishers which is contained by the nearshore plan.
+                    For example, "By island: Corvo" will display % value of
+                    Corvo fishers contained within the plan. Toggle the
+                    corresponding maps to see the data layers used in analysis.
                   </p>
                 </Trans>
               </Collapse>
@@ -156,23 +197,5 @@ export const OUSCard = () => {
         }}
       </ResultsCard>
     </>
-  );
-};
-
-const genSketchTable = (data: ReportResult) => {
-  const childSketches = toNullSketchArray(data.sketch);
-  const childSketchIds = childSketches.map((sk) => sk.properties.id);
-  const childSketchMetrics = toPercentMetric(
-    metricsWithSketchId(data.metrics, childSketchIds),
-    precalcMetrics
-  );
-  const sketchRows = flattenBySketchAllClass(
-    childSketchMetrics,
-    metricGroup.classes,
-    childSketches
-  );
-
-  return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
   );
 };

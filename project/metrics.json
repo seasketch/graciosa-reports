@@ -138,7 +138,13 @@
                 "datasourceId": "all_underwater_cultural_heritage_ous",
                 "noDataValue": 0,
                 "layerId": "ONDTJv3qq"
-            },
+            }
+        ]
+    },
+    {
+        "metricId": "ousByIslandValueOverlap",
+        "type": "valueOverlap",
+        "classes": [
             {
                 "classId": "corvo_comm_fish_ous",
                 "display": "Commercial Fishing",
