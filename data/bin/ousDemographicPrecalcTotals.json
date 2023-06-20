@@ -1,0 +1,500 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "ousPeopleCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4644
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "ousRespondentCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1972
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Recreation, sports and tourism",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3446
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Recreation, sports and tourism",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1377
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Recreational fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1366
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Recreational fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 662
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Touristic fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 246
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Touristic fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 49
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Commercial fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 842
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Commercial fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 322
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Scientific Research, Technological Development and Environmental Monitoring",
+      "groupId": null,
+      "geographyId": null,
+      "value": 143
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Scientific Research, Technological Development and Environmental Monitoring",
+      "groupId": null,
+      "geographyId": null,
+      "value": 34
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Underwater cultural heritage",
+      "groupId": null,
+      "geographyId": null,
+      "value": 30
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Underwater cultural heritage",
+      "groupId": null,
+      "geographyId": null,
+      "value": 14
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Security and defense",
+      "groupId": null,
+      "geographyId": null,
+      "value": 20
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Security and defense",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Energy Development",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Energy Development",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Aquaculture",
+      "groupId": null,
+      "geographyId": null,
+      "value": 19
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Aquaculture",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "flores",
+      "groupId": null,
+      "geographyId": null,
+      "value": 402
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "flores",
+      "groupId": null,
+      "geographyId": null,
+      "value": 164
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "santa maria",
+      "groupId": null,
+      "geographyId": null,
+      "value": 515
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "santa maria",
+      "groupId": null,
+      "geographyId": null,
+      "value": 153
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "corvo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 78
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "corvo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 73
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "graciosa",
+      "groupId": null,
+      "geographyId": null,
+      "value": 196
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "graciosa",
+      "groupId": null,
+      "geographyId": null,
+      "value": 131
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 815
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 333
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "faial",
+      "groupId": null,
+      "geographyId": null,
+      "value": 401
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "faial",
+      "groupId": null,
+      "geographyId": null,
+      "value": 111
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "saomiguel",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1483
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "saomiguel",
+      "groupId": null,
+      "geographyId": null,
+      "value": 586
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "saojorge",
+      "groupId": null,
+      "geographyId": null,
+      "value": 389
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "saojorge",
+      "groupId": null,
+      "geographyId": null,
+      "value": 174
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "terceira",
+      "groupId": null,
+      "geographyId": null,
+      "value": 365
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "terceira",
+      "groupId": null,
+      "geographyId": null,
+      "value": 247
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "unknown-gear",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4051
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "unknown-gear",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1751
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Pole and line",
+      "groupId": null,
+      "geographyId": null,
+      "value": 226
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Pole and line",
+      "groupId": null,
+      "geographyId": null,
+      "value": 41
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Hook and line - Handline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 425
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Hook and line - Handline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 160
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Hook and line - Shoreline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 59
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Hook and line - Shoreline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 34
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Gillnets and trammel nets",
+      "groupId": null,
+      "geographyId": null,
+      "value": 13
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Gillnets and trammel nets",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Harvesting",
+      "groupId": null,
+      "geographyId": null,
+      "value": 120
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Harvesting",
+      "groupId": null,
+      "geographyId": null,
+      "value": 79
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Lift nets",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Lift nets",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Squid jigging",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Squid jigging",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Purse seines",
+      "groupId": null,
+      "geographyId": null,
+      "value": 48
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Purse seines",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Hook and line - Bottom longline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 151
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Hook and line - Bottom longline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 44
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Pots and traps",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Pots and traps",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": null,
+      "classId": "Hook and line - Drift longline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": null,
+      "classId": "Hook and line - Drift longline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2
+    }
+  ]
+}

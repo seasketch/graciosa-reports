@@ -1,501 +1,717 @@
-[{
-  "metricId": "boundaryAreaOverlap",
-  "type": "areaOverlap",
-  "classes": [
-      {
-        "classId": "nearshore",
-        "display": "Nearshore",
-        "datasourceId": "6nm_boundary",
-        "objectiveId": "nearshore_fully_protected",
-        "layerId": "JzIkqhQ_i"
+[
+    {
+        "metricId": "boundaryAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "nearshore",
+                "display": "Nearshore",
+                "datasourceId": "6nm_boundary",
+                "objectiveId": "nearshore_fully_protected",
+                "layerId": "JzIkqhQ_i"
+            }
+        ]
+    },
+    {
+        "metricId": "sdmValueOverlap",
+        "type": "valueOverlap",
+        "classes": [
+            {
+                "datasourceId": "PA_Bulweria_bulwerii_baseline",
+                "classId": "PA_Bulweria_bulwerii_baseline",
+                "display": "Bulweria bulwerii",
+                "layerId": "9nG7r19AY"
+            },
+            {
+                "datasourceId": "PA_Calonectris_borealis_baseline",
+                "classId": "PA_Calonectris_borealis_baseline",
+                "display": "Calonectris borealis",
+                "layerId": "KJ8Qi0IkG"
+            },
+            {
+                "datasourceId": "PA_Larus_michahellis_baseline",
+                "classId": "PA_Larus_michahellis_baseline",
+                "display": "Larus michahellis",
+                "layerId": "cZXSLyg6P"
+            },
+            {
+                "datasourceId": "PA_Oceanodroma_castro_baseline",
+                "classId": "PA_Oceanodroma_castro_baseline",
+                "display": "Oceanodroma castro",
+                "layerId": "Dr4nmM3Zt"
+            },
+            {
+                "datasourceId": "PA_Onychoprion_fuscatus_baseline",
+                "classId": "PA_Onychoprion_fuscatus_baseline",
+                "display": "Onychoprion fuscatus",
+                "layerId": "e6N4egZLo"
+            },
+            {
+                "datasourceId": "PA_Puffinus_baroli_baseline",
+                "classId": "PA_Puffinus_baroli_baseline",
+                "display": "Puffinus baroli",
+                "layerId": "Q46I_my6p"
+            },
+            {
+                "datasourceId": "PA_Puffinus_puffinus_baseline",
+                "classId": "PA_Puffinus_puffinus_baseline",
+                "display": "Puffinus puffinus",
+                "layerId": "9fgrHrcwv"
+            },
+            {
+                "datasourceId": "PA_Sterna_dougallii_baseline",
+                "classId": "PA_Sterna_dougallii_baseline",
+                "display": "Sterna dougallii",
+                "layerId": "aPPuOPrBv"
+            },
+            {
+                "datasourceId": "PA_Sterna_hirundo_baseline",
+                "classId": "PA_Sterna_hirundo_baseline",
+                "display": "Sterna hirundo",
+                "layerId": "2GRFBHCG8"
+            }
+        ]
+    },
+    {
+        "metricId": "ousValueOverlap",
+        "type": "valueOverlap",
+        "classes": [
+            {
+                "classId": "all_aquaculture_ous",
+                "display": "Aquaculture",
+                "datasourceId": "all_aquaculture_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_commercial_fishing_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "all_commercial_fishing_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_energy_development_ous",
+                "display": "Energy Development",
+                "datasourceId": "all_energy_development_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_recreation_sports_and_tourism_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "all_recreation_sports_and_tourism_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_recreational_fishing_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "all_recreational_fishing_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_science_tech_monitoring_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "all_science_tech_monitoring_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_security_and_defense_ous",
+                "display": "Security and Defense",
+                "datasourceId": "all_security_and_defense_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_touristic_fishing_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "all_touristic_fishing_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "all_underwater_cultural_heritage_ous",
+                "display": "Underwater Cultural Heritage",
+                "datasourceId": "all_underwater_cultural_heritage_ous",
+                "noDataValue": 0,
+                "layerId": ""
+            },
+            {
+                "classId": "corvo_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "corvo_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "jHuXKw9je"
+            },
+            {
+                "classId": "corvo_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "corvo_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "uLOLdkBGX"
+            },
+            {
+                "classId": "corvo_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "corvo_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "rrYChHdXp"
+            },
+            {
+                "classId": "faial_aquaculture_ous",
+                "display": "Aquaculture",
+                "datasourceId": "faial_aquaculture_ous",
+                "noDataValue": 0,
+                "layerId": "jOivD2JXv"
+            },
+            {
+                "classId": "faial_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "faial_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "A8jgO7v9W"
+            },
+            {
+                "classId": "faial_energy_dev_ous",
+                "display": "Energy Development",
+                "datasourceId": "faial_energy_dev_ous",
+                "noDataValue": 0,
+                "layerId": "xFdCukoBB"
+            },
+            {
+                "classId": "faial_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "faial_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "LsajaWcXE"
+            },
+            {
+                "classId": "faial_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "faial_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "vVZDBI3zF"
+            },
+            {
+                "classId": "faial_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "faial_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "rEWGpDrd0"
+            },
+            {
+                "classId": "flores_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "flores_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "TjY4Spytx"
+            },
+            {
+                "classId": "flores_cultural_heritage_ous",
+                "display": "Underwater Cultural Heritage",
+                "datasourceId": "flores_cultural_heritage_ous",
+                "noDataValue": 0,
+                "layerId": "iQYhVQpT3"
+            },
+            {
+                "classId": "flores_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "flores_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "rNQgFKLzC"
+            },
+            {
+                "classId": "flores_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "flores_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "lb7mB5LCg"
+            },
+            {
+                "classId": "flores_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "flores_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "GLqeu1Blr"
+            },
+            {
+                "classId": "flores_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "flores_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "2ifCR8MRu"
+            },
+            {
+                "classId": "graciosa_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "graciosa_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "d5iCq4OW6"
+            },
+            {
+                "classId": "graciosa_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "graciosa_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "kMIuZKILN"
+            },
+            {
+                "classId": "graciosa_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "graciosa_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "mBqkdS6wg"
+            },
+            {
+                "classId": "graciosa_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "graciosa_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "i8IffKIoV"
+            },
+            {
+                "classId": "graciosa_sec_def_ous",
+                "display": "Security and Defense",
+                "datasourceId": "graciosa_sec_def_ous",
+                "noDataValue": 0,
+                "layerId": "IBMcZaIFd"
+            },
+            {
+                "classId": "graciosa_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "graciosa_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "F5USlTkAe"
+            },
+            {
+                "classId": "pico_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "pico_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "jKc591VFs"
+            },
+            {
+                "classId": "pico_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "pico_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "bD_zeLg7L"
+            },
+            {
+                "classId": "pico_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "pico_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "SO9y1NdOu"
+            },
+            {
+                "classId": "pico_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "pico_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "ApDkYmRPz"
+            },
+            {
+                "classId": "pico_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "pico_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "eKQhExpWa"
+            },
+            {
+                "classId": "santamaria_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "santamaria_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "XcjHpoOD5"
+            },
+            {
+                "classId": "santamaria_cultural_heritage_ous",
+                "display": "Underwater Cultural Heritage",
+                "datasourceId": "santamaria_cultural_heritage_ous",
+                "noDataValue": 0,
+                "layerId": "OVD43_6Iw"
+            },
+            {
+                "classId": "santamaria_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "santamaria_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "3xurnvR7L"
+            },
+            {
+                "classId": "santamaria_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "santamaria_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "LXIFA94QT"
+            },
+            {
+                "classId": "santamaria_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "santamaria_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "0jpx5Is9m"
+            },
+            {
+                "classId": "santamaria_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "santamaria_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "OMWgjeQeN"
+            },
+            {
+                "classId": "saojorge_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "saojorge_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "fK7Yrx95T"
+            },
+            {
+                "classId": "saojorge_cultural_heritage_ous",
+                "display": "Underwater Cultural Heritage",
+                "datasourceId": "saojorge_cultural_heritage_ous",
+                "noDataValue": 0,
+                "layerId": "Bl7RqHbCa"
+            },
+            {
+                "classId": "saojorge_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "saojorge_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "aI7bnPiaN"
+            },
+            {
+                "classId": "saojorge_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "saojorge_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "E8T71_KeY"
+            },
+            {
+                "classId": "saojorge_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "saojorge_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "LSZ3gMElM"
+            },
+            {
+                "classId": "saojorge_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "saojorge_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "Ysz2ZBX1y"
+            },
+            {
+                "classId": "saomiguel_aquaculture_ous",
+                "display": "Aquaculture",
+                "datasourceId": "saomiguel_aquaculture_ous",
+                "noDataValue": 0,
+                "layerId": "Rhm3RlX0C"
+            },
+            {
+                "classId": "saomiguel_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "saomiguel_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "hyn9VjcWc"
+            },
+            {
+                "classId": "saomiguel_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "saomiguel_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "kQi5L60LK"
+            },
+            {
+                "classId": "saomiguel_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "saomiguel_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "I8hvsWiwy"
+            },
+            {
+                "classId": "saomiguel_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "saomiguel_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "e6YGmHOp2"
+            },
+            {
+                "classId": "saomiguel_sec_def_ous",
+                "display": "Security and Defense",
+                "datasourceId": "saomiguel_sec_def_ous",
+                "noDataValue": 0,
+                "layerId": "2z9BvCsFz"
+            },
+            {
+                "classId": "saomiguel_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "saomiguel_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "upVoY3UPe"
+            },
+            {
+                "classId": "terceira_comm_fish_ous",
+                "display": "Commercial Fishing",
+                "datasourceId": "terceira_comm_fish_ous",
+                "noDataValue": 0,
+                "layerId": "NaXX80fMk"
+            },
+            {
+                "classId": "terceira_cultural_heritage_ous",
+                "display": "Underwater Cultural Heritage",
+                "datasourceId": "terceira_cultural_heritage_ous",
+                "noDataValue": 0,
+                "layerId": "e5khK8XzQ"
+            },
+            {
+                "classId": "terceira_rec_fish_ous",
+                "display": "Recreational Fishing",
+                "datasourceId": "terceira_rec_fish_ous",
+                "noDataValue": 0,
+                "layerId": "qvEf9nmG3"
+            },
+            {
+                "classId": "terceira_rec_sports_ous",
+                "display": "Recreation, Sports, and Tourism",
+                "datasourceId": "terceira_rec_sports_ous",
+                "noDataValue": 0,
+                "layerId": "JCmNYuW_t"
+            },
+            {
+                "classId": "terceira_sci_tech_ous",
+                "display": "Science, Technology, and Monitoring",
+                "datasourceId": "terceira_sci_tech_ous",
+                "noDataValue": 0,
+                "layerId": "Jiuli0d5T"
+            },
+            {
+                "classId": "terceira_tour_fish_ous",
+                "display": "Touristic Fishing",
+                "datasourceId": "terceira_tour_fish_ous",
+                "noDataValue": 0,
+                "layerId": "6k4OD8cre"
+            }
+        ]
+    },
+    {
+        "metricId": "ousOverallDemographicOverlap",
+        "type": "countOverlap",
+        "classes": [
+            {
+                "classId": "ousPeopleCount_all",
+                "display": "Total",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            }
+        ]
+    },
+    {
+        "metricId": "ousSectorDemographicOverlap",
+        "type": "countOverlap",
+        "classes": [
+            {
+                "classId": "Recreation, sports and tourism",
+                "display": "Recreation, sports and tourism",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Recreational fishing",
+                "display": "Recreational fishing",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Touristic fishing",
+                "display": "Touristic fishing",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Commercial fishing",
+                "display": "Commercial fishing",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Scientific Research, Technological Development and Environmental Monitoring",
+                "display": "Scientific Research, Technological Development and Environmental Monitoring",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Underwater cultural heritage",
+                "display": "Underwater cultural heritage",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Security and defense",
+                "display": "Security and defense",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Energy Development",
+                "display": "Energy Development",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Aquaculture",
+                "display": "Aquaculture",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            }
+        ]
+    },
+    {
+        "metricId": "ousIslandDemographicOverlap",
+        "type": "countOverlap",
+        "classes": [
+            {
+                "classId": "corvo",
+                "display": "Corvo",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "faial",
+                "display": "Faial",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "flores",
+                "display": "Flores",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "graciosa",
+                "display": "Graciosa",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "pico",
+                "display": "Pico",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "santa maria",
+                "display": "Santa Maria",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "saojorge",
+                "display": "São Jorge",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "saomiguel",
+                "display": "São Miguel",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "terceira",
+                "display": "Terceira",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "unknown-island",
+                "display": "Unknown",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            }
+        ]
+    },
+    {
+        "metricId": "ousGearDemographicOverlap",
+        "type": "countOverlap",
+        "classes": [
+            {
+                "classId": "Gillnets and trammel nets",
+                "display": "Gillnets and trammel nets",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Harvesting",
+                "display": "Harvesting",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Hook and line - Bottom longline",
+                "display": "Hook and line - Bottom longline",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Hook and line - Drift longline",
+                "display": "Hook and line - Drift longline",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Hook and line - Handline",
+                "display": "Hook and line - Handline",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Hook and line - Shoreline",
+                "display": "Hook and line - Shoreline",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Lift nets",
+                "display": "Lift nets",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Pole and line",
+                "display": "Pole and line",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Pots and traps",
+                "display": "Pots and traps",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Purse seines",
+                "display": "Purse seines",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "Squid jigging",
+                "display": "Squid jigging",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            },
+            {
+                "classId": "unknown-gear",
+                "display": "Unknown-gear",
+                "datasourceId": "ous_demographics.fgb",
+                "layerId": ""
+            }
+        ]
     }
-  ]
-},
-{
-"metricId": "sdmValueOverlap",
-"type": "valueOverlap",
-"classes": [
-    {
-        "datasourceId": "PA_Bulweria_bulwerii_baseline",
-        "classId": "PA_Bulweria_bulwerii_baseline",
-        "display": "Bulweria bulwerii",
-        "layerId": "9nG7r19AY"
-    },
-    {
-        "datasourceId": "PA_Calonectris_borealis_baseline",
-        "classId": "PA_Calonectris_borealis_baseline",
-        "display": "Calonectris borealis",
-        "layerId": "KJ8Qi0IkG"
-    },
-    {
-        "datasourceId": "PA_Larus_michahellis_baseline",
-        "classId": "PA_Larus_michahellis_baseline",
-        "display": "Larus michahellis",
-        "layerId": "cZXSLyg6P"
-    },
-    {
-        "datasourceId": "PA_Oceanodroma_castro_baseline",
-        "classId": "PA_Oceanodroma_castro_baseline",
-        "display": "Oceanodroma castro",
-        "layerId": "Dr4nmM3Zt"
-    },
-    {
-        "datasourceId": "PA_Onychoprion_fuscatus_baseline",
-        "classId": "PA_Onychoprion_fuscatus_baseline",
-        "display": "Onychoprion fuscatus",
-        "layerId": "e6N4egZLo"
-    },
-    {
-        "datasourceId": "PA_Puffinus_baroli_baseline",
-        "classId": "PA_Puffinus_baroli_baseline",
-        "display": "Puffinus baroli",
-        "layerId": "Q46I_my6p"
-    },
-    {
-        "datasourceId": "PA_Puffinus_puffinus_baseline",
-        "classId": "PA_Puffinus_puffinus_baseline",
-        "display": "Puffinus puffinus",
-        "layerId": "9fgrHrcwv"
-    },
-    {
-        "datasourceId": "PA_Sterna_dougallii_baseline",
-        "classId": "PA_Sterna_dougallii_baseline",
-        "display": "Sterna dougallii",
-        "layerId": "aPPuOPrBv"
-    },
-    {
-        "datasourceId": "PA_Sterna_hirundo_baseline",
-        "classId": "PA_Sterna_hirundo_baseline",
-        "display": "Sterna hirundo",
-        "layerId": "2GRFBHCG8"
-    }
-]
-},
-{
-"metricId": "ousValueOverlap",
-"type": "valueOverlap",
-"classes": [
-    {
-        "classId": "all_aquaculture_ous",
-        "display": "Aquaculture",
-        "datasourceId": "all_aquaculture_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_commercial_fishing_ous",
-        "display": "Commercial Fishing",
-        "datasourceId": "all_commercial_fishing_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_energy_development_ous",
-        "display": "Energy Development",
-        "datasourceId": "all_energy_development_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_recreation_sports_and_tourism_ous",
-        "display": "Recreation, Sports, and Tourism",
-        "datasourceId": "all_recreation_sports_and_tourism_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_recreational_fishing_ous",
-        "display": "Recreational Fishing",
-        "datasourceId": "all_recreational_fishing_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_science_tech_monitoring_ous",
-        "display": "Science, Technology, and Monitoring",
-        "datasourceId": "all_science_tech_monitoring_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_security_and_defense_ous",
-        "display": "Security and Defense",
-        "datasourceId": "all_security_and_defense_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_touristic_fishing_ous",
-        "display": "Touristic Fishing",
-        "datasourceId": "all_touristic_fishing_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-        "classId": "all_underwater_cultural_heritage_ous",
-        "display": "Underwater Cultural Heritage",
-        "datasourceId": "all_underwater_cultural_heritage_ous",
-        "noDataValue": 0,
-        "layerId": ""
-    },
-    {
-            "classId": "corvo_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "corvo_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "jHuXKw9je"
-        },
-        {
-            "classId": "corvo_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "corvo_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "uLOLdkBGX"
-        },
-        {
-            "classId": "corvo_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "corvo_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "rrYChHdXp"
-        },
-        {
-            "classId": "faial_aquaculture_ous",
-            "display": "Aquaculture",
-            "datasourceId": "faial_aquaculture_ous",
-            "noDataValue": 0,
-            "layerId": "jOivD2JXv"
-        },
-        {
-            "classId": "faial_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "faial_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "A8jgO7v9W"
-        },
-        {
-            "classId": "faial_energy_dev_ous",
-            "display": "Energy Development",
-            "datasourceId": "faial_energy_dev_ous",
-            "noDataValue": 0,
-            "layerId": "xFdCukoBB"
-        },
-        {
-            "classId": "faial_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "faial_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "LsajaWcXE"
-        },
-        {
-            "classId": "faial_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "faial_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "vVZDBI3zF"
-        },
-        {
-            "classId": "faial_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "faial_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "rEWGpDrd0"
-        },
-        {
-            "classId": "flores_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "flores_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "TjY4Spytx"
-        },
-        {
-            "classId": "flores_cultural_heritage_ous",
-            "display": "Underwater Cultural Heritage",
-            "datasourceId": "flores_cultural_heritage_ous",
-            "noDataValue": 0,
-            "layerId": "iQYhVQpT3"
-        },
-        {
-            "classId": "flores_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "flores_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "rNQgFKLzC"
-        },
-        {
-            "classId": "flores_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "flores_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "lb7mB5LCg"
-        },
-        {
-            "classId": "flores_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "flores_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "GLqeu1Blr"
-        },
-        {
-            "classId": "flores_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "flores_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "2ifCR8MRu"
-        },
-        {
-            "classId": "graciosa_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "graciosa_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "d5iCq4OW6"
-        },
-        {
-            "classId": "graciosa_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "graciosa_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "kMIuZKILN"
-        },
-        {
-            "classId": "graciosa_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "graciosa_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "mBqkdS6wg"
-        },
-        {
-            "classId": "graciosa_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "graciosa_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "i8IffKIoV"
-        },
-        {
-            "classId": "graciosa_sec_def_ous",
-            "display": "Security and Defense",
-            "datasourceId": "graciosa_sec_def_ous",
-            "noDataValue": 0,
-            "layerId": "IBMcZaIFd"
-        },
-        {
-            "classId": "graciosa_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "graciosa_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "F5USlTkAe"
-        },
-        {
-            "classId": "pico_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "pico_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "jKc591VFs"
-        },
-        {
-            "classId": "pico_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "pico_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "bD_zeLg7L"
-        },
-        {
-            "classId": "pico_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "pico_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "SO9y1NdOu"
-        },
-        {
-            "classId": "pico_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "pico_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "ApDkYmRPz"
-        },
-        {
-            "classId": "pico_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "pico_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "eKQhExpWa"
-        },
-        {
-            "classId": "santamaria_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "santamaria_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "XcjHpoOD5"
-        },
-        {
-            "classId": "santamaria_cultural_heritage_ous",
-            "display": "Underwater Cultural Heritage",
-            "datasourceId": "santamaria_cultural_heritage_ous",
-            "noDataValue": 0,
-            "layerId": "OVD43_6Iw"
-        },
-        {
-            "classId": "santamaria_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "santamaria_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "3xurnvR7L"
-        },
-        {
-            "classId": "santamaria_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "santamaria_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "LXIFA94QT"
-        },
-        {
-            "classId": "santamaria_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "santamaria_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "0jpx5Is9m"
-        },
-        {
-            "classId": "santamaria_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "santamaria_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "OMWgjeQeN"
-        },
-        {
-            "classId": "saojorge_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "saojorge_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "fK7Yrx95T"
-        },
-        {
-            "classId": "saojorge_cultural_heritage_ous",
-            "display": "Underwater Cultural Heritage",
-            "datasourceId": "saojorge_cultural_heritage_ous",
-            "noDataValue": 0,
-            "layerId": "Bl7RqHbCa"
-        },
-        {
-            "classId": "saojorge_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "saojorge_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "aI7bnPiaN"
-        },
-        {
-            "classId": "saojorge_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "saojorge_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "E8T71_KeY"
-        },
-        {
-            "classId": "saojorge_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "saojorge_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "LSZ3gMElM"
-        },
-        {
-            "classId": "saojorge_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "saojorge_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "Ysz2ZBX1y"
-        },
-        {
-            "classId": "saomiguel_aquaculture_ous",
-            "display": "Aquaculture",
-            "datasourceId": "saomiguel_aquaculture_ous",
-            "noDataValue": 0,
-            "layerId": "Rhm3RlX0C"
-        },
-        {
-            "classId": "saomiguel_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "saomiguel_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "hyn9VjcWc"
-        },
-        {
-            "classId": "saomiguel_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "saomiguel_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "kQi5L60LK"
-        },
-        {
-            "classId": "saomiguel_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "saomiguel_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "I8hvsWiwy"
-        },
-        {
-            "classId": "saomiguel_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "saomiguel_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "e6YGmHOp2"
-        },
-        {
-            "classId": "saomiguel_sec_def_ous",
-            "display": "Security and Defense",
-            "datasourceId": "saomiguel_sec_def_ous",
-            "noDataValue": 0,
-            "layerId": "2z9BvCsFz"
-        },
-        {
-            "classId": "saomiguel_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "saomiguel_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "upVoY3UPe"
-        },
-        {
-            "classId": "terceira_comm_fish_ous",
-            "display": "Commercial Fishing",
-            "datasourceId": "terceira_comm_fish_ous",
-            "noDataValue": 0,
-            "layerId": "NaXX80fMk"
-        },
-        {
-            "classId": "terceira_cultural_heritage_ous",
-            "display": "Underwater Cultural Heritage",
-            "datasourceId": "terceira_cultural_heritage_ous",
-            "noDataValue": 0,
-            "layerId": "e5khK8XzQ"
-        },
-        {
-            "classId": "terceira_rec_fish_ous",
-            "display": "Recreational Fishing",
-            "datasourceId": "terceira_rec_fish_ous",
-            "noDataValue": 0,
-            "layerId": "qvEf9nmG3"
-        },
-        {
-            "classId": "terceira_rec_sports_ous",
-            "display": "Recreation, Sports, and Tourism",
-            "datasourceId": "terceira_rec_sports_ous",
-            "noDataValue": 0,
-            "layerId": "JCmNYuW_t"
-        },
-        {
-            "classId": "terceira_sci_tech_ous",
-            "display": "Science, Technology, and Monitoring",
-            "datasourceId": "terceira_sci_tech_ous",
-            "noDataValue": 0,
-            "layerId": "Jiuli0d5T"
-        },
-        {
-            "classId": "terceira_tour_fish_ous",
-            "display": "Touristic Fishing",
-            "datasourceId": "terceira_tour_fish_ous",
-            "noDataValue": 0,
-            "layerId": "6k4OD8cre"
-        }
-            
-    ]
-    } 
 ]
