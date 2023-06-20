@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
   SketchClassTable,
   ClassTable,
   useSketchProperties,
+  Dropdown,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -43,8 +44,12 @@ export const OUSCard = () => {
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
-  console.log("inside OUS Card");
-  console.log("tests");
+
+  const [island, setIslandVisible] = useState("corvo");
+
+  const islandSwitcher = (e: any) => {
+    setIslandVisible(e.target.value);
+  };
 
   return (
     <>
@@ -92,7 +97,6 @@ export const OUSCard = () => {
                   if access or activities are restricted.
                 </p>
               </Trans>
-
               <ClassTable
                 rows={groupedMetrics["all"]}
                 metricGroup={metricGroup}
@@ -119,47 +123,45 @@ export const OUSCard = () => {
                   },
                 ]}
               />
-
               {/* {isCollection && (
                 <Collapse title={t("Show by MPA")}>
                   {genSketchTable(data)}
                 </Collapse>
               )} */}
 
-              {Object.keys(groupedMetrics).map((island: string) => {
-                if (island === "all") return;
-                return (
-                  <Collapse title={t("Show by island: ") + islands[island]}>
-                    <ClassTable
-                      rows={groupedMetrics[island]}
-                      metricGroup={metricGroup}
-                      columnConfig={[
-                        {
-                          columnLabel: sectorLabel,
-                          type: "class",
-                          width: 45,
-                        },
-                        {
-                          columnLabel: percValueLabel,
-                          type: "metricChart",
-                          metricId: metricGroup.metricId,
-                          valueFormatter: "percent",
-                          chartOptions: {
-                            showTitle: true,
-                          },
-                          width: 45,
-                        },
-                        {
-                          columnLabel: mapLabel,
-                          type: "layerToggle",
-                          width: 10,
-                        },
-                      ]}
-                    />
-                  </Collapse>
-                );
-              })}
+              {<b>Show by island: </b>}
+              <select onChange={islandSwitcher}>
+                {Object.keys(islands).map((island: string) => {
+                  return <option value={island}>{islands[island]}</option>;
+                })}
+              </select>
 
+              <ClassTable
+                rows={groupedMetrics[island]}
+                metricGroup={metricGroup}
+                columnConfig={[
+                  {
+                    columnLabel: sectorLabel,
+                    type: "class",
+                    width: 45,
+                  },
+                  {
+                    columnLabel: percValueLabel,
+                    type: "metricChart",
+                    metricId: metricGroup.metricId,
+                    valueFormatter: "percent",
+                    chartOptions: {
+                      showTitle: true,
+                    },
+                    width: 45,
+                  },
+                  {
+                    columnLabel: mapLabel,
+                    type: "layerToggle",
+                    width: 10,
+                  },
+                ]}
+              />
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="OUS Card - learn more">
                   <p>

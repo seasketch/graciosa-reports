@@ -140,7 +140,7 @@ export const OusDemographics = () => {
                   <span>
                     This is a <b>draft</b> report. Further changes or
                     corrections may be made. Please report any issues. Survey
-                    results last updated: 12/22/2022
+                    results last updated: 6/20/2023
                   </span>
                 }
               />

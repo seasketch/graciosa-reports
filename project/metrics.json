@@ -81,63 +81,63 @@
                 "display": "Aquaculture",
                 "datasourceId": "all_aquaculture_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "dDuZhlIsN"
             },
             {
                 "classId": "all_commercial_fishing_ous",
                 "display": "Commercial Fishing",
                 "datasourceId": "all_commercial_fishing_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "WHMdvPh3u"
             },
             {
                 "classId": "all_energy_development_ous",
                 "display": "Energy Development",
                 "datasourceId": "all_energy_development_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "pVpqS_kaY"
             },
             {
                 "classId": "all_recreation_sports_and_tourism_ous",
                 "display": "Recreation, Sports, and Tourism",
                 "datasourceId": "all_recreation_sports_and_tourism_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "gvgF9MLPA"
             },
             {
                 "classId": "all_recreational_fishing_ous",
                 "display": "Recreational Fishing",
                 "datasourceId": "all_recreational_fishing_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "ohRQk9Oxw"
             },
             {
                 "classId": "all_science_tech_monitoring_ous",
                 "display": "Science, Technology, and Monitoring",
                 "datasourceId": "all_science_tech_monitoring_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "dDHXjxjap"
             },
             {
                 "classId": "all_security_and_defense_ous",
                 "display": "Security and Defense",
                 "datasourceId": "all_security_and_defense_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "j_wSzKD_B"
             },
             {
                 "classId": "all_touristic_fishing_ous",
                 "display": "Touristic Fishing",
                 "datasourceId": "all_touristic_fishing_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "U6neRYoD_"
             },
             {
                 "classId": "all_underwater_cultural_heritage_ous",
                 "display": "Underwater Cultural Heritage",
                 "datasourceId": "all_underwater_cultural_heritage_ous",
                 "noDataValue": 0,
-                "layerId": ""
+                "layerId": "ONDTJv3qq"
             },
             {
                 "classId": "corvo_comm_fish_ous",
