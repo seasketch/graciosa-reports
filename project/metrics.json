@@ -633,12 +633,6 @@
                 "display": "Terceira",
                 "datasourceId": "ous_demographics.fgb",
                 "layerId": ""
-            },
-            {
-                "classId": "unknown-island",
-                "display": "Unknown",
-                "datasourceId": "ous_demographics.fgb",
-                "layerId": ""
             }
         ]
     },
@@ -709,12 +703,6 @@
             {
                 "classId": "Squid jigging",
                 "display": "Squid jigging",
-                "datasourceId": "ous_demographics.fgb",
-                "layerId": ""
-            },
-            {
-                "classId": "unknown-gear",
-                "display": "Unknown-gear",
                 "datasourceId": "ous_demographics.fgb",
                 "layerId": ""
             }

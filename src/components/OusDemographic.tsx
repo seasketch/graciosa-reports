@@ -146,9 +146,9 @@ export const OusDemographics = () => {
               />
               <p>
                 This report summarizes the people that use the ocean within this
-                offshore plan, as represented by the 2022 Ocean Use Survey.
-                Plans should consider the potential benefits and impacts to
-                these people if access or activities are restricted.
+                nearshore plan, as represented by the Ocean Use Survey. Plans
+                should consider the potential benefits and impacts to these
+                people if access or activities are restricted.
               </p>
               <KeySection>
                 <b>{singlePeopleCountFormatted}</b> of the{" "}
@@ -201,7 +201,7 @@ export const OusDemographics = () => {
                     colStyle: { textAlign: "right" },
                   },
                   {
-                    columnLabel: "% Using Ocean Within Plan",
+                    columnLabel: "% People Using Ocean Within Plan",
                     type: "metricChart",
                     metricId: PERC_METRIC_ID,
                     valueFormatter: "percent",
@@ -213,11 +213,14 @@ export const OusDemographics = () => {
                 ]}
               />
 
-              <Collapse title="Show by Gear Type">
+              <Collapse title="Show by Gear Type (Commercial Fishing)">
                 <p>
-                  The <b>Unknown-gear</b> gear type represents respondents the
-                  number of respondents that don't fish, so they don't have a
-                  gear type. Note that fishers can and did report multiple gear
+                  The following is a breakdown of gear types used by commercial
+                  fishers and how specific gear type usage may be impacted by
+                  the plan.
+                </p>
+                <p>
+                  Note that commercial fishers can and did report multiple gear
                   types within each of their areas, so these gear type totals
                   <i> do not</i> sum to the total number of respondents above.
                 </p>
@@ -255,7 +258,7 @@ export const OusDemographics = () => {
                       colStyle: { textAlign: "right" },
                     },
                     {
-                      columnLabel: "% Using Gear Type Within Plan",
+                      columnLabel: "% People Using Gear Type Within Plan",
                       type: "metricChart",
                       metricId: PERC_METRIC_ID,
                       valueFormatter: "percent",
@@ -268,7 +271,12 @@ export const OusDemographics = () => {
                 />
               </Collapse>
 
-              <Collapse title="Show by Island">
+              <Collapse title="Show by Island (All Sectors)">
+                <p>
+                  The following is a breakdown of the number of people
+                  represented that use the ocean within this nearshore plan{" "}
+                  <b>by island</b>.
+                </p>
                 <ClassTable
                   rows={islandMetrics}
                   metricGroup={islandMetricGroup}
@@ -276,7 +284,7 @@ export const OusDemographics = () => {
                     {
                       columnLabel: "Island",
                       type: "class",
-                      width: 30,
+                      width: 20,
                       colStyle: { textAlign: "left" },
                     },
                     {
@@ -287,7 +295,7 @@ export const OusDemographics = () => {
                       chartOptions: {
                         showTitle: true,
                       },
-                      width: 20,
+                      width: 25,
                       colStyle: { textAlign: "right" },
                     },
                     {
@@ -298,7 +306,7 @@ export const OusDemographics = () => {
                       chartOptions: {
                         showTitle: true,
                       },
-                      width: 20,
+                      width: 25,
                       colStyle: { textAlign: "right" },
                     },
                     {
