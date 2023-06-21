@@ -18,57 +18,81 @@
         "classes": [
             {
                 "datasourceId": "PA_Bulweria_bulwerii_baseline",
-                "classId": "PA_Bulweria_bulwerii_baseline",
+                "classId": "birds_PA_Bulweria_bulwerii_baseline",
                 "display": "Bulweria bulwerii",
                 "layerId": "9nG7r19AY"
             },
             {
                 "datasourceId": "PA_Calonectris_borealis_baseline",
-                "classId": "PA_Calonectris_borealis_baseline",
+                "classId": "birds_PA_Calonectris_borealis_baseline",
                 "display": "Calonectris borealis",
                 "layerId": "KJ8Qi0IkG"
             },
             {
                 "datasourceId": "PA_Larus_michahellis_baseline",
-                "classId": "PA_Larus_michahellis_baseline",
+                "classId": "birds_PA_Larus_michahellis_baseline",
                 "display": "Larus michahellis",
                 "layerId": "cZXSLyg6P"
             },
             {
                 "datasourceId": "PA_Oceanodroma_castro_baseline",
-                "classId": "PA_Oceanodroma_castro_baseline",
+                "classId": "birds_PA_Oceanodroma_castro_baseline",
                 "display": "Oceanodroma castro",
                 "layerId": "Dr4nmM3Zt"
             },
             {
                 "datasourceId": "PA_Onychoprion_fuscatus_baseline",
-                "classId": "PA_Onychoprion_fuscatus_baseline",
+                "classId": "birds_PA_Onychoprion_fuscatus_baseline",
                 "display": "Onychoprion fuscatus",
                 "layerId": "e6N4egZLo"
             },
             {
                 "datasourceId": "PA_Puffinus_baroli_baseline",
-                "classId": "PA_Puffinus_baroli_baseline",
+                "classId": "birds_PA_Puffinus_baroli_baseline",
                 "display": "Puffinus baroli",
                 "layerId": "Q46I_my6p"
             },
             {
                 "datasourceId": "PA_Puffinus_puffinus_baseline",
-                "classId": "PA_Puffinus_puffinus_baseline",
+                "classId": "birds_PA_Puffinus_puffinus_baseline",
                 "display": "Puffinus puffinus",
                 "layerId": "9fgrHrcwv"
             },
             {
                 "datasourceId": "PA_Sterna_dougallii_baseline",
-                "classId": "PA_Sterna_dougallii_baseline",
+                "classId": "birds_PA_Sterna_dougallii_baseline",
                 "display": "Sterna dougallii",
                 "layerId": "aPPuOPrBv"
             },
             {
                 "datasourceId": "PA_Sterna_hirundo_baseline",
-                "classId": "PA_Sterna_hirundo_baseline",
+                "classId": "birds_PA_Sterna_hirundo_baseline",
                 "display": "Sterna hirundo",
                 "layerId": "2GRFBHCG8"
+            },
+            {
+                "datasourceId": "PA_Caretta_caretta_baseline",
+                "classId": "turtles_PA_Caretta_caretta_baseline",
+                "display": "Caretta caretta",
+                "layerId": "WwVWpIP31"
+            },
+            {
+                "datasourceId": "PA_Chelonia_mydas_baseline",
+                "classId": "turtles_PA_Chelonia_mydas_baseline",
+                "display": "Chelonia mydas",
+                "layerId": "NruLiokC5"
+            },
+            {
+                "datasourceId": "PA_Dermochelys_coriacea_baseline",
+                "classId": "turtles_PA_Dermochelys_coriacea_baseline",
+                "display": "Dermochelys coriacea",
+                "layerId": "YucR6OyA0"
+            },
+            {
+                "datasourceId": "PA_Eretmochelys_imbricata_baseline",
+                "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
+                "display": "Eretmochelys imbricata",
+                "layerId": "rxvMsAJhB"
             }
         ]
     },

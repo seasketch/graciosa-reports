@@ -15,6 +15,7 @@ import {
   metricsWithSketchId,
   toPercentMetric,
   valueFormatter,
+  sortMetrics,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
@@ -32,6 +33,7 @@ export const SDMCard = () => {
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
   const breedingBirdsLabel = t("Breeding Birds");
+  const turtlesLabel = t("Turtles");
   const percAreaWithin = t("% Area Within Plan");
   return (
     <>
@@ -48,6 +50,29 @@ export const SDMCard = () => {
               precalcMetrics
             ),
             [data.sketch.properties.id]
+          );
+
+          const sortedMetrics = sortMetrics(topLevelMetrics);
+
+          // grouping metrics by group prefix
+          const groupedMetrics = sortedMetrics.reduce<Record<string, any>>(
+            (groups, metric) => {
+              // get group id from classId prefix (i.e. "birds", "turtles")
+              const group: string | undefined = metric.classId?.substring(
+                0,
+                metric.classId?.indexOf("_")
+              );
+              // if there's no group prefix, make a note and skip it
+              if (!group) {
+                console.log("Expected group id");
+                return groups;
+              }
+
+              // adds metric to the group's metric array
+              groups[group] = [...(groups[group] || []), metric];
+              return groups;
+            },
+            {}
           );
 
           return (
@@ -71,12 +96,60 @@ export const SDMCard = () => {
               </Trans>
 
               <ClassTable
-                rows={topLevelMetrics}
+                rows={groupedMetrics["birds"]}
                 metricGroup={metricGroup}
                 objective={undefined}
                 columnConfig={[
                   {
                     columnLabel: breedingBirdsLabel,
+                    type: "class",
+                    width: 25,
+                  },
+                  {
+                    columnLabel: percAreaWithin,
+                    type: "metricChart",
+                    metricId: metricGroup.metricId,
+                    valueFormatter: "percent",
+                    chartOptions: {
+                      showTitle: true,
+                      showTargetLabel: true,
+                      targetLabelPosition: "bottom",
+                      targetLabelStyle: "tight",
+                      barHeight: 11,
+                    },
+                    width: 60,
+                    targetValueFormatter: (
+                      value: number,
+                      row: number,
+                      numRows: number
+                    ) => {
+                      if (row === 0) {
+                        return (value: number) =>
+                          `${valueFormatter(
+                            value / 100,
+                            "percent0dig"
+                          )} Target`;
+                      } else {
+                        return (value: number) =>
+                          `${valueFormatter(value / 100, "percent0dig")}`;
+                      }
+                    },
+                  },
+                  {
+                    type: "layerToggle",
+                    width: 15,
+                    columnLabel: mapLabel,
+                  },
+                ]}
+              />
+
+              <ClassTable
+                rows={groupedMetrics["turtles"]}
+                metricGroup={metricGroup}
+                objective={undefined}
+                columnConfig={[
+                  {
+                    columnLabel: turtlesLabel,
                     type: "class",
                     width: 25,
                   },

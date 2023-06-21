@@ -3,7 +3,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Bulweria_bulwerii_baseline",
+      "classId": "birds_PA_Bulweria_bulwerii_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 57,
@@ -14,7 +14,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Calonectris_borealis_baseline",
+      "classId": "birds_PA_Calonectris_borealis_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 54,
@@ -25,7 +25,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Larus_michahellis_baseline",
+      "classId": "birds_PA_Larus_michahellis_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 58,
@@ -36,7 +36,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Oceanodroma_castro_baseline",
+      "classId": "birds_PA_Oceanodroma_castro_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 52,
@@ -47,7 +47,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Onychoprion_fuscatus_baseline",
+      "classId": "birds_PA_Onychoprion_fuscatus_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -58,7 +58,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Puffinus_baroli_baseline",
+      "classId": "birds_PA_Puffinus_baroli_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 58,
@@ -69,7 +69,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Puffinus_puffinus_baseline",
+      "classId": "birds_PA_Puffinus_puffinus_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 40,
@@ -80,7 +80,7 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Sterna_dougallii_baseline",
+      "classId": "birds_PA_Sterna_dougallii_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 54,
@@ -91,10 +91,54 @@
     {
       "metricId": "sdmValueOverlap",
       "sketchId": "14753",
-      "classId": "PA_Sterna_hirundo_baseline",
+      "classId": "birds_PA_Sterna_hirundo_baseline",
       "groupId": null,
       "geographyId": null,
       "value": 58,
+      "extra": {
+        "sketchName": "SDMtest-0p-Onychoprion"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14753",
+      "classId": "turtles_PA_Caretta_caretta_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 58,
+      "extra": {
+        "sketchName": "SDMtest-0p-Onychoprion"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14753",
+      "classId": "turtles_PA_Chelonia_mydas_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 58,
+      "extra": {
+        "sketchName": "SDMtest-0p-Onychoprion"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14753",
+      "classId": "turtles_PA_Dermochelys_coriacea_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 58,
+      "extra": {
+        "sketchName": "SDMtest-0p-Onychoprion"
+      }
+    },
+    {
+      "metricId": "sdmValueOverlap",
+      "sketchId": "14753",
+      "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
       "extra": {
         "sketchName": "SDMtest-0p-Onychoprion"
       }

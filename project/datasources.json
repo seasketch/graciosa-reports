@@ -1556,5 +1556,93 @@
     "created": "2023-06-14T23:18:55.901Z",
     "lastUpdated": "2023-06-14T23:18:55.901Z",
     "src": "data/src/Data_Products/final-data-package/heatmaps_by_island/terceira_tour_fish.tif"
+  },
+  {
+    "datasourceId": "PA_Caretta_caretta_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 418,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-21T17:36:09.219Z",
+    "lastUpdated": "2023-06-21T17:36:09.219Z",
+    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Caretta caretta_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Chelonia_mydas_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 418,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-21T17:37:05.715Z",
+    "lastUpdated": "2023-06-21T17:37:05.715Z",
+    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Chelonia mydas_clipped.tif"
+  },
+  {
+    "datasourceId": "PA_Dermochelys_coriacea_baseline",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 382,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -9999,
+    "created": "2023-06-21T17:37:34.280Z",
+    "lastUpdated": "2023-06-21T17:37:34.280Z",
+    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Dermochelys coriacea_clipped.tif"
+  },
+  {
+    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Eretmochelys imbricata_clipped.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "PA_Eretmochelys_imbricata_baseline",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-06-21T17:38:03.313Z",
+    "lastUpdated": "2023-06-21T17:38:03.313Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 0.001,
+          "count": null,
+          "area": null
+        }
+      }
+    },
+    "noDataValue": -9999,
+    "measurementType": "quantitative"
   }
 ]

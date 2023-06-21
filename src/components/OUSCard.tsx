@@ -33,12 +33,6 @@ export const OUSCard = () => {
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
 
-  const [island, setIslandVisible] = useState("corvo");
-
-  const islandSwitcher = (e: any) => {
-    setIslandVisible(e.target.value);
-  };
-
   return (
     <>
       <ResultsCard
