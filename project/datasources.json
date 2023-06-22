@@ -1624,25 +1624,197 @@
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Dermochelys coriacea_clipped.tif"
   },
   {
-    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Eretmochelys imbricata_clipped.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "PA_Eretmochelys_imbricata_baseline",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-06-21T17:38:03.313Z",
-    "lastUpdated": "2023-06-21T17:38:03.313Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
-          "sum": 0.001,
           "count": null,
+          "sum": 0.001,
           "area": null
         }
       }
     },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
     "noDataValue": -9999,
-    "measurementType": "quantitative"
+    "created": "2023-06-21T17:38:03.313Z",
+    "lastUpdated": "2023-06-21T17:38:03.313Z",
+    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Eretmochelys imbricata_clipped.tif"
+  },
+  {
+    "datasourceId": "basins",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 7,
+          "sum": null,
+          "area": 118168880.70153521
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Basins",
+    "classKeys": [],
+    "created": "2023-06-22T18:15:00.857Z",
+    "lastUpdated": "2023-06-22T18:15:00.857Z",
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Basins.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "canyons",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 20,
+          "sum": null,
+          "area": 855922192.40182
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Canyons",
+    "classKeys": [],
+    "created": "2023-06-22T18:15:47.960Z",
+    "lastUpdated": "2023-06-22T18:15:47.960Z",
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Canyons.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "escarpments",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 11,
+          "sum": null,
+          "area": 6014912543.280987
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Escarpments",
+    "classKeys": [],
+    "created": "2023-06-22T18:16:11.648Z",
+    "lastUpdated": "2023-06-22T18:16:11.648Z",
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Escarpments.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "plateaus",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 5,
+          "sum": null,
+          "area": 8660330724.053497
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Plateaus",
+    "classKeys": [],
+    "created": "2023-06-22T18:16:30.807Z",
+    "lastUpdated": "2023-06-22T18:16:30.807Z",
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Plateaus.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "ridges",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 4,
+          "sum": null,
+          "area": 3965789241.3607984
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Ridges",
+    "classKeys": [],
+    "created": "2023-06-22T18:16:47.083Z",
+    "lastUpdated": "2023-06-22T18:16:47.083Z",
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Ridges.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "shelf_class",
+    "geo_type": "vector",
+    "keyStats": {
+      "Class": {
+        "high": {
+          "count": 8,
+          "area": 1303353964.5219069
+        },
+        "low": {
+          "count": 1,
+          "area": 12261983.993973361
+        },
+        "medium": {
+          "count": 8,
+          "area": 20770355.999341983
+        }
+      },
+      "total": {
+        "total": {
+          "count": 17,
+          "sum": null,
+          "area": 1336386304.5152223
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Shelf_Classification",
+    "classKeys": [
+      "Class"
+    ],
+    "created": "2023-06-22T18:18:34.976Z",
+    "lastUpdated": "2023-06-22T18:18:34.976Z",
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Shelf_Classification.shp",
+    "propertiesToKeep": [
+      "Class"
+    ]
+  },
+  {
+    "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Slope.shp",
+    "layerName": "Slope",
+    "geo_type": "vector",
+    "datasourceId": "slope",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-06-22T18:19:14.943Z",
+    "lastUpdated": "2023-06-22T18:19:14.943Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 7,
+          "sum": null,
+          "area": 6541553253.930006
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

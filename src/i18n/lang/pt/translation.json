@@ -156,5 +156,18 @@
   "Total": "Total",
   "Touristic fishing": "pesca turística",
   "Turtles": "tartarugas",
-  "Underwater cultural heritage": "Patrimônio cultural subaquático"
+  "Underwater cultural heritage": "Patrimônio cultural subaquático",
+  "Basins": "Bacias",
+  "Benthic Habitat": "Habitat bentônico",
+  "Canyons": "Desfiladeiros",
+  "Escarpments": "Escarpas",
+  "Geomorphology": "Geomorfologia",
+  "Geomorphology Card - learn more": "<p>ℹ️ Visão geral: as feições do fundo do mar foram identificadas com base na geomorfologia, que classifica as feições usando profundidade, inclinação do fundo do mar e outras características ambientais. Os planos devem garantir a cobertura representativa de cada tipo de recurso do fundo do mar. Este relatório resume a porcentagem de cada habitat que se sobrepõe a este plano.</p><p>🎯 Objetivo de planejamento: Nenhum objetivo de planejamento identificado para habitats bentônicos.</p><2>🗺️ Dados de origem: Mapa de características geomórficas do fundo do mar. <2>Harris, P.T., Macmillan-Lawler, M., Rupp, J. e Baker, E.K. 2014. Geomorfologia dos oceanos. Marine Geology, 352: 4-24.</2> <4>https://bluehabitats.org/</4></2><p>📈 Relatório: a porcentagem de cada tipo de recurso dentro deste plano é calculada por encontrar a sobreposição de cada tipo de recurso com o plano, somando sua área e, em seguida, dividindo-a pela área total de cada tipo de recurso encontrado na região de planejamento nearshore. Se o plano incluir várias áreas que se sobrepõem, a sobreposição é contada apenas uma vez.</p>",
+  "Habitat Type": "Tipo de Habitat",
+  "Plateaus": "Planaltos",
+  "Ridges": "Cumes",
+  "Shelf - High": "Prateleira - Alta",
+  "Shelf - Medium": "Prateleira - Média",
+  "Slope": "Declive",
+  "Geomorphology Card": "<p>O fundo do mar (zona bêntica) tem muitas características físicas únicas, cada uma criando habitats que suportam diferentes comunidades ecológicas. Este relatório resume a porcentagem de cada habitat bentônico costeiro encontrado no plano.</p>"
 }

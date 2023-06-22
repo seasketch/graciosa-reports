@@ -19,7 +19,6 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { TFunction } from "i18next";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
@@ -30,7 +29,7 @@ const precalcMetrics = project.getPrecalcMetrics(
 
 export const SDMCard = () => {
   const [{ isCollection }] = useSketchProperties();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const mapLabel = t("Map");
   const breedingBirdsLabel = t("Breeding Birds");
   const turtlesLabel = t("Turtles");
@@ -103,7 +102,7 @@ export const SDMCard = () => {
                   {
                     columnLabel: breedingBirdsLabel,
                     type: "class",
-                    width: 25,
+                    width: 35,
                   },
                   {
                     columnLabel: percAreaWithin,
@@ -117,7 +116,7 @@ export const SDMCard = () => {
                       targetLabelStyle: "tight",
                       barHeight: 11,
                     },
-                    width: 60,
+                    width: 50,
                     targetValueFormatter: (
                       value: number,
                       row: number,
@@ -151,7 +150,7 @@ export const SDMCard = () => {
                   {
                     columnLabel: turtlesLabel,
                     type: "class",
-                    width: 25,
+                    width: 35,
                   },
                   {
                     columnLabel: percAreaWithin,
@@ -165,7 +164,7 @@ export const SDMCard = () => {
                       targetLabelStyle: "tight",
                       barHeight: 11,
                     },
-                    width: 60,
+                    width: 50,
                     targetValueFormatter: (
                       value: number,
                       row: number,

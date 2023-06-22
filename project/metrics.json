@@ -731,5 +731,62 @@
                 "layerId": ""
             }
         ]
+    },
+    {
+        "metricId": "geomorphAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "basins",
+                "display": "Basins",
+                "datasourceId": "basins",
+                "layerId": ""
+            },
+            {
+                "classId": "canyons",
+                "display": "Canyons",
+                "datasourceId": "canyons",
+                "layerId": ""
+            },
+            {
+                "classId": "escarpments",
+                "display": "Escarpments",
+                "datasourceId": "escarpments",
+                "layerId": ""
+            },
+            {
+                "classId": "plateaus",
+                "display": "Plateaus",
+                "datasourceId": "plateaus",
+                "layerId": ""
+            },
+            {
+                "classId": "ridges",
+                "display": "Ridges",
+                "datasourceId": "ridges",
+                "objectiveId": "ridges",
+                "layerId": ""
+            },
+            {
+                "classId": "high",
+                "classKey": "Class",
+                "display": "Shelf - High",
+                "datasourceId": "shelf_class",
+                "layerId": ""
+            },
+            {
+                "classId": "medium",
+                "classKey": "Class",
+                "display": "Shelf - Medium",
+                "datasourceId": "shelf_class",
+                "layerId": ""
+            },
+            {
+                "classId": "slope",
+                "display": "Slope",
+                "datasourceId": "slope",
+                "layerId": ""
+            }
+        ]
     }
 ]
