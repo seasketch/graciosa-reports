@@ -6,8 +6,6 @@ Once established, you can follow the tutorial to [setup an existing project on a
 
 ## Reference Notes
 
-This project uses data management [option ?](https://github.com/seasketch/geoprocessing/wiki/Tutorials#link-project-data)
+This report uses symlinks to the Box folder for data management.
 
-Data is sourced from the following locations:
-
-* ?
+Data is sourced from the following locations: Box-Box/GIS/Waitt/Azores

@@ -97,6 +97,6 @@ export default new GeoprocessingHandler(geomorphAreaOverlap, {
   title: "geomorphAreaOverlap",
   description: "Calculate sketch overlap with geomorphology polygons",
   executionMode: "async",
-  timeout: 40,
+  timeout: 600,
   requiresProperties: [],
 });
