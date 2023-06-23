@@ -740,52 +740,52 @@
                 "classId": "basins",
                 "display": "Basins",
                 "datasourceId": "basins",
-                "layerId": ""
+                "layerId": "_AaP0wi3q"
             },
             {
                 "classId": "canyons",
                 "display": "Canyons",
                 "datasourceId": "canyons",
-                "layerId": ""
+                "layerId": "O8XT1yyh6"
             },
             {
                 "classId": "escarpments",
                 "display": "Escarpments",
                 "datasourceId": "escarpments",
-                "layerId": ""
+                "layerId": "llQVnVyqS"
             },
             {
                 "classId": "plateaus",
                 "display": "Plateaus",
                 "datasourceId": "plateaus",
-                "layerId": ""
+                "layerId": "TcMCJg_vU"
             },
             {
                 "classId": "ridges",
                 "display": "Ridges",
                 "datasourceId": "ridges",
                 "objectiveId": "ridges",
-                "layerId": ""
+                "layerId": "W4xIIT0Cl"
             },
             {
                 "classId": "high",
                 "classKey": "Class",
                 "display": "Shelf - High",
                 "datasourceId": "shelf_class",
-                "layerId": ""
+                "layerId": "12Wr91Iop"
             },
             {
                 "classId": "medium",
                 "classKey": "Class",
                 "display": "Shelf - Medium",
                 "datasourceId": "shelf_class",
-                "layerId": ""
+                "layerId": "12Wr91Iop"
             },
             {
                 "classId": "slope",
                 "display": "Slope",
                 "datasourceId": "slope",
-                "layerId": ""
+                "layerId": "PLvLNvewd"
             }
         ]
     }

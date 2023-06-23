@@ -44,7 +44,7 @@ export const Geomorphology = () => {
   return (
     <>
       <ResultsCard
-        title={t("Geomorphology")}
+        title={t("Benthic Habitat")}
         functionName="geomorphAreaOverlap"
         useChildCard
       >
