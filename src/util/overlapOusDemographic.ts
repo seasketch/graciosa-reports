@@ -1,5 +1,8 @@
 import { featureCollection } from "@turf/helpers";
 import intersect from "@turf/intersect";
+const { performance } = require("perf_hooks");
+import { spawn, Thread, Worker, FunctionThread } from "threads";
+import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker";
 import {
   clip,
   createMetric,
@@ -13,13 +16,6 @@ import {
   SketchCollection,
   toSketchArray,
 } from "@seasketch/geoprocessing";
-
-// ToDo: migrate to importVectorDatasource as special class
-// config driven structure rather than formal typescript types?
-// use zod to verify on import
-// use aggregateProperties to generate cumulative stats for -
-// specify classes as one per respondent (one-to-one, island), and one or more per respondent (one-to-many, sector)
-// specify cumulative properties (number_of_ppl, part_full_time), and cumulative method (count, sum)
 
 export interface OusFeatureProperties {
   resp_id: number;
@@ -49,6 +45,11 @@ export interface OusStats extends BaseCountStats {
   byGear: ClassCountStats;
 }
 
+export type OusReportResult = {
+  stats: OusStats;
+  metrics: Metric[];
+};
+
 /**
   Calculates demographics of ocean use within a sketch
 
@@ -73,184 +74,156 @@ export async function overlapOusDemographic(
     | Sketch<MultiPolygon>
     | SketchCollection<MultiPolygon>
 ) {
-  // combine into multipolygon
-  const combinedSketch = (() => {
-    if (sketch) {
-      const sketches = toSketchArray(
-        sketch as Sketch<Polygon> | SketchCollection<Polygon>
-      );
-      const sketchColl = featureCollection(sketches);
-      return sketch ? clip(sketchColl, "union") : null;
-    } else {
-      return null;
-    }
-  })();
+  // Performance testing
+  let start = performance.now();
 
-  // Track counting of respondent/sector level stats, only need to count once
-  const respondentProcessed: Record<string, Record<string, boolean>> = {};
+  // Sort by respondent_id
+  const sortedShapes = shapes.features.sort(
+    (a, b) => a.properties.resp_id - b.properties.resp_id
+  );
 
-  const countStats = shapes.features.reduce<OusStats>(
-    (statsSoFar, shape) => {
-      if (!shape.properties) {
-        console.log(`Shape missing properties ${JSON.stringify(shape)}`);
-      }
-
-      if (!shape.properties.resp_id) {
-        console.log(
-          `Missing respondent ID for ${JSON.stringify(shape)}, skipping`
-        );
-        return statsSoFar;
-      }
-
-      // Can replace with pre-calculating h3 cell overlap for each shape, using all_touched option, Then get h3 cell overlap for sketch and check for match
-      const isOverlapping = combinedSketch
-        ? !!intersect(shape, combinedSketch)
-        : false; // booleanOverlap seemed to miss some so using intersect
-      if (sketch && !isOverlapping) return statsSoFar;
-
-      const resp_id = shape.properties.resp_id;
-      const respIsland = shape.properties.island
-        ? `${shape.properties.island}`
-        : "unknown-island";
-      const curSector = shape.properties.sector
-        ? shape.properties.sector
-        : "unknown-sector";
-      const curGears = shape.properties.gear
-        ? shape.properties.gear.split(/\s{2,}/)
-        : ["unknown-gear"];
-
-      // Number of people is gathered once per sector
-      // So you can only know the total number of people for each sector, not overall
-      const curPeople = (() => {
-        const peopleVal = shape.properties["number_of_ppl"];
-        if (peopleVal !== null && peopleVal !== undefined) {
-          if (typeof peopleVal === "string") {
-            return parseFloat(peopleVal);
-          } else {
-            return peopleVal;
-          }
-        } else {
-          return 1;
-        }
-      })();
-
-      // Mutates
-      let newStats: OusStats = { ...statsSoFar };
-
-      // Once per respondent counts - island
-      if (!respondentProcessed[resp_id]) {
-        newStats.people = newStats.people + curPeople;
-        newStats.respondents = newStats.respondents + 1;
-
-        newStats.byIsland[respIsland] = {
-          respondents: newStats.byIsland[respIsland]
-            ? newStats.byIsland[respIsland].respondents + 1
-            : 1,
-          people: newStats.byIsland[respIsland]
-            ? newStats.byIsland[respIsland].people + curPeople
-            : curPeople,
-        };
-        respondentProcessed[resp_id] = {};
-      }
-
-      // Once per respondent and gear type counts
-      curGears.forEach((curGear) => {
-        if (!respondentProcessed[resp_id][curGear]) {
-          newStats.byGear[curGear] = {
-            respondents: newStats.byGear[curGear]
-              ? newStats.byGear[curGear].respondents + 1
-              : 1,
-            people: newStats.byGear[curGear]
-              ? newStats.byGear[curGear].people + curPeople
-              : curPeople,
-          };
-          respondentProcessed[resp_id][curGear] = true;
-        }
+  // Divide shapes into groups of ~1000 to be run in worker threads
+  // while being respondent-safe
+  const workerShapes: OusFeatureCollection[] = [];
+  let sIndex = 0; // Starting shapes index for worker
+  let eIndex = 0; // Ending shapes index for worker
+  for (
+    let index = 1000;
+    index <= Math.ceil(sortedShapes.length / 1000) * 1000; //9000
+    index += 1000
+  ) {
+    if (
+      Math.ceil(sortedShapes.length / 1000) === 1 ||
+      index === Math.ceil(sortedShapes.length / 1000) * 1000
+    ) {
+      // If features < 1000 or if last worker group
+      workerShapes.push({
+        ...shapes,
+        features: sortedShapes.slice(sIndex),
       });
-
-      // Once per respondent and sector counts
-      if (!respondentProcessed[resp_id][curSector]) {
-        newStats.bySector[curSector] = {
-          respondents: newStats.bySector[curSector]
-            ? newStats.bySector[curSector].respondents + 1
-            : 1,
-          people: newStats.bySector[curSector]
-            ? newStats.bySector[curSector].people + curPeople
-            : curPeople,
-        };
-        respondentProcessed[resp_id][curSector] = true;
+    } else {
+      // All others cases
+      eIndex = index;
+      while (
+        sortedShapes[eIndex].properties.resp_id ===
+        sortedShapes[index - 1].properties.resp_id
+      ) {
+        // Don't split a respondent's shapes into multiple workers or they are double-counted
+        eIndex++;
       }
+      workerShapes.push({
+        ...shapes,
+        features: sortedShapes.slice(sIndex, eIndex),
+      });
+      sIndex = eIndex;
+    }
+  }
 
-      return newStats;
-    },
-    {
-      respondents: 0,
-      people: 0,
-      bySector: {},
-      byIsland: {},
-      byGear: {},
+  // Used to terminate workers after return
+  const workers: FunctionThread[] = [];
+
+  // Start workers
+  const promises: Promise<OusReportResult>[] = workerShapes.map(
+    async (shapes) => {
+      const worker = await spawn<OverlapOusDemographicWorker>(
+        new Worker("./overlapOusDemographicWorker")
+      );
+      workers.push(worker);
+      return worker(shapes, sketch);
     }
   );
 
-  // calculate sketch % overlap - divide sketch counts by total counts
-  const overallMetrics = [
-    createMetric({
-      metricId: "ousPeopleCount",
-      classId: "ousPeopleCount_all",
-      value: countStats.people,
-      ...(sketch ? { sketchId: sketch.properties.id } : {}),
-    }),
-    createMetric({
-      metricId: "ousRespondentCount",
-      classId: "ousRespondentCount_all",
-      value: countStats.respondents,
-      ...(sketch ? { sketchId: sketch.properties.id } : {}),
-    }),
-  ];
+  // Await results
+  const results: OusReportResult[] = await Promise.all(promises);
 
-  console.log("countStats.bySector", countStats.bySector);
+  // Terminate workers
+  workers.forEach(async (worker) => {
+    await Thread.terminate(worker);
+  });
 
-  const sectorMetrics = genOusClassMetrics(countStats.bySector, sketch);
-  console.log("sectorMetrics", sectorMetrics);
+  // Performance testing
+  let end = performance.now();
+  console.log(
+    "Sketch",
+    sketch?.properties.name,
+    "runtime is",
+    (end - start) / 1000
+  );
 
-  const islandMetrics = genOusClassMetrics(countStats.byIsland, sketch);
-  const gearMetrics = genOusClassMetrics(countStats.byGear, sketch);
+  // Combine metrics from worker threads
+  const firstResult: OusReportResult = JSON.parse(
+    JSON.stringify(results.shift()) // pops first result to use as base
+  );
 
-  return {
-    stats: countStats,
-    metrics: [
-      ...overallMetrics,
-      ...sectorMetrics,
-      ...islandMetrics,
-      ...gearMetrics,
-    ],
-  };
-}
+  const finalResult = results.reduce((finalResult, result) => {
+    // stats
 
-/** Generate metrics from OUS class stats */
-function genOusClassMetrics<G extends Polygon | MultiPolygon>(
-  classStats: ClassCountStats,
-  /** optionally calculate stats for OUS shapes that overlap with sketch  */
-  sketch?:
-    | Sketch<Polygon>
-    | SketchCollection<Polygon>
-    | Sketch<MultiPolygon>
-    | SketchCollection<MultiPolygon>
-): Metric[] {
-  return Object.keys(classStats)
-    .map((curClass) => [
-      createMetric({
-        metricId: "ousPeopleCount",
-        classId: curClass,
-        value: classStats[curClass].people,
-        ...(sketch ? { sketchId: sketch.properties.id } : {}),
-      }),
-      createMetric({
-        metricId: "ousRespondentCount",
-        classId: curClass,
-        value: classStats[curClass].respondents,
-        ...(sketch ? { sketchId: sketch.properties.id } : {}),
-      }),
-    ])
-    .reduce<Metric[]>((soFar, classMetrics) => soFar.concat(classMetrics), []);
+    finalResult.stats.respondents += result.stats.respondents;
+    finalResult.stats.people += result.stats.people;
+
+    // stats.bySector
+    for (const sector in result.stats.bySector) {
+      if (finalResult.stats.bySector[sector]) {
+        finalResult.stats.bySector[sector].people +=
+          result.stats.bySector[sector].people;
+        finalResult.stats.bySector[sector].respondents +=
+          result.stats.bySector[sector].respondents;
+      } else {
+        finalResult.stats.bySector[sector] = {
+          people: result.stats.bySector[sector].people,
+          respondents: result.stats.bySector[sector].respondents,
+        };
+      }
+    }
+
+    // stats.byIsland
+    for (const island in result.stats.byIsland) {
+      if (finalResult.stats.byIsland[island]) {
+        finalResult.stats.byIsland[island].people +=
+          result.stats.byIsland[island].people;
+        finalResult.stats.byIsland[island].respondents +=
+          result.stats.byIsland[island].respondents;
+      } else {
+        finalResult.stats.byIsland[island] = {
+          people: result.stats.byIsland[island].people,
+          respondents: result.stats.byIsland[island].respondents,
+        };
+      }
+    }
+
+    // stats.byGear
+    for (const gear in result.stats.byGear) {
+      if (finalResult.stats.byGear[gear]) {
+        finalResult.stats.byGear[gear].people +=
+          result.stats.byGear[gear].people;
+        finalResult.stats.byGear[gear].respondents +=
+          result.stats.byGear[gear].respondents;
+      } else {
+        finalResult.stats.byGear[gear] = {
+          people: result.stats.byGear[gear].people,
+          respondents: result.stats.byGear[gear].respondents,
+        };
+      }
+    }
+
+    // metrics
+
+    result.metrics.forEach((metric) => {
+      const index = finalResult.metrics.findIndex(
+        (finalMetric) =>
+          finalMetric.metricId === metric.metricId &&
+          finalMetric.classId === metric.classId &&
+          finalMetric.sketchId === metric.sketchId
+      );
+      if (index === -1) {
+        finalResult.metrics.push(JSON.parse(JSON.stringify(metric)));
+      } else {
+        finalResult.metrics[index].value += metric.value;
+      }
+    });
+
+    return finalResult;
+  }, firstResult);
+
+  return finalResult;
 }

@@ -41,7 +41,7 @@ export async function ousDemographicOverlap(
 export default new GeoprocessingHandler(ousDemographicOverlap, {
   title: "ousDemographicOverlap",
   description: "Calculates ous overlap metrics",
-  timeout: 900, // seconds
+  timeout: 1000, // seconds
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
   memory: 10240,
