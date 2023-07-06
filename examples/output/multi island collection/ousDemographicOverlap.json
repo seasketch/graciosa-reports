@@ -211,22 +211,6 @@
     {
       "metricId": "ousPeopleCount",
       "sketchId": "14458",
-      "classId": "Touristic fishing",
-      "groupId": null,
-      "geographyId": null,
-      "value": 16
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": "14458",
-      "classId": "Touristic fishing",
-      "groupId": null,
-      "geographyId": null,
-      "value": 6
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": "14458",
       "classId": "saomiguel",
       "groupId": null,
       "geographyId": null,
@@ -239,6 +223,22 @@
       "groupId": null,
       "geographyId": null,
       "value": 25
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "14458",
+      "classId": "Touristic fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 16
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "14458",
+      "classId": "Touristic fishing",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6
     },
     {
       "metricId": "ousPeopleCount",

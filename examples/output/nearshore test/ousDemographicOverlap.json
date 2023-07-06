@@ -179,22 +179,6 @@
     {
       "metricId": "ousPeopleCount",
       "sketchId": "14455",
-      "classId": "pico",
-      "groupId": null,
-      "geographyId": null,
-      "value": 1
-    },
-    {
-      "metricId": "ousRespondentCount",
-      "sketchId": "14455",
-      "classId": "pico",
-      "groupId": null,
-      "geographyId": null,
-      "value": 1
-    },
-    {
-      "metricId": "ousPeopleCount",
-      "sketchId": "14455",
       "classId": "Hook and line - Shoreline",
       "groupId": null,
       "geographyId": null,
@@ -204,6 +188,22 @@
       "metricId": "ousRespondentCount",
       "sketchId": "14455",
       "classId": "Hook and line - Shoreline",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "sketchId": "14455",
+      "classId": "pico",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "sketchId": "14455",
+      "classId": "pico",
       "groupId": null,
       "geographyId": null,
       "value": 1

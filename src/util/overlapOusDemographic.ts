@@ -82,25 +82,23 @@ export async function overlapOusDemographic(
     (a, b) => a.properties.resp_id - b.properties.resp_id
   );
 
-  // Divide shapes into groups of ~1000 to be run in worker threads
-  // while being respondent-safe
+  // Divide shapes into 6 groups (# lambda cores) to be run in
+  // worker threads while being respondent-safe
   const workerShapes: OusFeatureCollection[] = [];
   let sIndex = 0; // Starting shapes index for worker
   let eIndex = 0; // Ending shapes index for worker
   for (
-    let index = 1000;
-    index <= Math.ceil(sortedShapes.length / 1000) * 1000; //9000
-    index += 1000
+    let index = Math.ceil(sortedShapes.length / 6);
+    index <= Math.ceil(sortedShapes.length / 6) * 6;
+    index += Math.ceil(sortedShapes.length / 6)
   ) {
-    if (
-      Math.ceil(sortedShapes.length / 1000) === 1 ||
-      index === Math.ceil(sortedShapes.length / 1000) * 1000
-    ) {
-      // If features < 1000 or if last worker group
+    if (index === Math.ceil(sortedShapes.length / 6) * 6) {
+      // If last worker group
       workerShapes.push({
         ...shapes,
         features: sortedShapes.slice(sIndex),
       });
+      console.log("sIndex", sIndex);
     } else {
       // All others cases
       eIndex = index;
@@ -115,6 +113,7 @@ export async function overlapOusDemographic(
         ...shapes,
         features: sortedShapes.slice(sIndex, eIndex),
       });
+      console.log("sIndex", sIndex, "eIndex", eIndex);
       sIndex = eIndex;
     }
   }
