@@ -1,0 +1,3787 @@
+{
+  "metrics": [
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "corvo_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "corvo_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "corvo_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "faial_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.01195404078595974,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0000029923739930382,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "faial_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.011951048411966703,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "faial_energy_dev_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0047456352938866075,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0012452172904886538,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0006227848643902689,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "faial_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.002877633139007685,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.03547577700756577,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0010433857043246064,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.005170938163010064,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0002796573236683031,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0017862655379143888,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "faial_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.027987494479123853,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.03426971411552682,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.003809259696950562,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0019392923929402173,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0006135684453312251,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "faial_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.028023046987629918,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "flores_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "flores_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "flores_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "flores_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "flores_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "flores_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "graciosa_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "graciosa_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "graciosa_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "graciosa_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "graciosa_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "graciosa_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.18986620321779668,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.027098739388804916,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.001362589894569055,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.022761626554483883,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "pico_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.14116796548790234,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17.05010474177457,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8.576439476104536e-7,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9.118661705706113,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00018497800315987745,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6.804693437235997,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "pico_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1.6436824975077444,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 269.1215964179248,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 211.57815644683106,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.003689449353942109,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9.352145624266653,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "pico_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 48.50319520826632,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.012133089624680377,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8.687694835474158e-7,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6.871395406560232e-7,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5.109682436332807e-7,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4.507931713193525e-7,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "pico_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.012130666765721249,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04278443788343367,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "pico_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.04278443788343367,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "santamaria_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "santamaria_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "santamaria_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "santamaria_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "santamaria_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "santamaria_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.05498118331790636,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.02880972997002118,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.026171453347885176,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saojorge_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.08212168976024259,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.07456896256189793,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.007552727198344655,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saojorge_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4.203990809286211,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2.9155118807908593,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1.2884789284953513,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saojorge_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 21.56617146432957,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10.435808952907024,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11.130323808917353,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00009966017100282443,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saojorge_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.4577022324083373,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.20129075832664967,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.25641147408168763,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saojorge_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0026091787952964296,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0026091787952964296,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saojorge_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_aquaculture_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0035368307436129953,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0020648042852542403,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00009127464556790699,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00006787969828359053,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00006001509081166034,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.001265503674101609,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00017516430072844758,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00004061475051009289,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00003205388556781763,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00002382892900332223,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000021037461831241444,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0000620001958909211,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00022575012605263733,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0000436093090538936,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00003442039318901635,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00002560257412909106,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00002261361450761612,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00010420738254623974,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000002705274088923848,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000002705274088923848,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_sec_def_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00006421120041011363,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00001488473716282357,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000011735934437595574,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000008728466815988156,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000007706859816991596,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "saomiguel_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.000022759048352583022,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.03852681392146806,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.03736026930062053,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "terceira_comm_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0011665446208475316,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "terceira_cultural_heritage_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.21515228054992974,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.21397463795831584,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0004917374158424082,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0006859051757714951,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "terceira_rec_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3.236933019359152,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2.877488723245432,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00009736791856873594,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00007235624838441979,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.00006393849258268247,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "terceira_rec_sports_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.3592239170627858,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0005205305016193762,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0005205305016193762,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "terceira_sci_tech_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15057",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0416466640363069,
+      "extra": {
+        "sketchName": "Nearshore collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15058",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0.0416466640363069,
+      "extra": {
+        "sketchName": "1"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15059",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "2"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15063",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "3"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15064",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "4"
+      }
+    },
+    {
+      "metricId": "ousByIslandValueOverlap",
+      "sketchId": "15065",
+      "classId": "terceira_tour_fish_ous",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "5"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15057,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 15058,
+        "bbox": [
+          -27.114458,
+          38.68279,
+          -26.915174,
+          38.862495
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "1",
+          "2990": [
+            "FAIAL"
+          ],
+          "id": "15058",
+          "name": "1",
+          "island": [
+            "FAIAL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T15:58:03.80655+00:00",
+          "updatedAt": "2023-06-15T15:58:08.489636+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FAIAL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Faial"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Faial"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 15059,
+        "bbox": [
+          -28.308945,
+          38.488724,
+          -28.076956,
+          38.657593
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "2",
+          "2990": [
+            "FAIAL"
+          ],
+          "id": "15059",
+          "name": "2",
+          "island": [
+            "FAIAL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T15:58:22.003675+00:00",
+          "updatedAt": "2023-06-15T18:09:44.146572+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FAIAL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Faial"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Faial"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 15064,
+        "bbox": [
+          -28.236498,
+          38.450138,
+          -28.083662,
+          38.57472
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "4",
+          "2990": [
+            "GRACIOSA"
+          ],
+          "id": "15064",
+          "name": "4",
+          "island": [
+            "GRACIOSA"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T16:43:06.791325+00:00",
+          "updatedAt": "2023-06-15T18:09:46.970495+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "GRACIOSA"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Graciosa"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Graciosa"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 15065,
+        "bbox": [
+          -28.502361,
+          38.282,
+          -28.200947,
+          38.437996
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "5",
+          "2990": [
+            "FLORES"
+          ],
+          "id": "15065",
+          "name": "5",
+          "island": [
+            "FLORES"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T16:43:46.17014+00:00",
+          "updatedAt": "2023-06-15T16:43:49.868556+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FLORES"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Flores"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Flores"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 15063,
+        "bbox": [
+          -28.109137,
+          38.48487,
+          -27.934269,
+          38.61561
+        ],
+        "type": "Feature",
+        "properties": {
+          "2987": "FULLY_PROTECTED",
+          "2988": "3",
+          "2990": [
+            "FAIAL"
+          ],
+          "id": "15063",
+          "name": "3",
+          "island": [
+            "FAIAL"
+          ],
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2023-06-15T16:10:56.032612+00:00",
+          "updatedAt": "2023-06-15T18:09:45.666322+00:00",
+          "designation": "FULLY_PROTECTED",
+          "collectionId": "15057",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "212",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "FULLY_PROTECTED",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 2987,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Designação",
+                  "valueLabel": "Totalmente Protegido"
+                }
+              }
+            },
+            {
+              "label": "Island",
+              "value": [
+                "FAIAL"
+              ],
+              "exportId": "island",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Faial"
+              ],
+              "formElementId": 2990,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Ilha",
+                  "valueLabel": [
+                    "Faial"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "2991": "Nearshore collection",
+      "id": "15057",
+      "name": "Nearshore collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-06-15T15:57:41.843214+00:00",
+      "updatedAt": "2023-06-15T18:09:46.970495+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    }
+  }
+}

@@ -3,6 +3,7 @@ import intersect from "@turf/intersect";
 const { performance } = require("perf_hooks");
 import { spawn, Thread, Worker, FunctionThread } from "threads";
 import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker";
+import simplify from "@turf/simplify";
 import {
   clip,
   createMetric,
@@ -82,6 +83,10 @@ export async function overlapOusDemographic(
     (a, b) => a.properties.resp_id - b.properties.resp_id
   );
 
+  // Simplified sketch shapes for use in demographic overlap checks. ~1/6 total vertices
+  const options = { tolerance: 0.00005, highQuality: true };
+  const simplifiedSketch = sketch ? simplify(sketch, options) : undefined;
+
   // Divide shapes into 6 groups (# lambda cores) to be run in
   // worker threads while being respondent-safe
   const workerShapes: OusFeatureCollection[] = [];
@@ -98,7 +103,6 @@ export async function overlapOusDemographic(
         ...shapes,
         features: sortedShapes.slice(sIndex),
       });
-      console.log("sIndex", sIndex);
     } else {
       // All others cases
       eIndex = index;
@@ -113,7 +117,6 @@ export async function overlapOusDemographic(
         ...shapes,
         features: sortedShapes.slice(sIndex, eIndex),
       });
-      console.log("sIndex", sIndex, "eIndex", eIndex);
       sIndex = eIndex;
     }
   }
@@ -128,7 +131,7 @@ export async function overlapOusDemographic(
         new Worker("./overlapOusDemographicWorker")
       );
       workers.push(worker);
-      return worker(shapes, sketch);
+      return worker(shapes, simplifiedSketch);
     }
   );
 
