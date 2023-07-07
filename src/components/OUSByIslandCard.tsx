@@ -101,13 +101,13 @@ export const OUSByIslandCard = () => {
                 </p>
               </Trans>
 
-              {"Ocean use by "}
+              {t("Ocean use by ")}
               <select onChange={islandSwitcher}>
                 {Object.keys(islands).map((island: string) => {
                   return <option value={island}>{islands[island]}</option>;
                 })}
               </select>
-              {" inhabitants represented in Ocean Use Survey."}
+              {t(" inhabitants represented in Ocean Use Survey.")}
 
               <ClassTable
                 rows={groupedMetrics[island]}
