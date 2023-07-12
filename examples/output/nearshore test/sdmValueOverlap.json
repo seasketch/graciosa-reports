@@ -6,7 +6,7 @@
       "classId": "birds_PA_Bulweria_bulwerii_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -17,7 +17,7 @@
       "classId": "birds_PA_Calonectris_borealis_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -28,7 +28,7 @@
       "classId": "birds_PA_Larus_michahellis_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -39,7 +39,7 @@
       "classId": "birds_PA_Oceanodroma_castro_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -50,7 +50,7 @@
       "classId": "birds_PA_Onychoprion_fuscatus_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -61,7 +61,7 @@
       "classId": "birds_PA_Puffinus_baroli_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -72,7 +72,7 @@
       "classId": "birds_PA_Puffinus_puffinus_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 1,
+      "value": 0,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -83,7 +83,7 @@
       "classId": "birds_PA_Sterna_dougallii_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -94,7 +94,7 @@
       "classId": "birds_PA_Sterna_hirundo_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -105,7 +105,7 @@
       "classId": "turtles_PA_Caretta_caretta_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -116,7 +116,7 @@
       "classId": "turtles_PA_Chelonia_mydas_baseline",
       "groupId": null,
       "geographyId": null,
-      "value": 3,
+      "value": 1,
       "extra": {
         "sketchName": "nearshore test"
       }

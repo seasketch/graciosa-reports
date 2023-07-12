@@ -366,7 +366,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000013399071008279861,
+      "value": 9.379349705795903e-7,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -400,7 +400,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000013399071008279861,
+      "value": 9.379349705795903e-7,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -996,7 +996,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 5.348373672692253e-7,
+      "value": 5.199771998601332e-7,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1008,7 +1008,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.3155429589434275e-7,
+      "value": 1.2833780944215833e-7,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1019,7 +1019,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.7385165653898147e-7,
+      "value": 2.643951863695593e-7,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1030,7 +1030,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.511748632526677e-7,
+      "value": 1.4770105788430854e-7,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1086,7 +1086,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 5.424854251367961e-7,
+      "value": 5.285788749476161e-7,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1098,7 +1098,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.335418721437609e-7,
+      "value": 1.3022769429493763e-7,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1109,7 +1109,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.7728621335154635e-7,
+      "value": 2.683834218752956e-7,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1120,7 +1120,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.5375185863364393e-7,
+      "value": 1.5082758406115282e-7,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1176,7 +1176,7 @@
       "classId": "santamaria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.05039812754968409,
+      "value": 0.049584127424239455,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1188,7 +1188,7 @@
       "classId": "santamaria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.018196992488761055,
+      "value": 0.017991499741917494,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1199,7 +1199,7 @@
       "classId": "santamaria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.011842255948039337,
+      "value": 0.0115685255423017,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1210,7 +1210,7 @@
       "classId": "santamaria_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.02427636776874209,
+      "value": 0.023646977625524812,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1266,7 +1266,7 @@
       "classId": "santamaria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.2655894662619005,
+      "value": 0.26098077728164526,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1278,7 +1278,7 @@
       "classId": "santamaria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.05949016302821519,
+      "value": 0.05845276003969957,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1289,7 +1289,7 @@
       "classId": "santamaria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.14368497799233637,
+      "value": 0.14125918401288118,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1300,7 +1300,7 @@
       "classId": "santamaria_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.06911769207547991,
+      "value": 0.0676237663296888,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1311,7 +1311,7 @@
       "classId": "santamaria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.22019032457853882,
+      "value": 0.2163985857970374,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1323,7 +1323,7 @@
       "classId": "santamaria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.059601666775392914,
+      "value": 0.058619508027618394,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1334,7 +1334,7 @@
       "classId": "santamaria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.11628349398597493,
+      "value": 0.11379717466388684,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1345,7 +1345,7 @@
       "classId": "santamaria_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.05594676807493215,
+      "value": 0.05518212981610304,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1356,7 +1356,7 @@
       "classId": "santamaria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0044535838906654135,
+      "value": 0.004433298072797243,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1368,7 +1368,7 @@
       "classId": "santamaria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0035985640807894015,
+      "value": 0.0035974675500938247,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1379,7 +1379,7 @@
       "classId": "santamaria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0004216160524492807,
+      "value": 0.00041256967421077206,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1390,7 +1390,7 @@
       "classId": "santamaria_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0004334037574267313,
+      "value": 0.0004232608484926459,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1401,7 +1401,7 @@
       "classId": "santamaria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.17886054364225856,
+      "value": 0.17519346471499375,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1413,7 +1413,7 @@
       "classId": "santamaria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.06631453155205236,
+      "value": 0.06538203122363484,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1424,7 +1424,7 @@
       "classId": "santamaria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.05970786451598542,
+      "value": 0.05769471923395031,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1435,7 +1435,7 @@
       "classId": "santamaria_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.06358483168696694,
+      "value": 0.062404791651260894,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1761,7 +1761,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000909603613745702,
+      "value": 0.00008821616566745405,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1773,7 +1773,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000022065550946415158,
+      "value": 0.000021442627230250366,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1784,7 +1784,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00004564299202058919,
+      "value": 0.000044039477174351305,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1795,7 +1795,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000026928083467936403,
+      "value": 0.000026124202714861156,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1806,7 +1806,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000025172562514441665,
+      "value": 0.000024733825041423074,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1818,7 +1818,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000006190311533371684,
+      "value": 0.0000060847403289265856,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1829,7 +1829,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000012834442140396973,
+      "value": 0.000012561602274363537,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1840,7 +1840,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000071692445200444155,
+      "value": 0.00000704722066036112,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1851,7 +1851,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.014023808458437648,
+      "value": 0.013902683923930237,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1863,7 +1863,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.013147338545880238,
+      "value": 0.012994018091744941,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1874,7 +1874,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000013791137328800218,
+      "value": 0.000013488359600910549,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1885,7 +1885,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0028686109310482877,
+      "value": 0.0027741191008606725,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1896,7 +1896,7 @@
       "classId": "saomiguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 6.68586177740571e-8,
+      "value": 6.488192820508498e-8,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1908,7 +1908,7 @@
       "classId": "saomiguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.0929654259704833e-9,
+      "value": 1.976689568972123e-9,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1930,7 +1930,7 @@
       "classId": "saomiguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 6.476565234808662e-8,
+      "value": 6.290523863611286e-8,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1986,7 +1986,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00012269220993310626,
+      "value": 0.00012037475375326068,
       "extra": {
         "sketchName": "overlap test collection",
         "isCollection": true
@@ -1998,7 +1998,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00002920787791360624,
+      "value": 0.000028569616154605626,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -2009,7 +2009,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00006322442272255202,
+      "value": 0.00006185491579735469,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -2020,7 +2020,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000035276846726439715,
+      "value": 0.000034650589790796715,
       "extra": {
         "sketchName": "sketch2"
       }

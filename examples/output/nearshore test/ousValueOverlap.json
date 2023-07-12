@@ -17,7 +17,7 @@
       "classId": "all_commercial_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.011957813392903915,
+      "value": 0.011766253485106404,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -39,7 +39,7 @@
       "classId": "all_recreation_sports_and_tourism_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04973173959308497,
+      "value": 0.0487403099000403,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -50,7 +50,7 @@
       "classId": "all_recreational_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.04269918212892776,
+      "value": 0.04176582087660563,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -61,7 +61,7 @@
       "classId": "all_science_tech_monitoring_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0032975070409764357,
+      "value": 0.0032958572173372724,
       "extra": {
         "sketchName": "nearshore test"
       }
@@ -83,7 +83,7 @@
       "classId": "all_touristic_fishing_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.044137766369969356,
+      "value": 0.04338816924616662,
       "extra": {
         "sketchName": "nearshore test"
       }

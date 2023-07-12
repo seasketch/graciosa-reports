@@ -6,7 +6,7 @@
       "classId": "corvo_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0009741379847127973,
+      "value": 0.0009397435911751018,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -40,7 +40,7 @@
       "classId": "corvo_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0009741379847127973,
+      "value": 0.0009397435911751018,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -51,7 +51,7 @@
       "classId": "corvo_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0001369230798928811,
+      "value": 0.00013282527874025618,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -85,7 +85,7 @@
       "classId": "corvo_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0001369230798928811,
+      "value": 0.00013282527874025618,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -186,7 +186,7 @@
       "classId": "faial_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0008692782679240452,
+      "value": 0.0008672782978003113,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -209,7 +209,7 @@
       "classId": "faial_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0008692782679240452,
+      "value": 0.0008672782978003113,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -321,7 +321,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0043693516902294505,
+      "value": 0.0043493457793033485,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -344,7 +344,7 @@
       "classId": "faial_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0043693516902294505,
+      "value": 0.0043493457793033485,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -366,7 +366,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.004011456997099039,
+      "value": 0.0039977345662904895,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -389,7 +389,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.003988338497741495,
+      "value": 0.003974983403416843,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -400,7 +400,7 @@
       "classId": "faial_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000023118499357543953,
+      "value": 0.000022751162873646535,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -546,7 +546,7 @@
       "classId": "flores_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0002031837992007013,
+      "value": 0.00019972208832541583,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -580,7 +580,7 @@
       "classId": "flores_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0002031837992007013,
+      "value": 0.00019972208832541583,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -951,7 +951,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0014893298802576282,
+      "value": 0.001468810726692027,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -974,7 +974,7 @@
       "classId": "pico_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0014893298802576282,
+      "value": 0.001468810726692027,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -996,7 +996,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00007616674464989287,
+      "value": 0.00007557723953019457,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1008,7 +1008,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.512391929817114e-7,
+      "value": 1.495666200265755e-7,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1019,7 +1019,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00007592004013901033,
+      "value": 0.00007533510243007413,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1030,7 +1030,7 @@
       "classId": "pico_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 9.546531790083357e-8,
+      "value": 9.257048009386759e-8,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1041,7 +1041,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0009409723625939392,
+      "value": 0.0009233879247911858,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1064,7 +1064,7 @@
       "classId": "pico_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0009409723625939392,
+      "value": 0.0009233879247911858,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1086,7 +1086,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 4.5163796175140547e-7,
+      "value": 4.436449445865964e-7,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1098,7 +1098,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 1.5284208432220225e-7,
+      "value": 1.518023422519832e-7,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1109,7 +1109,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 2.0222983265760774e-7,
+      "value": 1.9820083213550888e-7,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1120,7 +1120,7 @@
       "classId": "pico_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 9.656604477159547e-8,
+      "value": 9.364177019910436e-8,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1581,7 +1581,7 @@
       "classId": "saojorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.003752846313034297,
+      "value": 0.003724119913385948,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1604,7 +1604,7 @@
       "classId": "saojorge_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.003752846313034297,
+      "value": 0.003724119913385948,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1761,7 +1761,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000639943730666559,
+      "value": 0.0006352905083195637,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1773,7 +1773,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0006007716165363775,
+      "value": 0.0005967156447042044,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1784,7 +1784,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000027629430219278106,
+      "value": 0.000027349197079473697,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1795,7 +1795,7 @@
       "classId": "saomiguel_comm_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000011542683910903406,
+      "value": 0.000011225666535885637,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1806,7 +1806,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00001808660848806598,
+      "value": 0.000017964719677188157,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1818,7 +1818,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000007130854991155289,
+      "value": 0.000007092465462266162,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1829,7 +1829,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000009398579304820132,
+      "value": 0.00000934510817529599,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1840,7 +1840,7 @@
       "classId": "saomiguel_rec_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000015571741920905602,
+      "value": 0.000001527146039626004,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1851,7 +1851,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0004056897158407624,
+      "value": 0.00039958836183418,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1863,7 +1863,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000390884661300106,
+      "value": 0.00038493702521691375,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -1874,7 +1874,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000009988559607765346,
+      "value": 0.000009929556768484282,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -1885,7 +1885,7 @@
       "classId": "saomiguel_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000004816494932891047,
+      "value": 0.000004721779848781971,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1896,7 +1896,7 @@
       "classId": "saomiguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000015408556914842109,
+      "value": 0.0000014988655482328639,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1930,7 +1930,7 @@
       "classId": "saomiguel_sci_tech_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000015408556914842109,
+      "value": 0.0000014988655482328639,
       "extra": {
         "sketchName": "sketch3"
       }
@@ -1986,7 +1986,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0014049500222657052,
+      "value": 0.0013858697740471992,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -1998,7 +1998,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0014015088197427694,
+      "value": 0.0013824705623883826,
       "extra": {
         "sketchName": "sketch1"
       }
@@ -2009,7 +2009,7 @@
       "classId": "saomiguel_tour_fish_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0000034412025229357823,
+      "value": 0.0000033992116588166255,
       "extra": {
         "sketchName": "sketch2"
       }
@@ -2166,7 +2166,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00002830926032215686,
+      "value": 0.00002793626812147565,
       "extra": {
         "sketchName": "multi island collection",
         "isCollection": true
@@ -2189,7 +2189,7 @@
       "classId": "terceira_rec_sports_ous",
       "groupId": null,
       "geographyId": null,
-      "value": 0.00002830926032215686,
+      "value": 0.00002793626812147565,
       "extra": {
         "sketchName": "sketch2"
       }
