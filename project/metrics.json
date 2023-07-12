@@ -87,12 +87,6 @@
                 "classId": "turtles_PA_Dermochelys_coriacea_baseline",
                 "display": "Dermochelys coriacea",
                 "layerId": "YucR6OyA0"
-            },
-            {
-                "datasourceId": "PA_Eretmochelys_imbricata_baseline",
-                "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
-                "display": "Eretmochelys imbricata",
-                "layerId": "rxvMsAJhB"
             }
         ]
     },

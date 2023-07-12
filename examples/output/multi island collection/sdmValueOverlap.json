@@ -539,51 +539,6 @@
       "extra": {
         "sketchName": "sketch3"
       }
-    },
-    {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "14458",
-      "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "multi island collection",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "14459",
-      "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "sketch1"
-      }
-    },
-    {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "14460",
-      "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "sketch2"
-      }
-    },
-    {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "14461",
-      "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "sketch3"
-      }
     }
   ],
   "sketch": {

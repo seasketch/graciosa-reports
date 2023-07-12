@@ -1624,28 +1624,6 @@
     "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Dermochelys coriacea_clipped.tif"
   },
   {
-    "datasourceId": "PA_Eretmochelys_imbricata_baseline",
-    "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 0,
-          "area": null
-        }
-      }
-    },
-    "formats": [
-      "tif"
-    ],
-    "measurementType": "quantitative",
-    "band": 1,
-    "noDataValue": -9999,
-    "created": "2023-06-21T17:38:03.313Z",
-    "lastUpdated": "2023-07-10T23:06:30.478Z",
-    "src": "data/src/Analytics/nearshore_reports/SDM/PA_clipped/turtles/PA_Eretmochelys imbricata_clipped.tif"
-  },
-  {
     "datasourceId": "basins",
     "geo_type": "vector",
     "keyStats": {

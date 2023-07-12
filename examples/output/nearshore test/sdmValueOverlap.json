@@ -131,17 +131,6 @@
       "extra": {
         "sketchName": "nearshore test"
       }
-    },
-    {
-      "metricId": "sdmValueOverlap",
-      "sketchId": "14455",
-      "classId": "turtles_PA_Eretmochelys_imbricata_baseline",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "nearshore test"
-      }
     }
   ],
   "sketch": {
