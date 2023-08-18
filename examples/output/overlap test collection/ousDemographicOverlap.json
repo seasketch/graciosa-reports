@@ -258,10 +258,26 @@
     }
   ],
   "sketch": {
-    "id": 14453,
     "type": "FeatureCollection",
+    "id": 14453,
+    "properties": {
+      "2991": "overlap test collection",
+      "id": "14453",
+      "name": "overlap test collection",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2023-05-02T15:49:36.640108+00:00",
+      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "213",
+      "userAttributes": null
+    },
     "features": [
       {
+        "type": "Feature",
         "id": 14456,
         "bbox": [
           -25.001762,
@@ -269,7 +285,6 @@
           -24.932547,
           37.05609
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "sketch3",
@@ -329,6 +344,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 14455,
         "bbox": [
           -25.241573,
@@ -336,9 +352,8 @@
           -25.165365,
           37.07506
         ],
-        "type": "Feature",
         "properties": {
-          "2987": "FULLY_PROTECTED",
+          "2987": "HIGHLY_PROTECTED",
           "2988": "sketch1",
           "2990": [
             "SANTA_MARIA"
@@ -353,7 +368,7 @@
           "userSlug": "Abby",
           "createdAt": "2023-05-02T21:57:25.62649+00:00",
           "updatedAt": "2023-05-03T18:45:37.112788+00:00",
-          "designation": "FULLY_PROTECTED",
+          "designation": "HIGHLY_PROTECTED",
           "collectionId": "14453",
           "isCollection": false,
           "sharedInForum": false,
@@ -361,10 +376,10 @@
           "userAttributes": [
             {
               "label": "Designation",
-              "value": "FULLY_PROTECTED",
+              "value": "HIGHLY_PROTECTED",
               "exportId": "designation",
               "fieldType": "ComboBox",
-              "valueLabel": "Fully Protected",
+              "valueLabel": "Highly Protected",
               "alternateLanguages": {
                 "pt": {
                   "label": "Designação",
@@ -396,6 +411,7 @@
         "geometry": null
       },
       {
+        "type": "Feature",
         "id": 14457,
         "bbox": [
           -25.188437,
@@ -403,7 +419,6 @@
           -25.114326,
           37.098484
         ],
-        "type": "Feature",
         "properties": {
           "2987": "FULLY_PROTECTED",
           "2988": "sketch2",
@@ -462,21 +477,6 @@
         },
         "geometry": null
       }
-    ],
-    "properties": {
-      "2991": "overlap test collection",
-      "id": "14453",
-      "name": "overlap test collection",
-      "postId": null,
-      "userId": "531",
-      "userSlug": "Abby",
-      "createdAt": "2023-05-02T15:49:36.640108+00:00",
-      "updatedAt": "2023-05-03T18:45:52.198728+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "213",
-      "userAttributes": null
-    }
+    ]
   }
 }

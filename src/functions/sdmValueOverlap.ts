@@ -15,14 +15,20 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
+import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { ExtraParams } from "../types";
+import { getParamStringArray } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("sdmValueOverlap");
 
 export async function sdmValueOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  const finalSketch = sketch;
-
+  const geographyId = extraParams
+    ? getParamStringArray("geographies", extraParams)[0]
+    : undefined;
+  const finalSketch = await clipSketchToGeography(sketch, geographyId);
   const box = finalSketch.bbox || bbox(finalSketch);
   const metrics: Metric[] = (
     await Promise.all(

@@ -18,7 +18,10 @@
     "src/functions/clipToOceanEez.ts"
   ],
   "geoprocessingFunctions": [
+    "src/functions/protection.ts",
     "src/functions/boundaryAreaOverlap.ts",
+    "src/functions/bathymetry.ts",
+    "src/functions/gfwValueOverlap.ts",
     "src/functions/sdmValueOverlap.ts",
     "src/functions/ousValueOverlap.ts",
     "src/functions/ousByIslandValueOverlap.ts",

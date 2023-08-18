@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import handler from "./ousDemographicOverlap";
+import { ousDemographicOverlap } from "./ousDemographicOverlap";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
@@ -10,13 +10,13 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof handler.func).toBe("function");
+    expect(typeof ousDemographicOverlap).toBe("function");
   });
   test("ousDemographicOverlap - tests run against all examples", async () => {
     // data fetch fails if run all sketches, too many requests?
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await handler.func(example);
+      const result = await ousDemographicOverlap(example);
       expect(result).toBeTruthy();
       writeResultOutput(
         result,
@@ -24,5 +24,5 @@ describe("Basic smoke tests", () => {
         example.properties.name
       );
     }
-  }, 100000);
+  }, 500000);
 });

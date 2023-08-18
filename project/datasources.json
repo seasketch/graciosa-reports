@@ -18,28 +18,6 @@
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
   },
   {
-    "datasourceId": "6nm_boundary",
-    "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 6,
-          "sum": null,
-          "area": 10308354077.296452
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "6nm_boundary",
-    "classKeys": [],
-    "created": "2023-05-02T21:42:39.580Z",
-    "lastUpdated": "2023-07-10T18:23:29.877Z",
-    "src": "data/src/Data_Products/shapefiles/6nm_boundary.shp",
-    "propertiesToKeep": []
-  },
-  {
     "datasourceId": "PA_Bulweria_bulwerii_baseline",
     "geo_type": "raster",
     "keyStats": {
@@ -243,8 +221,8 @@
     "keyStats": {
       "total": {
         "total": {
-          "sum": 0.06460664409917172,
           "count": null,
+          "sum": 0.06460664409917172,
           "area": null
         }
       }
@@ -1793,6 +1771,534 @@
     "created": "2023-06-22T18:19:14.943Z",
     "lastUpdated": "2023-07-10T23:06:32.179Z",
     "src": "data/src/Analytics/nearshore_reports/Geomorphology/geomorphology_features/Slope.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "santa-maria",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 877814480.8378626
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "santa_maria_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-07-13T20:08:15.926Z",
+    "lastUpdated": "2023-08-07T16:29:33.255Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/santa_maria_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bathymetry",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": -27325563104,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -32767,
+    "created": "2023-08-01T21:34:06.693Z",
+    "lastUpdated": "2023-08-01T21:34:06.693Z",
+    "src": "data/src/Analytics/bathy/gebco_2021.tif"
+  },
+  {
+    "datasourceId": "all-fishing",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 105243.27970947977,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:19:23.930Z",
+    "lastUpdated": "2023-08-02T18:19:23.930Z",
+    "src": "data/src/Analytics/gfw/all-fish-19-22.tif"
+  },
+  {
+    "datasourceId": "drifting-longlines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 48513.311874675564,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:20:16.668Z",
+    "lastUpdated": "2023-08-02T18:20:16.668Z",
+    "src": "data/src/Analytics/gfw/drifting_longlines.tif"
+  },
+  {
+    "datasourceId": "ESP",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 33596.21929679252,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:20:38.176Z",
+    "lastUpdated": "2023-08-02T18:20:38.176Z",
+    "src": "data/src/Analytics/gfw/ESP.tif"
+  },
+  {
+    "datasourceId": "pole-and-line",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 21067.85809814185,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:21:48.308Z",
+    "lastUpdated": "2023-08-02T18:21:48.308Z",
+    "src": "data/src/Analytics/gfw/pole_and_line.tif"
+  },
+  {
+    "datasourceId": "set-longlines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 9647.449667099863,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:22:15.037Z",
+    "lastUpdated": "2023-08-02T18:22:15.037Z",
+    "src": "data/src/Analytics/gfw/set_longlines.tif"
+  },
+  {
+    "datasourceId": "fixed-gear",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 8269.586501637474,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:22:47.353Z",
+    "lastUpdated": "2023-08-02T18:22:47.353Z",
+    "src": "data/src/Analytics/gfw/fixed_gear.tif"
+  },
+  {
+    "datasourceId": "purse-seines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 198.52972282469273,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:23:18.229Z",
+    "lastUpdated": "2023-08-02T18:23:18.229Z",
+    "src": "data/src/Analytics/gfw/purse_seines.tif"
+  },
+  {
+    "datasourceId": "other-purse-seines",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 128.65805564820766,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:23:44.108Z",
+    "lastUpdated": "2023-08-02T18:23:44.108Z",
+    "src": "data/src/Analytics/gfw/other_purse_seines.tif"
+  },
+  {
+    "datasourceId": "set-gillnets",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 765.3888857271522,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:24:12.814Z",
+    "lastUpdated": "2023-08-02T18:24:12.814Z",
+    "src": "data/src/Analytics/gfw/set_gillnets.tif"
+  },
+  {
+    "datasourceId": "trawlers",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 76.68111062981188,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:24:37.033Z",
+    "lastUpdated": "2023-08-02T18:24:37.033Z",
+    "src": "data/src/Analytics/gfw/trawlers.tif"
+  },
+  {
+    "datasourceId": "trollers",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 552.8126491680741,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:24:58.908Z",
+    "lastUpdated": "2023-08-02T18:24:58.908Z",
+    "src": "data/src/Analytics/gfw/trollers.tif"
+  },
+  {
+    "datasourceId": "PRT",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 71599.84101833822,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:25:27.379Z",
+    "lastUpdated": "2023-08-02T18:25:27.379Z",
+    "src": "data/src/Analytics/gfw/PRT.tif"
+  },
+  {
+    "datasourceId": "RUS",
+    "geo_type": "raster",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": null,
+          "sum": 47.05249875038862,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2023-08-02T18:25:49.722Z",
+    "lastUpdated": "2023-08-02T18:25:49.722Z",
+    "src": "data/src/Analytics/gfw/RUS.tif"
+  },
+  {
+    "datasourceId": "sao-miguel",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 2137075226.451054
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "san_miguel_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T21:33:47.604Z",
+    "lastUpdated": "2023-08-14T21:33:47.604Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_miguel_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "corvo",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 575605732.7764677
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "corvo_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:06:52.214Z",
+    "lastUpdated": "2023-08-14T22:06:52.214Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/corvo_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "graciosa",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 746350678.5030005
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "graciosa_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:07:44.485Z",
+    "lastUpdated": "2023-08-14T22:07:44.485Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/graciosa_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "flores",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 926376704.26102
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "flores_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:41:55.818Z",
+    "lastUpdated": "2023-08-14T22:41:55.818Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/flores_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "faial",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 990138030.0899957
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "faial_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:42:15.599Z",
+    "lastUpdated": "2023-08-14T22:42:15.599Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/faial_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "pico",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 1549832742.7643557
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "pico_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:42:34.093Z",
+    "lastUpdated": "2023-08-14T22:42:34.093Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/pico_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "sao-jorge",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 1656884789.0896845
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "san_jorge_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:43:03.652Z",
+    "lastUpdated": "2023-08-14T22:43:03.652Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/san_jorge_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "terceira",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 1292242320.0095162
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "terceira_6nm_boundary_ws84",
+    "classKeys": [],
+    "created": "2023-08-14T22:43:32.794Z",
+    "lastUpdated": "2023-08-14T22:43:32.794Z",
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/terceira_6nm_boundary_ws84.shp",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_islands_dissolved_6nm_boundary_ws84.shp",
+    "layerName": "azores_islands_dissolved_6nm_boundary_ws84",
+    "geo_type": "vector",
+    "datasourceId": "6nm_boundary",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-08-15T21:11:49.865Z",
+    "lastUpdated": "2023-08-15T21:11:49.865Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 6,
+          "sum": null,
+          "area": 10297388667.715572
+        }
+      }
+    },
     "propertiesToKeep": []
   }
 ]

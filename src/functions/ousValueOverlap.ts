@@ -14,13 +14,21 @@ import {
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
+import { clipSketchToGeography } from "../util/clipSketchToGeography";
+import { ExtraParams } from "../types";
+import { getParamStringArray } from "../util/extraParams";
 
 const metricGroup = project.getMetricGroup("ousValueOverlap");
 
 export async function ousValueOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams?: ExtraParams
 ): Promise<ReportResult> {
-  const box = sketch.bbox || bbox(sketch);
+  const geographyId = extraParams
+    ? getParamStringArray("geographies", extraParams)[0]
+    : undefined;
+  const clippedSketch = await clipSketchToGeography(sketch, geographyId);
+  const box = clippedSketch.bbox || bbox(clippedSketch);
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
@@ -37,7 +45,7 @@ export async function ousValueOverlap(
         const overlapResult = await overlapRaster(
           metricGroup.metricId,
           raster,
-          sketch
+          clippedSketch
         );
         return overlapResult.map(
           (metrics): Metric => ({
@@ -55,7 +63,7 @@ export async function ousValueOverlap(
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
+    sketch: toNullSketch(clippedSketch, true),
   };
 }
 

@@ -5,30 +5,33 @@ import {
   SketchClassTable,
   ClassTable,
   useSketchProperties,
-  Dropdown,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
   toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
-  toPercentMetric,
-  sortMetrics,
   Metric,
+  MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
+import { GeoProp } from "../types";
+import { getGeographyById } from "../util/getGeographyById";
 
-const metricGroup = project.getMetricGroup("ousValueOverlap");
-const precalcMetrics = project.getPrecalcMetrics(
-  metricGroup,
-  "sum",
-  metricGroup.classKey
-);
-
-export const OUSCard = () => {
+export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
+  const metricGroup = project.getMetricGroup("ousValueOverlap");
+  const precalcMetrics = getPrecalcMetrics(
+    metricGroup,
+    "sum",
+    props.geographyId
+  );
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
@@ -36,8 +39,15 @@ export const OUSCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Ocean Use - Nearshore")}
+        title={
+          t("Ocean Use Within") +
+          " " +
+          getGeographyById(props.geographyId).display +
+          " " +
+          t("Planning Area")
+        }
         functionName="ousValueOverlap"
+        extraParams={{ geographies: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
@@ -51,14 +61,21 @@ export const OUSCard = () => {
 
           return (
             <>
-              <Trans i18nKey="OUS Card">
-                <p>
-                  This report summarizes the percentage of ocean use activities
-                  that overlap with this nearshore plan, as reported in the
-                  Ocean Use Survey. Plans should consider the potential impact
-                  to sectors if access or activities are restricted.
-                </p>
-              </Trans>
+              <p>
+                <Trans i18nKey="OUS Card 1">
+                  This report summarizes the percentage of ocean use value
+                  within the
+                </Trans>{" "}
+                <b>{getGeographyById(props.geographyId).display}</b>{" "}
+                <Trans i18nKey="OUS Card 2">
+                  <b>planning area</b> that overlaps with this plan, as reported
+                  in the Ocean Use Survey. This report includes ocean use by
+                  inhabitants of <b>all</b> islands. Plans should consider the
+                  potential impact to sectors if access or activities are
+                  restricted.
+                </Trans>
+              </p>
+
               <ClassTable
                 rows={parentMetrics}
                 metricGroup={metricGroup}
@@ -87,7 +104,7 @@ export const OUSCard = () => {
               />
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data)}
+                  {genSketchTable(data, precalcMetrics, metricGroup)}
                 </Collapse>
               )}
 
@@ -120,7 +137,7 @@ export const OUSCard = () => {
                   </p>
                   <p>
                     🎯 Planning Objective: there is no specific objective/target
-                    for limiting the potential impact to fishing activities.
+                    for limiting the potential impact of ocean use activities.
                   </p>
                   <p>🗺️ Methods:</p>
                   <ul>
@@ -140,8 +157,8 @@ export const OUSCard = () => {
                     overlap, the overlap is only counted once.
                   </p>
                   <p>
-                    This report shows the percentage of EEZ-wide value that is
-                    contained by the nearshore plan.
+                    This report shows the percentage of regional ocean use value
+                    that is contained by the proposed plan.
                   </p>
                 </Trans>
               </Collapse>
@@ -153,7 +170,11 @@ export const OUSCard = () => {
   );
 };
 
-const genSketchTable = (data: ReportResult) => {
+const genSketchTable = (
+  data: ReportResult,
+  precalcMetrics: Metric[],
+  metricGroup: MetricGroup
+) => {
   const childSketches = toNullSketchArray(data.sketch);
   const childSketchIds = childSketches.map((sk) => sk.properties.id);
   const childSketchMetrics = toPercentMetric(

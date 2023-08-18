@@ -2,60 +2,54 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
-  SketchClassTable,
   ClassTable,
   useSketchProperties,
-  Dropdown,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
-  toNullSketchArray,
-  flattenBySketchAllClass,
   metricsWithSketchId,
-  toPercentMetric,
   sortMetrics,
-  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
+import {
+  getPrecalcMetrics,
+  toPercentMetric,
+} from "../../data/bin/getPrecalcMetrics";
+import { GeoProp } from "../types";
+import { getGeographyById } from "../util/getGeographyById";
 
-const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
-const precalcMetrics = project.getPrecalcMetrics(
-  metricGroup,
-  "sum",
-  metricGroup.classKey
-);
+interface ByIslandProp extends GeoProp {
+  hidden: boolean;
+}
 
-// Mapping island ids to display names for report
-const islands: { [id: string]: string } = {};
-islands["corvo"] = "Corvo";
-islands["pico"] = "Pico";
-islands["saojorge"] = "São Jorge";
-islands["saomiguel"] = "São Miguel";
-islands["terceira"] = "Terceira";
-islands["flores"] = "Flores";
-islands["faial"] = "Faial";
-islands["santamaria"] = "Santa Maria";
-islands["graciosa"] = "Graciosa";
+export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
+  props
+) => {
+  // Only displays if looking at subregion
+  if (props.hidden) return null;
 
-export const OUSByIslandCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
+  const metricGroup = project.getMetricGroup("ousByIslandValueOverlap");
+  const precalcMetrics = getPrecalcMetrics(metricGroup, "sum", "nearshore");
+
   const mapLabel = t("Map");
   const sectorLabel = t("Sector");
   const percValueLabel = t("% Value Found Within Plan");
 
-  const [island, setIslandVisible] = useState("corvo");
-
-  const islandSwitcher = (e: any) => {
-    setIslandVisible(e.target.value);
-  };
-
   return (
     <>
       <ResultsCard
-        title={t("Ocean Use - By Island")}
+        title={
+          t("Ocean Use By") +
+          " " +
+          getGeographyById(props.geographyId).display +
+          " " +
+          t("Inhabitants")
+        }
         functionName="ousByIslandValueOverlap"
+        extraParams={{ geographies: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
@@ -83,7 +77,6 @@ export const OUSByIslandCard = () => {
                 return groups;
               }
 
-              // adds metric to the island's metric array
               groups[island] = [...(groups[island] || []), metric];
               return groups;
             },
@@ -92,25 +85,22 @@ export const OUSByIslandCard = () => {
 
           return (
             <>
-              <Trans i18nKey="OUS By Island Card">
-                <p>
-                  This report summarizes the percentage of activities that
-                  overlap with ocean use by island inhabitants, as reported in
-                  the Ocean Use Survey. Plans should consider the potential
-                  impact to sectors if access or activities are restricted.
-                </p>
-              </Trans>
-
-              {t("Ocean use by ")}
-              <select onChange={islandSwitcher}>
-                {Object.keys(islands).map((island: string) => {
-                  return <option value={island}>{islands[island]}</option>;
-                })}
-              </select>
-              {t(" inhabitants represented in Ocean Use Survey.")}
+              <p>
+                <Trans i18nKey="OUS By Island Card 1">
+                  This report summarizes the percent of total <b>nearshore</b>{" "}
+                  ocean use value of
+                </Trans>{" "}
+                <b>{getGeographyById(props.geographyId).display}</b>{" "}
+                <Trans i18nKey="OUS By Island Card 2">
+                  <b>inhabitants</b> that overlaps with the proposed plan, as
+                  reported in the Ocean Use Survey. Plans should consider the
+                  potential impact to sectors if access or activities are
+                  restricted.
+                </Trans>
+              </p>
 
               <ClassTable
-                rows={groupedMetrics[island]}
+                rows={groupedMetrics[props.geographyId]}
                 metricGroup={metricGroup}
                 columnConfig={[
                   {

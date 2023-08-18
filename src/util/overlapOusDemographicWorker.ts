@@ -1,9 +1,6 @@
 import { expose } from "threads/worker";
 import {
-  OusFeatureProperties,
-  OusFeature,
   OusFeatureCollection,
-  BaseCountStats,
   ClassCountStats,
   OusStats,
 } from "./overlapOusDemographic";
@@ -12,30 +9,29 @@ import intersect from "@turf/intersect";
 import {
   clip,
   createMetric,
-  Feature,
   Polygon,
-  FeatureCollection,
   Metric,
   MultiPolygon,
-  Nullable,
   Sketch,
   SketchCollection,
   toSketchArray,
 } from "@seasketch/geoprocessing";
 
 /**
-  Calculates demographics of ocean use within a sketch
-
-  Weight - includes 0-100 normalized and also unnormalized up to 4500
-  Island - one assigned island value per respondent
-  Sector - one per respondent, except for bait fishing, which is only/also asked if tuna fishing is selected by respondent
-  Gear - one or more per shape (list where each element separated by 3 spaces), answered by respondent per shape
-  Number of people - answered once per respondent, gets joined in from respondents csv to each shape.  This means it's answered effectively once per sector, except for bait fishing.
-
-  What this means we can do with the data:
-  * number of respondents (unique respondent_id's) is not equal to number of people surveyed.  Someone could respond to the survey multiples times, for a different sector each time
-    * The names of the people and their island can be used to better uniquely identify people but also not perfect.  This report doesn't attempt to use names
-  * number_of_ppl is therefore also an approximation.
+  Calculates demographics of ocean use within a sketch. This function is specific to the 
+  OUS Demographics Survey conducted in the Azores. Each shape in 'shapes' contains the
+  following information:
+  - Respondent ID - unique, anonymous Id used to identify a respondent
+  - Island - one assigned island value per respondent
+  - Sector - one respondent can draw shapes for multiple sectors
+  - Gear - one or more per shape (list where each element separated by 3 spaces), 
+  answered by respondent per shape
+  - Number of people - one respondent can represented different numbers of people for 
+  different sectors. Therefore we keep track of maximum number of people represented per
+  respondent ID and use that for total number of people represented in the survey and number of 
+  people represented for each island. (i.e. if a single respondondent represents 3 people 
+  for touristic fishing and 5 people for commercial fishing, 5 people total are counted 
+  as being represented). This means number_of_ppl is an approximation.
  */
 async function overlapOusDemographicWorker(
   /** ous shape polygons */
@@ -62,6 +58,9 @@ async function overlapOusDemographicWorker(
 
   // Track counting of respondent/sector level stats, only need to count once
   const respondentProcessed: Record<string, Record<string, boolean>> = {};
+
+  // Track counting of max represented people for respondent stats
+  const maxPeoplePerRespondent: Record<string, number> = {};
 
   const countStats = shapes.features.reduce<OusStats>(
     (statsSoFar, shape) => {
@@ -111,11 +110,13 @@ async function overlapOusDemographicWorker(
       // Mutates
       let newStats: OusStats = { ...statsSoFar };
 
-      // Once per respondent counts - island
+      // If new respondent
       if (!respondentProcessed[resp_id]) {
-        newStats.people = newStats.people + curPeople;
+        // Add respondent to total respondents
         newStats.respondents = newStats.respondents + 1;
+        newStats.people = newStats.people + curPeople;
 
+        // Add new respondent to island stats
         newStats.byIsland[respIsland] = {
           respondents: newStats.byIsland[respIsland]
             ? newStats.byIsland[respIsland].respondents + 1
@@ -124,7 +125,29 @@ async function overlapOusDemographicWorker(
             ? newStats.byIsland[respIsland].people + curPeople
             : curPeople,
         };
+
         respondentProcessed[resp_id] = {};
+
+        // Keep track of # people this respondent represents
+        respondentProcessed[resp_id][curPeople] = true;
+        maxPeoplePerRespondent[resp_id] = curPeople;
+      }
+
+      // If new number of people represented by respondent
+      if (!respondentProcessed[resp_id][curPeople]) {
+        // If respondent is representing MORE people, add them
+        if (maxPeoplePerRespondent[resp_id] < curPeople) {
+          const addnPeople = curPeople - maxPeoplePerRespondent[resp_id];
+          newStats.people = newStats.people + addnPeople;
+
+          newStats.byIsland[respIsland] = {
+            respondents: newStats.byIsland[respIsland].respondents,
+            people: newStats.byIsland[respIsland].people + addnPeople,
+          };
+
+          // Update maxPeoplePerRespondent
+          maxPeoplePerRespondent[resp_id] = curPeople;
+        }
       }
 
       // Once per respondent and gear type counts
