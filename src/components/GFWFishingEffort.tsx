@@ -176,8 +176,8 @@ export const GFWFishingEffort: React.FunctionComponent<GeoProp> = (props) => {
                   📈 Report: Percentages are calculated by summing the total
                   amount of fishing effort (in hours) within the MPAs in this
                   plan, and dividing it by the total amount of fishing effort
-                  (in hours) across the overall planning area. If the plan
-                  includes multiple areas that overlap, the overlap is only
+                  (in hours) across the selected nearshore planning area. If the
+                  plan includes multiple areas that overlap, the overlap is only
                   counted once.
                 </p>
                 <p>

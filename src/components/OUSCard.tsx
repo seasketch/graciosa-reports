@@ -39,13 +39,7 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
   return (
     <>
       <ResultsCard
-        title={
-          t("Ocean Use Within") +
-          " " +
-          getGeographyById(props.geographyId).display +
-          " " +
-          t("Planning Area")
-        }
+        title={t("Ocean Use Within Planning Area")}
         functionName="ousValueOverlap"
         extraParams={{ geographies: [props.geographyId] }}
       >
@@ -68,11 +62,11 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
                 </Trans>{" "}
                 <b>{getGeographyById(props.geographyId).display}</b>{" "}
                 <Trans i18nKey="OUS Card 2">
-                  <b>planning area</b> that overlaps with this plan, as reported
-                  in the Ocean Use Survey. This report includes ocean use by
-                  inhabitants of <b>all</b> islands. Plans should consider the
-                  potential impact to sectors if access or activities are
-                  restricted.
+                  <b>nearshore planning area</b> that overlaps with this plan,
+                  as reported in the Ocean Use Survey. This report includes
+                  ocean use by inhabitants of <b>all</b> islands. Plans should
+                  consider the potential impact to sectors if access or
+                  activities are restricted.
                 </Trans>
               </p>
 
@@ -157,8 +151,9 @@ export const OUSCard: React.FunctionComponent<GeoProp> = (props) => {
                     overlap, the overlap is only counted once.
                   </p>
                   <p>
-                    This report shows the percentage of regional ocean use value
-                    that is contained by the proposed plan.
+                    This report shows the percentage of the selected nearshore
+                    planning area's ocean use value that is contained by the
+                    proposed plan.
                   </p>
                 </Trans>
               </Collapse>

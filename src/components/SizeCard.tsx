@@ -128,7 +128,8 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
                 </b>
                 {", "}
                 {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
-                {getGeographyById(props.geographyId).display} {t("waters")}.
+                {getGeographyById(props.geographyId).display}{" "}
+                {t("nearshore waters")}.
               </KeySection>
               {isCollection
                 ? collectionReport(
@@ -177,8 +178,8 @@ const genWarning = () => {
       <div role="alert">
         <ErrorIndicator />
         <b>
-          This plan does not overlap with the selected subregion, please select
-          a different subregion for useful report metrics.
+          This plan does not overlap with the selected nearshore planning area,
+          please select a different planning area for useful report metrics.
         </b>
       </div>
       <VerticalSpacer />
@@ -465,7 +466,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA counts towards protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("nearshore waters.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
@@ -473,7 +474,7 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA does not count towards protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("nearshore waters.")}
         </>
       );
     }
@@ -489,7 +490,8 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA counts towards fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters as no-take.")}
         </>
       );
     } else if (objective.countsToward[level] === OBJECTIVE_NO) {
@@ -497,7 +499,8 @@ const sketchMsgs: Record<string, any> = {
         <>
           {t("This MPA does not count towards fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters as no-take.")}
         </>
       );
     }
@@ -519,7 +522,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan meets the objective of protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("nearshore waters.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
@@ -527,7 +530,7 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan does not meet the objective of protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters.")}
+          {getGeographyById(geographyId).display} {t("nearshore waters.")}
         </>
       );
     }
@@ -543,7 +546,8 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan meets the objective of fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters as no-take.")}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
@@ -551,7 +555,8 @@ const collectionMsgs: Record<string, any> = {
         <>
           {t("This plan does not meet the objective of fully protecting")}{" "}
           <b>{percentWithEdge(objective.target)}</b> {t("of")}{" "}
-          {getGeographyById(geographyId).display} {t("waters as no-take.")}
+          {getGeographyById(geographyId).display}{" "}
+          {t("nearshore waters as no-take.")}
         </>
       );
     }

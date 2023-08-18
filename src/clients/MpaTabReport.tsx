@@ -30,7 +30,7 @@ const MpaTabReport = () => {
     <>
       <Card>
         <p>
-          {t("Generate reports for the")}{" "}
+          {t("Nearshore planning area:")}{" "}
           <select onChange={geographySwitcher}>
             {geographies.map((geography) => {
               return (
@@ -42,8 +42,7 @@ const MpaTabReport = () => {
                 </option>
               );
             })}
-          </select>{" "}
-          {t("planning area.")}
+          </select>
         </p>
       </Card>
       <div style={{ marginTop: 5 }}>

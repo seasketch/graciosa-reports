@@ -2,7 +2,7 @@
     {
         "geographyId": "nearshore",
         "datasourceId": "6nm_boundary",
-        "display": "Nearshore"
+        "display": "Azores"
     },
     {
         "geographyId": "corvo",

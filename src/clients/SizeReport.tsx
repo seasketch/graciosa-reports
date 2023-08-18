@@ -14,7 +14,7 @@ export const SizeReport = () => {
     <Translator>
       <Card>
         <p>
-          Generate reports for the{" "}
+          Nearshore planning area:{" "}
           <select onChange={geographySwitcher}>
             {geographies.map((geography) => {
               return (
@@ -23,8 +23,7 @@ export const SizeReport = () => {
                 </option>
               );
             })}
-          </select>{" "}
-          planning area.
+          </select>
         </p>
       </Card>
       <SizeCard geographyId={geography} />

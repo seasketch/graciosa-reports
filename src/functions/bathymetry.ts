@@ -84,7 +84,7 @@ export async function bathyStats(
   });
 
   if (!sketchStats.map((s) => s.min).filter(notNull).length) {
-    // No sketch overlaps with subregion
+    // No sketch overlaps with planning area
     return { min: 0, max: 0, mean: 0, units: "meters" };
   }
 

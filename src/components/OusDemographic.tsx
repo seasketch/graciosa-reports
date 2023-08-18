@@ -154,7 +154,7 @@ export const OusDemographics: React.FunctionComponent<GeoProp> = (props) => {
                     <Trans i18nKey="OUS Demographics - info status">
                       This is a <b>draft</b> report. Further changes or
                       corrections may be made. Please report any issues. Survey
-                      results last updated: 6/20/2023
+                      results last updated: 8/18/2023
                     </Trans>
                   </span>
                 }

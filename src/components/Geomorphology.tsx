@@ -186,8 +186,9 @@ export const Geomorphology: React.FunctionComponent<GeoProp> = (props) => {
                     plan is calculated by finding the overlap of each feature
                     type with the plan, summing its area, then dividing it by
                     the total area of each feature type found within the
-                    nearshore planning region. If the plan includes multiple
-                    areas that overlap, the overlap is only counted once.
+                    selected nearshore planning area. If the plan includes
+                    multiple areas that overlap, the overlap is only counted
+                    once.
                   </p>
                 </Trans>
               </Collapse>
