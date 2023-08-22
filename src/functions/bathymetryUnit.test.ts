@@ -9,9 +9,9 @@ import parseGeoraster from "georaster";
 
 const values = [
   [
-    [0, 1, 2],
+    [0, -1, -2],
     [0, 0, 0],
-    [2, 1, 1],
+    [-2, -1, 0],
   ],
 ];
 const noDataValue = 3;
@@ -51,8 +51,8 @@ describe("Bathymetry unit tests", () => {
   it("correctly calculates bathyStats", async () => {
     const georaster = await parseGeoraster(values, metadata);
     const result = await bathyStats([poly], georaster);
-    expect(result.min).toBe(1);
-    expect(result.max).toBe(2);
-    expect(result.mean).toBeCloseTo(1.33);
+    expect(result.min).toBe(-2);
+    expect(result.max).toBe(0);
+    expect(result.mean).toBeCloseTo(-1);
   });
 });

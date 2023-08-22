@@ -88,10 +88,15 @@ export async function bathyStats(
     return { min: 0, max: 0, mean: 0, units: "meters" };
   }
 
+  const minVal = min(sketchStats.map((s) => s.min).filter(notNull));
+  const maxVal = max(sketchStats.map((s) => s.max).filter(notNull));
+  const meanVal = mean(sketchStats.map((s) => s.mean).filter(notNull));
+
+  // Restrict values to be <= 0
   return {
-    min: min(sketchStats.map((s) => s.min).filter(notNull)),
-    max: max(sketchStats.map((s) => s.max).filter(notNull)),
-    mean: mean(sketchStats.map((s) => s.mean).filter(notNull)),
+    min: minVal > 0 ? 0 : minVal,
+    max: maxVal > 0 ? 0 : maxVal,
+    mean: meanVal > 0 ? 0 : meanVal,
     units: "meters",
   };
 }
