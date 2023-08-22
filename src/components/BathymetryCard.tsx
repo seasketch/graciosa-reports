@@ -15,7 +15,7 @@ export const BathymetryCard: React.FunctionComponent<GeoProp> = (props) => {
     <ResultsCard
       title={t("Depth")}
       functionName="bathymetry"
-      extraParams={{ geographies: [props.geographyId] }}
+      extraParams={{ geographyIds: [props.geographyId] }}
     >
       {(data: BathymetryResults) => {
         return (

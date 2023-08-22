@@ -86,7 +86,7 @@ export const SizeCard: React.FunctionComponent<GeoProp> = (props) => {
     <ResultsCard
       title={t("Size")}
       functionName="boundaryAreaOverlap"
-      extraParams={{ geographies: [props.geographyId] }}
+      extraParams={{ geographyIds: [props.geographyId] }}
     >
       {(data: ReportResult) => {
         // Get overall area of sketch metric

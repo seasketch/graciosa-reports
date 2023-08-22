@@ -26,7 +26,7 @@ export async function sdmValueOverlap(
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
   const geographyId = extraParams
-    ? getParamStringArray("geographies", extraParams)[0]
+    ? getParamStringArray("geographyIds", extraParams)[0]
     : undefined;
   const finalSketch = await clipSketchToGeography(sketch, geographyId);
   const box = finalSketch.bbox || bbox(finalSketch);

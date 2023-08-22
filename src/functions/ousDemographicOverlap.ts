@@ -27,7 +27,7 @@ export async function ousDemographicOverlap(
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
   const geographyId = extraParams
-    ? getParamStringArray("geographies", extraParams)[0]
+    ? getParamStringArray("geographyIds", extraParams)[0]
     : undefined;
   const clippedSketch = await clipSketchToGeography(sketch, geographyId, {
     tolerance: 0.00005,

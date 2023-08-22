@@ -44,7 +44,7 @@ export const SDMCard: React.FunctionComponent<GeoProp> = (props) => {
       <ResultsCard
         title={t("Valuable Species Habitat")}
         functionName="sdmValueOverlap"
-        extraParams={{ geographies: [props.geographyId] }}
+        extraParams={{ geographyIds: [props.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {

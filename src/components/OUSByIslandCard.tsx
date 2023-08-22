@@ -49,7 +49,7 @@ export const OUSByIslandCard: React.FunctionComponent<ByIslandProp> = (
           t("Inhabitants")
         }
         functionName="ousByIslandValueOverlap"
-        extraParams={{ geographies: [props.geographyId] }}
+        extraParams={{ geographyIds: [props.geographyId] }}
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level

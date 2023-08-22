@@ -1,6 +1,6 @@
 export interface ExtraParams {
-  /** Optional ID(s) of geographies to operate on. **/
-  geographies?: string[];
+  /** Optional geographyIds to operate on. **/
+  geographyIds?: string[];
 }
 
 export interface GeoProp {

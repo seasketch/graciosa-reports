@@ -18,6 +18,7 @@ import {
   datasourceConfig,
   createMetric,
 } from "@seasketch/geoprocessing";
+import { genVectorConfig } from "@seasketch/geoprocessing/scripts";
 import { Geography } from "../../src/types";
 
 /**
@@ -31,6 +32,7 @@ export async function precalcVectorDatasource(
   geography: Geography
 ): Promise<Metric[]> {
   // Creates vector config from datasources.json
+  // @ts-ignore
   const vectorConfig = genVectorConfig(projectClient, datasource);
 
   console.log(
@@ -39,45 +41,6 @@ export async function precalcVectorDatasource(
 
   // Create metrics and return to precalc.ts
   return genVectorMetrics(vectorConfig, geography);
-}
-
-/** Takes import options and creates full import config
- *  This had to be copied over from gp library due to the export not
- *  being propagated out. It's identical to genVectorConfig in gp library
- */
-export function genVectorConfig<C extends ProjectClientBase>(
-  projectClient: C,
-  options: ImportVectorDatasourceOptions,
-  newDstPath?: string
-): ImportVectorDatasourceConfig {
-  let {
-    geo_type,
-    src,
-    datasourceId,
-    propertiesToKeep = [],
-    classKeys,
-    layerName,
-    formats = datasourceConfig.importDefaultVectorFormats,
-    explodeMulti,
-  } = options;
-  if (!layerName)
-    layerName = path.basename(src, "." + path.basename(src).split(".").pop());
-  // merge to ensure keep at least classKeys
-  propertiesToKeep = Array.from(new Set(propertiesToKeep.concat(classKeys)));
-  const config: ImportVectorDatasourceConfig = {
-    geo_type,
-    src,
-    dstPath: newDstPath || datasourceConfig.defaultDstPath,
-    propertiesToKeep,
-    classKeys,
-    layerName,
-    datasourceId,
-    package: projectClient.package,
-    gp: projectClient.geoprocessing,
-    formats,
-    explodeMulti,
-  };
-  return config;
 }
 
 /**

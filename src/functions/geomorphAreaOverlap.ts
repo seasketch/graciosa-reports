@@ -24,7 +24,7 @@ export async function geomorphAreaOverlap(
   extraParams?: ExtraParams
 ): Promise<ReportResult> {
   const geographyId = extraParams
-    ? getParamStringArray("geographies", extraParams)[0]
+    ? getParamStringArray("geographyIds", extraParams)[0]
     : undefined;
   const clippedSketch = await clipSketchToGeography(sketch, geographyId);
   const box = clippedSketch.bbox || bbox(clippedSketch);
