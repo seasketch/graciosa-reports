@@ -1,5 +1,5 @@
 {
-  "name": "azores-nearshore-reports",
+  "name": "graciosa-reports",
   "version": "2.0.0",
   "description": "Reports for Azores nearshore/coastal plan",
   "main": "src/index.js",
