@@ -1009,6 +1009,22 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 39,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 419245788.2081819,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "nearshore",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 23,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -2012,6 +2028,22 @@
             "metricId": "area",
             "value": 575605732.7763913,
             "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "corvo",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 8209122.442147981,
+            "classId": "limpet_catch_areas-total",
             "groupId": null,
             "geographyId": "corvo",
             "sketchId": null
@@ -3025,6 +3057,22 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 5,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 74596523.92477298,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "faial",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 35,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -4028,6 +4076,22 @@
             "metricId": "area",
             "value": 926376704.2608929,
             "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 3,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "flores",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 56522952.657634735,
+            "classId": "limpet_catch_areas-total",
             "groupId": null,
             "geographyId": "flores",
             "sketchId": null
@@ -5041,6 +5105,22 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 4,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 15715619.465548238,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "graciosa",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 63,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -6044,6 +6124,22 @@
             "metricId": "area",
             "value": 1549832742.7646012,
             "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 5,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "pico",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 95757872.63794374,
+            "classId": "limpet_catch_areas-total",
             "groupId": null,
             "geographyId": "pico",
             "sketchId": null
@@ -7057,6 +7153,22 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 6,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 36272375.8161894,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "santa-maria",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 86,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -8060,6 +8172,22 @@
             "metricId": "area",
             "value": 2137075226.451204,
             "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 5,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "sao-miguel",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 78618240.70179367,
+            "classId": "limpet_catch_areas-total",
             "groupId": null,
             "geographyId": "sao-miguel",
             "sketchId": null
@@ -9073,6 +9201,22 @@
             "sketchId": null
         },
         {
+            "metricId": "count",
+            "value": 4,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 25617890.07244352,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "sao-jorge",
+            "sketchId": null
+        },
+        {
             "metricId": "sum",
             "value": 52,
             "classId": "PA_Bulweria_bulwerii_baseline-total",
@@ -10076,6 +10220,22 @@
             "metricId": "area",
             "value": 1292242320.0092096,
             "classId": "6nm_boundary-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "count",
+            "value": 6,
+            "classId": "limpet_catch_areas-total",
+            "groupId": null,
+            "geographyId": "terceira",
+            "sketchId": null
+        },
+        {
+            "metricId": "area",
+            "value": 83938647.24848722,
+            "classId": "limpet_catch_areas-total",
             "groupId": null,
             "geographyId": "terceira",
             "sketchId": null

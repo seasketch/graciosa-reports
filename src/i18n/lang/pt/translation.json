@@ -242,7 +242,7 @@
   "All Fishing 2019-2022": "Todas as Pescas 2019-2022",
   "Drifting Longline": "Longline à deriva",
   "Fixed Gear": "Engrenagem Fixa",
-  "Nearshore Planning Area": "Área de Planejamento Nearshore",
+  "Nearshore Planning Area": "Área de Planejamento Costeiro",
   "nearshore waters": "águas costeiras",
   "nearshore waters as no-take.": "águas costeiras como não extração.",
   "nearshore waters.": "águas costeiras.",
@@ -259,5 +259,9 @@
   "This plan <b>does not</b> meet the objective of fully protecting": "Este plano <b>não</b> atende ao objetivo de proteger totalmente",
   "This plan <b>does not</b> meet the objective of protecting": "Este plano <b>não</b> atende ao objetivo de proteger",
   "Trawlers": "Arrastões",
-  "Trollers": "Trollers"
+  "Trollers": "Trollers",
+  "Key Resources": "Principais Recursos",
+  "Limpet Catch Areas": "Áreas de Captura de Lapas",
+  "Limpet Catch Areas Card": "<p>Este relatório apresenta a quantidade de áreas de captura de lapas que se sobrepõem ao seu plano.</p>",
+  "Limpet Catch Card - learn more": "<p>ℹ️ Visão geral: As lapas são uma espécie chave com áreas de captura conhecidas em torno da Graciosa. Os planos devem ter em conta o impacto de protecções adicionais em áreas conhecidas de captura de lapa.</p><p>🎯 Objectivo de planeamento: Não existem objectivos de planeamento identificados para áreas de captura de lapa.</p><p>🗺️ Dados de origem: Regulamentos Áreas de Pesca Reserva Regime Apanha Portaria</p><p>📈 Relatório: A porcentagem de cada feature type dentro deste plano é calculada encontrando a sobreposição de cada feature type com o plano, somando sua área e depois dividindo pela área total de cada tipo de recurso encontrado na área de planejamento nearshore selecionada. Se o plano incluir diversas áreas sobrepostas, a sobreposição será contada apenas uma vez.</p>"
 }

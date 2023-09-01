@@ -895,5 +895,17 @@
                 "layerId": "PLvLNvewd"
             }
         ]
+    },
+    {
+        "metricId": "limpetCatchAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "limpet_catch_areas",
+                "display": "Limpet Catch Areas",
+                "datasourceId": "limpet_catch_areas",
+                "layerId": "xw7hywlu1"
+            }
+        ]
     }
 ]

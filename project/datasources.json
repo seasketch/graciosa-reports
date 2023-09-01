@@ -2300,5 +2300,27 @@
     "lastUpdated": "2023-08-15T21:11:49.865Z",
     "src": "data/src/Data_Products/shapefiles/island_planning_boundaries/azores_islands_dissolved_6nm_boundary_ws84.shp",
     "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Data_Recevied/From_Matt_Paufve/ToSort/SIGMAR/uso.pesca_regulamentos_pesca_areas_reserva_regime_apanha_portaria_57_2018/regulamentos_pesca_areas_reserva_regime_apanha_portaria_57_2018.shp",
+    "layerName": "regulamentos_pesca_areas_reserva_regime_apanha_portaria_57_2018",
+    "geo_type": "vector",
+    "datasourceId": "limpet_catch_areas",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-09-01T16:53:50.187Z",
+    "lastUpdated": "2023-09-01T16:53:50.187Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 39,
+          "sum": null,
+          "area": 419245885.6527209
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]
