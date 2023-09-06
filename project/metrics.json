@@ -133,73 +133,73 @@
                 "datasourceId": "PA_Bulweria_bulwerii_baseline",
                 "classId": "birds_PA_Bulweria_bulwerii_baseline",
                 "display": "Bulweria bulwerii",
-                "layerId": "9nG7r19AY"
+                "layerId": "DswvKkGZd"
             },
             {
                 "datasourceId": "PA_Calonectris_borealis_baseline",
                 "classId": "birds_PA_Calonectris_borealis_baseline",
                 "display": "Calonectris borealis",
-                "layerId": "KJ8Qi0IkG"
+                "layerId": "Mxkvv6Md7"
             },
             {
                 "datasourceId": "PA_Larus_michahellis_baseline",
                 "classId": "birds_PA_Larus_michahellis_baseline",
                 "display": "Larus michahellis",
-                "layerId": "cZXSLyg6P"
+                "layerId": "UsJFtuSrM"
             },
             {
                 "datasourceId": "PA_Oceanodroma_castro_baseline",
                 "classId": "birds_PA_Oceanodroma_castro_baseline",
                 "display": "Oceanodroma castro",
-                "layerId": "Dr4nmM3Zt"
+                "layerId": "yhBb3xona"
             },
             {
                 "datasourceId": "PA_Onychoprion_fuscatus_baseline",
                 "classId": "birds_PA_Onychoprion_fuscatus_baseline",
                 "display": "Onychoprion fuscatus",
-                "layerId": "e6N4egZLo"
+                "layerId": "Gvd8nLPg5"
             },
             {
                 "datasourceId": "PA_Puffinus_baroli_baseline",
                 "classId": "birds_PA_Puffinus_baroli_baseline",
                 "display": "Puffinus baroli",
-                "layerId": "Q46I_my6p"
+                "layerId": "psHcYpCX7"
             },
             {
                 "datasourceId": "PA_Puffinus_puffinus_baseline",
                 "classId": "birds_PA_Puffinus_puffinus_baseline",
                 "display": "Puffinus puffinus",
-                "layerId": "9fgrHrcwv"
+                "layerId": "3CbLthp2Y"
             },
             {
                 "datasourceId": "PA_Sterna_dougallii_baseline",
                 "classId": "birds_PA_Sterna_dougallii_baseline",
                 "display": "Sterna dougallii",
-                "layerId": "aPPuOPrBv"
+                "layerId": "NqdYzmP5S"
             },
             {
                 "datasourceId": "PA_Sterna_hirundo_baseline",
                 "classId": "birds_PA_Sterna_hirundo_baseline",
                 "display": "Sterna hirundo",
-                "layerId": "2GRFBHCG8"
+                "layerId": "oklzD2Zxf"
             },
             {
                 "datasourceId": "PA_Caretta_caretta_baseline",
                 "classId": "turtles_PA_Caretta_caretta_baseline",
                 "display": "Caretta caretta",
-                "layerId": "WwVWpIP31"
+                "layerId": "ogbJ1WvUz"
             },
             {
                 "datasourceId": "PA_Chelonia_mydas_baseline",
                 "classId": "turtles_PA_Chelonia_mydas_baseline",
                 "display": "Chelonia mydas",
-                "layerId": "NruLiokC5"
+                "layerId": "TIjcvV48B"
             },
             {
                 "datasourceId": "PA_Dermochelys_coriacea_baseline",
                 "classId": "turtles_PA_Dermochelys_coriacea_baseline",
                 "display": "Dermochelys coriacea",
-                "layerId": "YucR6OyA0"
+                "layerId": "ETiX06p3Q"
             }
         ]
     },
@@ -212,63 +212,63 @@
                 "display": "Aquaculture",
                 "datasourceId": "all_aquaculture_ous",
                 "noDataValue": 0,
-                "layerId": "dDuZhlIsN"
+                "layerId": "IW4Y3ulOj"
             },
             {
                 "classId": "all_commercial_fishing_ous",
                 "display": "Commercial Fishing",
                 "datasourceId": "all_commercial_fishing_ous",
                 "noDataValue": 0,
-                "layerId": "WHMdvPh3u"
+                "layerId": "3rtzlNz2f"
             },
             {
                 "classId": "all_energy_development_ous",
                 "display": "Energy Development",
                 "datasourceId": "all_energy_development_ous",
                 "noDataValue": 0,
-                "layerId": "pVpqS_kaY"
+                "layerId": "wZtmRxjrq"
             },
             {
                 "classId": "all_recreation_sports_and_tourism_ous",
                 "display": "Recreation, Sports, and Tourism",
                 "datasourceId": "all_recreation_sports_and_tourism_ous",
                 "noDataValue": 0,
-                "layerId": "gvgF9MLPA"
+                "layerId": "O2G0FpNI_"
             },
             {
                 "classId": "all_recreational_fishing_ous",
                 "display": "Recreational Fishing",
                 "datasourceId": "all_recreational_fishing_ous",
                 "noDataValue": 0,
-                "layerId": "ohRQk9Oxw"
+                "layerId": "8tER9q_lz"
             },
             {
                 "classId": "all_science_tech_monitoring_ous",
                 "display": "Science, Technology, and Monitoring",
                 "datasourceId": "all_science_tech_monitoring_ous",
                 "noDataValue": 0,
-                "layerId": "dDHXjxjap"
+                "layerId": "Idk97nvrJ"
             },
             {
                 "classId": "all_security_and_defense_ous",
                 "display": "Security and Defense",
                 "datasourceId": "all_security_and_defense_ous",
                 "noDataValue": 0,
-                "layerId": "j_wSzKD_B"
+                "layerId": "LFCjKQ4Me"
             },
             {
                 "classId": "all_touristic_fishing_ous",
                 "display": "Touristic Fishing",
                 "datasourceId": "all_touristic_fishing_ous",
                 "noDataValue": 0,
-                "layerId": "U6neRYoD_"
+                "layerId": "TUebJsHgz"
             },
             {
                 "classId": "all_underwater_cultural_heritage_ous",
                 "display": "Underwater Cultural Heritage",
                 "datasourceId": "all_underwater_cultural_heritage_ous",
                 "noDataValue": 0,
-                "layerId": "ONDTJv3qq"
+                "layerId": "VP37wgU6R"
             }
         ]
     },
@@ -386,42 +386,42 @@
                 "display": "Commercial Fishing",
                 "datasourceId": "graciosa_comm_fish_ous",
                 "noDataValue": 0,
-                "layerId": "d5iCq4OW6"
+                "layerId": "zYQsIkYml"
             },
             {
                 "classId": "graciosa_rec_fish_ous",
                 "display": "Recreational Fishing",
                 "datasourceId": "graciosa_rec_fish_ous",
                 "noDataValue": 0,
-                "layerId": "kMIuZKILN"
+                "layerId": "COmmmhiEA"
             },
             {
                 "classId": "graciosa_rec_sports_ous",
                 "display": "Recreation, Sports, and Tourism",
                 "datasourceId": "graciosa_rec_sports_ous",
                 "noDataValue": 0,
-                "layerId": "mBqkdS6wg"
+                "layerId": "bW2tcCdsj"
             },
             {
                 "classId": "graciosa_sci_tech_ous",
                 "display": "Science, Technology, and Monitoring",
                 "datasourceId": "graciosa_sci_tech_ous",
                 "noDataValue": 0,
-                "layerId": "i8IffKIoV"
+                "layerId": "n957caE73"
             },
             {
                 "classId": "graciosa_sec_def_ous",
                 "display": "Security and Defense",
                 "datasourceId": "graciosa_sec_def_ous",
                 "noDataValue": 0,
-                "layerId": "IBMcZaIFd"
+                "layerId": "iTMiJaHGL"
             },
             {
                 "classId": "graciosa_tour_fish_ous",
                 "display": "Touristic Fishing",
                 "datasourceId": "graciosa_tour_fish_ous",
                 "noDataValue": 0,
-                "layerId": "F5USlTkAe"
+                "layerId": "CP5XPxMU8"
             },
             {
                 "classId": "pico_comm_fish_ous",
@@ -847,52 +847,52 @@
                 "classId": "basins",
                 "display": "Basins",
                 "datasourceId": "basins",
-                "layerId": "_AaP0wi3q"
+                "layerId": "lZMwISJOQ"
             },
             {
                 "classId": "canyons",
                 "display": "Canyons",
                 "datasourceId": "canyons",
-                "layerId": "O8XT1yyh6"
+                "layerId": "EGU36MfGo"
             },
             {
                 "classId": "escarpments",
                 "display": "Escarpments",
                 "datasourceId": "escarpments",
-                "layerId": "llQVnVyqS"
+                "layerId": "68Jh32slp"
             },
             {
                 "classId": "plateaus",
                 "display": "Plateaus",
                 "datasourceId": "plateaus",
-                "layerId": "TcMCJg_vU"
+                "layerId": "639oJv6xY"
             },
             {
                 "classId": "ridges",
                 "display": "Ridges",
                 "datasourceId": "ridges",
                 "objectiveId": "ridges",
-                "layerId": "W4xIIT0Cl"
+                "layerId": "vDHaFFdKr"
             },
             {
                 "classId": "high",
                 "classKey": "Class",
                 "display": "Shelf - High",
                 "datasourceId": "shelf_class",
-                "layerId": "12Wr91Iop"
+                "layerId": "GmIf_jvUy"
             },
             {
                 "classId": "medium",
                 "classKey": "Class",
                 "display": "Shelf - Medium",
                 "datasourceId": "shelf_class",
-                "layerId": "12Wr91Iop"
+                "layerId": "GmIf_jvUy"
             },
             {
                 "classId": "slope",
                 "display": "Slope",
                 "datasourceId": "slope",
-                "layerId": "PLvLNvewd"
+                "layerId": "44qmzWHr_"
             }
         ]
     },
